@@ -1008,7 +1008,6 @@
 						</div>
 					</div>
 				</footer>
-
 				<!-- body code goes here -->
 				<!-- The scroll to top feature -->
 				<div class="scroll-top-wrapper ">

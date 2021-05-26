@@ -1,6 +1,5 @@
 		<!DOCTYPE html>
 		<html class="ltr" dir="ltr" lang="en-US">
-
 		<head>
 			<title>Điều cần biết - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
 			<meta content="initial-scale=1.0, width=device-width" name="viewport" />
@@ -454,7 +453,6 @@
 				// ]]>
 			</script>
 		</head>
-
 		<body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site">
 			<nav class="quick-access-nav" id="nbvb_quickAccessNav">
 				<h1 class="hide-accessible">Navigation</h1>
@@ -795,7 +793,6 @@
 							});
 							$('.scroll-top-wrapper').on('click', scrollToTop);
 						});
-
 						function scrollToTop() {
 							verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
 							element = $('body');
@@ -855,7 +852,6 @@
 					var $ = AUI.$;
 					var _ = AUI._;
 					var pathnameRegexp = /\/documents\/(\d+)\/(\d+)\/(.+?)\/([^&]+)/;
-
 					function handleDownloadClick(event) {
 						if (event.target.nodeName.toLowerCase() === 'a' && window.Analytics) {
 							var anchor = event.target;
@@ -1124,5 +1120,4 @@
 				// ]]>
 			</script>
 		</body>
-
 		</html>
