@@ -769,7 +769,7 @@
 								</div>
 							</div>
 						</div>
-						<p class="text-center"><small>Website được vận hành trên Microsoft Azure</small></p>
+						<p class="text-center"><small>Website được vận hành bởi Group Thiện và 4 con vợ</small></p>
 					</div>
 				</div>
 			</div>

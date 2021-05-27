@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="en-US">
 <head>
-	<title>TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19 - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
+	<title>BLOG NCOV Developed By Group Thiện và 4 con vợ</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
 	<meta content="TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19" lang="vi-VN" name="robots" />
@@ -16,9 +16,10 @@
 	<meta property="og:locale:alternate" content="en_US">
 	<meta property="og:locale:alternate" content="vi_VN">
 	<meta property="og:site_name" content="Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
-	<meta property="og:title" content="TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19 - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
+	<meta property="og:title" content="BLOG NCOV Developed By Group Thiện và 4 con vợ">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://moh.gov.vn">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.eot" rel="icon"/>
 	<link href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/favicon.ico" rel="icon" />
@@ -506,8 +507,8 @@
 				<div class="row">
 					<div class="col-9 mr-auto">
 						<a class="logo float-left" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
-						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
-						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
+						<h3 class="slogan2 mt-3">Group Thiện và 4 con vợ</h3>
+						<h5 class="slogan1">BLOG NCOV</h5>
 					</div>
 					<div class="col-auto">
 						<a class="btn btn-danger mt-3" href="tel:19009095">Đường dây nóng <br>19009095</a>
@@ -520,8 +521,8 @@
 				<div class="d-none d-block d-lg-none">
 					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
-						<h4>Bộ Y tế</h4>
-						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
+						<h4>Group Thiện và 4 con vợ</h4>
+						<h2 class="text-nowrap">BLOG NCOV</h2>
 					</div>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
@@ -673,7 +674,7 @@
 																			</div>
 																		</div>
 																	</div>
-																	<p class="text-center mt-3"><a class="text-xemthem" href="/chi-dao-dh">Xem thêm</a></p>
+																	<p class="text-center mt-3"><a class="text-xemthem" href="<?= base_url()?>/Chidaodieuhanh">Xem thêm</a></p>
 																</div>
 														</div>
 														<div class="col-lg-6">
@@ -1351,7 +1352,7 @@
 																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3896">Hà Nội sẽ tăng tần suất xét nghiệm đối với F1 lên 6 lần</a></li>
 																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3895">Thêm các trường hợp mắc COVID-19 mới ở Hà Nội liên quan đến chùm ca bệnh ở Times City</a></li>
 																</ul>
-																<p class="text-center"><a class="text-xemthem" href="/tin-tuc">Xem thêm</a></p>
+																<p class="text-center"><a class="text-xemthem" href="<?= base_url()?>/News">Xem thêm</a></p>
 															</div>
 														</div>
 													</div>
@@ -1444,7 +1445,7 @@
 																<p class="text-center" style="
     margin-top: 15px;
 ">
-																	<a class="text-xemthem" href="/dong-thoi-gian">Xem thêm</a>
+																	<a class="text-xemthem" href="<?= base_url()?>/Dongthoigian">Xem thêm</a>
 																</p>
 															</div>
 														</div>
@@ -1509,7 +1510,7 @@
 									<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-8">Toạ đàm “An toàn giao thông công cộng trong mùa dịch COVID-19”</a>
 								</div>
 							</div>
-							<p class="text-center"><a class="text-xemthem" href="/video">Xem thêm</a></p>
+							<p class="text-center"><a class="text-xemthem" href="<?= base_url()?>/Video">Xem thêm</a></p>
 						</div>
 					</div>
 				</div>
@@ -1553,7 +1554,7 @@
 																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-62">Từ 24/5, Bệnh viện K cơ sở 9A – 9B Phan Chu Trinh và cơ sở Tam Hiệp hoạt động trở lại</a> <br><small class="text-muted">Friday, 21/05/2021 19:30</small></p>
 																<hr>
 																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-61">Các phản ứng nghiêm trọng sau tiêm chủng là rất hiếm, thường là trùng hợp ngẫu nhiên</a> <br><small class="text-muted">Friday, 21/05/2021 19:29</small></p>
-																<p class="text-right"><a class="text-xemthem" href="/-ieu-can-biet">Xem thêm</a></p>
+																<p class="text-right"><a class="text-xemthem" href="<?= base_url()?>/Dieucanbiet">Xem thêm</a></p>
 															</div>
 														</div>
 													</div>
@@ -1585,7 +1586,7 @@
 																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-34">Hiệu thuốc, quán gà vịt, cà phê... ở Hải Dương, ai đã đến cần khai báo y tế ngay</a> <br><small class="text-muted">Saturday, 22/05/2021 09:40</small></p>
 																<hr>
 																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-33">Người có tiền sử dị ứng có nên tiêm phòng vaccine COVID-19?</a> <br><small class="text-muted">Saturday, 22/05/2021 09:38</small></p>
-																<p class="text-right"><a class="text-xemthem" href="/khuyen-cao">Xem thêm</a></p>
+																<p class="text-right"><a class="text-xemthem" href="<?= base_url()?>/Khuyencao">Xem thêm</a></p>
 															</div>
 														</div>
 													</div>
@@ -1701,32 +1702,32 @@
 	</section>
 	<footer class="bg-ft">
 		<div class="container text-f pad-30">
-			<h4>TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h4>
+			<!-- <h4>TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h4>
 			<p>
 				Phó Trưởng ban biên tập thường trực TS.BS. Hà Anh Đức, Chánh Văn phòng Bộ Y tế<br>
 				Số 138A Giảng Võ - Ba Đình - Hà Nội<br>
 				ĐT: 0246.273.2.273 |Fax:0243.8464.051<br>
 				Email: banbientap@moh.gov.vn
-			</p>
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2">
-					<div class="row">
+			</p> -->
+			<!-- <div class="row">
+				<div class="col-lg-8 offset-lg-2"> -->
+					<!-- <div class="row">
 						<div class="col-lg-4">
 							<a class="logo-dv mb-0" href="https://itrithucviet.vn/"><img class="img-fluid" src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo.jpg" alt=""></a>
 						</div>
 						<div class="col-lg-8">
 							<p class="text-center mb-07"><small class="text-muted">Hỗ trợ bởi Đề án tri thức Việt số hóa </small>
-							</p>
-							<div class="row">
+							</p> -->
+							<!-- <div class="row">
 								<div class="col-sm-4"><a class="logo-dv" href="http://dtt.vn/"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/Logo DTT.png" height="30" alt=""></a></div>
 								<div class="col-sm-4"><a class="logo-dv" href="http://www.vnpost.vn/"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/vnpost.png" height="30" alt=""></a></div>
 								<div class="col-sm-4"><a class="" href="https://www.microsoft.com/vi-vn/"><img class="img-fluid" src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/Microsoft-logo_rgb_c-wht.png" alt=""></a></div>
 							</div>
 						</div>
-					</div>
-					<p class="text-center"><small>Website được vận hành trên Microsoft Azure</small></p>
-				</div>
-			</div>
+					</div> -->
+					<p class="text-center"><small>Website được vận hành bởi Group Thiện và 4 con vợ</small></p>
+				<!-- </div>
+			</div> -->
 		</div>
 	</footer>
 	<!-- <div class="bt-cn">

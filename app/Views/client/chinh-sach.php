@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="vi-VN">
-
 <head>
-	<title>Diễn biến dịch - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
+	<title>CHÍNH SÁCH PHÒNG CHỐNG DỊCH - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/dong-thoi-gian" rel="canonical" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/dong-thoi-gian" hreflang="vi-VN" rel="alternate" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/en/dong-thoi-gian" hreflang="en-US" rel="alternate" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/dong-thoi-gian" hreflang="x-default" rel="alternate" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/chinh-sach-phong-chong-dich" rel="canonical" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/chinh-sach-phong-chong-dich" hreflang="vi-VN" rel="alternate" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/en/chinh-sach-phong-chong-dich" hreflang="en-US" rel="alternate" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/chinh-sach-phong-chong-dich" hreflang="x-default" rel="alternate" />
 	<meta property="og:locale" content="vi_VN">
 	<meta property="og:locale:alternate" content="en_US">
 	<meta property="og:locale:alternate" content="vi_VN">
 	<meta property="og:site_name" content="Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
-	<meta property="og:title" content="Diễn biến dịch - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
+	<meta property="og:title" content="CHÍNH SÁCH PHÒNG CHỐNG DỊCH - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://moh.gov.vn/dong-thoi-gian">
+	<meta property="og:url" content="https://moh.gov.vn/chinh-sach-phong-chong-dich">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 	<link href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/favicon.ico" rel="icon" />
 	<link class="lfr-css-file" data-senna-track="temporary" href="https://ncov.moh.gov.vn/o/corona-theme-guest/css/clay.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=vi_VN&amp;b=7303&amp;t=1600476400000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
 	<link data-senna-track="temporary" href="/o/frontend-css-web/main.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=vi_VN&amp;b=7303&amp;t=1600501533456" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
-	<link data-senna-track="temporary" href="/combo?browserId=other&amp;minifierType=&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;languageId=vi_VN&amp;b=7303&amp;com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs:%2Fcss%2Fmain.css&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv:%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fcss%2Fmain.css&amp;t=1600476400000" id="815ae12a" rel="stylesheet" type="text/css" />
+	<link data-senna-track="temporary" href="/combo?browserId=other&amp;minifierType=&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;languageId=vi_VN&amp;b=7303&amp;com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7:%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fcss%2Fmain.css&amp;t=1600476400000" id="e0a9cdda" rel="stylesheet" type="text/css" />
 	<script data-senna-track="temporary" type="text/javascript">
 		// <![CDATA[
 		var Liferay = Liferay || {};
@@ -29,13 +28,13 @@
 				return true;
 			},
 			getMajorVersion: function() {
-				return 14.0;
+				return 0;
 			},
 			getRevision: function() {
-				return '605.1';
+				return '';
 			},
 			getVersion: function() {
-				return '14.0';
+				return '';
 			},
 			isAir: function() {
 				return false;
@@ -50,22 +49,22 @@
 				return false;
 			},
 			isGecko: function() {
-				return true;
+				return false;
 			},
 			isIe: function() {
 				return false;
 			},
 			isIphone: function() {
-				return true;
+				return false;
 			},
 			isLinux: function() {
 				return false;
 			},
 			isMac: function() {
-				return true;
+				return false;
 			},
 			isMobile: function() {
-				return true;
+				return false;
 			},
 			isMozilla: function() {
 				return false;
@@ -74,16 +73,16 @@
 				return false;
 			},
 			isRtf: function() {
-				return true;
+				return false;
 			},
 			isSafari: function() {
-				return true;
+				return false;
 			},
 			isSun: function() {
 				return false;
 			},
 			isWebKit: function() {
-				return true;
+				return false;
 			},
 			isWindows: function() {
 				return false;
@@ -96,7 +95,8 @@
 		Liferay.Data.isCustomizationView = function() {
 			return false;
 		};
-		Liferay.Data.notices = [];
+		Liferay.Data.notices = [
+		];
 		Liferay.PortletKeys = {
 			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
 			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
@@ -109,19 +109,19 @@
 		};
 		Liferay.ThemeDisplay = {
 			getLayoutId: function() {
-				return '1000702';
+				return '1000723';
 			},
 			getLayoutRelativeControlPanelURL: function() {
 				return '/group/guest/~/control_panel/manage';
 			},
 			getLayoutRelativeURL: function() {
-				return '/web/guest/dong-thoi-gian';
+				return '/web/guest/chinh-sach-phong-chong-dich';
 			},
 			getLayoutURL: function() {
-				return 'https://ncov.moh.gov.vn/web/guest/dong-thoi-gian';
+				return 'https://ncov.moh.gov.vn/web/guest/chinh-sach-phong-chong-dich';
 			},
 			getParentLayoutId: function() {
-				return '0';
+				return '1000721';
 			},
 			isControlPanel: function() {
 				return false;
@@ -136,7 +136,7 @@
 				return 'vi-VN';
 			},
 			getCanonicalURL: function() {
-				return 'https\x3a\x2f\x2fmoh\x2egov\x2evn\x2fdong-thoi-gian';
+				return 'https\x3a\x2f\x2fmoh\x2egov\x2evn\x2fchinh-sach-phong-chong-dich';
 			},
 			getCDNBaseURL: function() {
 				return 'https://ncov.moh.gov.vn';
@@ -184,7 +184,7 @@
 				return '/o/corona-theme-guest';
 			},
 			getPlid: function() {
-				return '6854119';
+				return '7040748';
 			},
 			getPortalURL: function() {
 				return 'https://ncov.moh.gov.vn';
@@ -205,7 +205,7 @@
 				return '20182';
 			},
 			getURLControlPanel: function() {
-				return '/group/control_panel?refererPlid=6854119';
+				return '/group/control_panel?refererPlid=7040748';
 			},
 			getURLHome: function() {
 				return 'https\x3a\x2f\x2fncov\x2emoh\x2egov\x2evn\x2fvi\x2fweb\x2fguest';
@@ -284,9 +284,9 @@
 				return '?browserId=other&minifierType=&languageId=vi_VN&b=7303&t=1600501533941';
 			}
 		};
-		Liferay.authToken = '01yED5xl';
-		Liferay.currentURL = '\x2fweb\x2fguest\x2fdong-thoi-gian';
-		Liferay.currentURLEncoded = '\x252Fweb\x252Fguest\x252Fdong-thoi-gian';
+		Liferay.authToken = '9Av1HhJw';
+		Liferay.currentURL = '\x2fchinh-sach-phong-chong-dich';
+		Liferay.currentURLEncoded = '\x252Fchinh-sach-phong-chong-dich';
 		// ]]>
 	</script>
 	<script src="/o/js_loader_config?t=1620621398986" type="text/javascript"></script>
@@ -454,9 +454,8 @@
 		// ]]>
 	</script>
 </head>
-
-<body class="other mobile controls-visible  yui3-skin-sam guest-site signed-out public-page site">
-	<nav class="quick-access-nav" id="zvgk_quickAccessNav">
+<body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site">
+	<nav class="quick-access-nav" id="kbgy_quickAccessNav">
 		<h1 class="hide-accessible">Thực đơn</h1>
 		<ul>
 			<li><a href="#main-content">Truy cập nội dung luôn</a></li>
@@ -496,7 +495,7 @@
 			<div class="container bg-td">
 				<div class="row">
 					<div class="col-9 mr-auto">
-						<a class="logo float-left" href="<?= base_url() ?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
+						<a class="logo float-left" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
 						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
 						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
 					</div>
@@ -509,7 +508,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-yte pt-0 pb-0 mb-3">
 			<div class="container">
 				<div class="d-none d-block d-lg-none">
-					<a class="navbar-brand float-left mr-2" href="<?= base_url() ?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
+					<a class="navbar-brand float-left mr-2" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
 						<h4>Bộ Y tế</h4>
 						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
@@ -521,13 +520,13 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 					<ul class="navbar-nav text-uppercase">
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url() ?>/Home">
+							<a class="nav-link" href="<?= base_url() ?>">
 								TRANG CHỦ
 							</a>
 						</li>
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="<?= base_url() ?>/Dongthoigian">
-								Diễn biến dịch<span class="sr-only">(current)</span>
+								Diễn biến dịch
 							</a>
 						</li>
 						<li class="nav-item">
@@ -569,14 +568,14 @@
 			});
 		</script>
 		<section id="content">
-			<h2 class="hide-accessible" role="heading" aria-level="1">Diễn biến dịch</h2>
-			<div class="container" id="8_2_contain" role="main">
+			<h2 class="hide-accessible" role="heading" aria-level="1">CHÍNH SÁCH PHÒNG CHỐNG DỊCH</h2>
+			<div class="container" id="10_contain" role="main">
 				<div class="portlet-layout row">
-					<div class="col-md-9 portlet-column portlet-column-first" id="column-1">
-						<div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column_column-1">
-							<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs_">
-								<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs"></span>
-								<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs">
+					<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+						<div class="portlet-dropzone portlet-column-content" id="layout-column_column-1">
+							<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_  portlet-static portlet-static-end decorate portlet-site-map " id="p_p_id_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks_">
+								<span id="p_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks"></span>
+								<section class="portlet" id="portlet_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks">
 									<div class="portlet-content">
 										<div class="autofit-float autofit-row portlet-header">
 											<div class="autofit-col autofit-col-end">
@@ -586,6 +585,135 @@
 										</div>
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
+												<style>
+													ul.oep-breadcrumbs {
+														overflow: hidden;
+														width: 100%;
+														list-style-type: none;
+														display: inline-block;
+														margin-left: -43px;
+														margin-bottom: 0px;
+													}
+													ul.oep-breadcrumbs li {
+														float: left;
+														margin: 0 .5em 0 1em;
+													}
+													ul.oep-breadcrumbs a {
+														background: #ddd;
+														padding: .3em 1em;
+														float: left;
+														text-decoration: none;
+														color: #444;
+														text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+														position: relative;
+													}
+													ul.oep-breadcrumbs a:hover {
+														background: #50a2f5;
+														cursor: pointer;
+														color: #fff;
+													}
+													ul.oep-breadcrumbs a.active {
+														background: #50a2f5;
+														cursor: pointer;
+														color: #fff;
+													}
+													ul.oep-breadcrumbs a::before {
+														content: "";
+														position: absolute;
+														top: 50%;
+														margin-top: -1.5em;
+														border-width: 1.5em 0 1.5em 1em;
+														border-style: solid;
+														border-color: #ddd #ddd #ddd transparent;
+														left: -1em;
+													}
+													ul.oep-breadcrumbs a:hover::before {
+														border-color: #50a2f5 #50a2f5 #50a2f5 transparent;
+													}
+													ul.oep-breadcrumbs a.active::before {
+														border-color: #50a2f5 #50a2f5 #50a2f5 transparent;
+													}
+													ul.oep-breadcrumbs a::after {
+														content: "";
+														position: absolute;
+														top: 50%;
+														margin-top: -1.5em;
+														border-top: 1.5em solid transparent;
+														border-bottom: 1.5em solid transparent;
+														border-left: 1em solid #ddd;
+														right: -1em;
+													}
+													ul.oep-breadcrumbs a.active::after {
+														border-left-color: #50a2f5;
+														font-weight: bold;
+													}
+													ul.oep-breadcrumbs a:hover::after {
+														border-left-color: #50a2f5;
+														font-weight: bold;
+													}
+													ul.oep-breadcrumbs .current,
+													ul.oep-breadcrumbs .current:hover {
+														font-weight: bold;
+														background: none;
+														font-weight: bold;
+														font-weight: bold;
+													}
+													ul.oep-breadcrumbs .current::after,
+													ul.oep-breadcrumbs .current::before {
+														content: normal;
+														font-weight: bold;
+													}
+												</style>
+												<ul class="oep-breadcrumbs">
+													<li><a href="<?= base_url() ?>/Chidaodieuhanh">CHỈ ĐẠO ĐIỀU HÀNH</a></li>
+													<li><a href="<?= base_url() ?>/Chinhsach" class="active">CHÍNH SÁCH PHÒNG CHỐNG DỊCH</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_">
+								<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7"></span>
+								<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7">
+									<div class="portlet-content">
+										<div class="autofit-float autofit-row portlet-header">
+											<div class="autofit-col autofit-col-end">
+												<div class="autofit-section">
+												</div>
+											</div>
+										</div>
+										<div class=" portlet-content-container">
+											<div class="portlet-body">
+												<style>
+													.portlet-title {
+														border-bottom: solid 1px #c9302c !important;
+														color: #c9302c !important;
+														text-transform: uppercase !important;
+														padding-bottom: 5px !important;
+														margin-top: 0 !important;
+														font-size: 24px !important;
+													}
+													.portlet-title img {
+														display: none;
+													}
+													.portlet-title-text {
+														padding-top: 5px;
+													}
+													.tinh-thanhpho {
+														background-color: #2a3477;
+														border-radius: 5px;
+														padding: 2px 5px;
+														color: white;
+													}
+													.ngay-xuat-ban {
+														color: #95723f;
+														float: left;
+														font-family: Roboto;
+														font-size: 18px;
+														padding-right: 10px;
+													}
+												</style>
 												<div class="">
 													<div class="row">
 														<div class="col-md-12">
@@ -601,22 +729,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>18:05 24/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">09:25 21/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Đà Nẵng</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công văn 5527/UBND-VHXH</strong></p>
+																						<p>V/v đảm bảo công tác phòng, chống dịch COVID-19 tại các hoạt động từ thiện</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 96 CA MẮC MỚI (BN5309-5404)</p>
-																						<p>- 01 ca cách ly ngay sau khi nhập cảnh tại Hà Nội.<br />
-																							- 95 ca ghi nhận trong nước tại Bắc Giang (44), Bắc Ninh (31), Hà Nội (13), Lạng Sơn (6), TP Hồ Chí Minh (1).</p>
-																						<p>a. 01 ca cách ly ngay sau khi nhập cảnh</p>
-																						<p>- CA BỆNH BN5328 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nam, 45 tuổi, quốc tịch Trung Quốc. Ngày 24/4/2021, từ nước ngoài nhập cảnh Việt Nam và được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SAR-CoV-2.</p>
-																						<p>b. 95 ca ghi nhận trong nước</p>
-																						<p>- CA BỆNH BN5309-BN5314, BN5316, BN5319, BN5321, BN5323, BN5325-BN5327 ghi nhận tại TP. Hà Nội: 12 ca là F1, 1 ca trong khu phong tỏa. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																						<p>- CA BỆNH BN5315, BN5317-BN5318, BN5320, BN5322, BN5324 ghi nhận tại tỉnh Lạng Sơn: 1 ca là F1 của BN3903, 3 ca là công nhân Khu công nghiệp Quang Châu, 2 ca liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																						<p>- CA BỆNH BN5329 ghi nhận tại TP. Hồ Chí Minh: nam, 2 tuổi, địa chỉ tại quận Tân Bình, thành phố Hồ Chí Minh; là F1 của BN4780, đã được cách ly. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly điều trị tại Bệnh viện Nhi đồng Thành phố Hồ Chí Minh.&nbsp;</p>
-																						<p>- CA BỆNH BN5330-BN5360 ghi nhận tại tỉnh Bắc Ninh: 27 ca là F1, 3 ca trong khu phong tỏa, 1 ca đang điều tra dịch tễ. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																						<p>- CA BỆNH BN5361-BN5404 ghi nhận tại tỉnh Bắc Giang: 44 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 19/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://docs.portal.danang.gov.vn/images/documents/Van%20ban%20dieu%20hanh/2020/Thang%208/5527%20cv_signed.PDF" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -632,13 +757,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>18:00 24/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">15:00 20/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Quảng Nam</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công văn số 4793/UBND-KGVX</strong></p>
+																						<p>V/v tiếp tục thực hiện các biện pháp cấp bách phòng, chống dịch bệnh COVID-19 trong tình hình mới</p>
 																						<p>
-																						<p>73 bệnh nhân được công bố khỏi bệnh, gồm:</p>
-																						<p>BN2857-BN2988-BN2985-BN2975-BN2980-BN3078-BN3081-BN3099-BN3417-BN3156-BN3179-BN3233-BN3170-BN3416-BN3190-BN3146-BN3183-BN3201-BN3208-BN3184-BN3200-BN3253-BN2888-BN3097-BN3147-BN3064-BN3040-BN3346-BN3135-BN3070-BN3066-BN3280-BN3114-BN2862-BN3425-BN2958-BN3113-BN3822-BN2854-BN3009-BN3122-BN3165-BN3051-BN3025-BN3085-BN2855-BN2799-BN2827-BN2914-BN2913-BN2902-BN2941-BN2908-BN2909-BN2834-BN2912-BN2899-BN2635-BN2801-BN3065-BN2957-BN3013-BN2940-BN3087-BN3046-BN3063-BN2922-BN2987-BN2656-BN3011-BN2898-BN2927-BN2960</p>
+																							<strong>Hiệu lực từ:</strong> 19/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://quangnam.gov.vn/Uploaded/file/thuydung/NAM%202020/CONG%20VAN/COVID/cv4793_signed_signed.pdf" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -654,16 +785,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>12:04 24/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">09:30 20/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Đà Nẵng</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công văn số 5552/UBND-ĐTĐT</strong></p>
+																						<p>V/v triển khai thi công các dự án trên địa bàn TP trong thời gian giãn cách XH để phòng, chống dịch COVID - 19</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 33 CA MẮC MỚI (BN5276-5308)</p>
-																						<p>Ghi nhận trong nước tại Bắc Giang (28), Hải Dương (4), Đà Nẵng (1). Cụ thể:</p>
-																						<p>- CA BỆNH BN5276-BN5279 ghi nhận tại tỉnh Hải Dương: là các trường hợp F1. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																						<p>- CA BỆNH BN5280 ghi nhận tại TP. Đà Nẵng: nữ, 18 tuổi, địa chỉ tại quận Cẩm Lệ, TP. Đà Nẵng; là F1 của BN3224, đã được cách ly trước đó. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																						<p>- CA BỆNH BN5281-BN5308 ghi nhận tại tỉnh Bắc Giang: 28 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, Đình Trám. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 19/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://docs.portal.danang.gov.vn/images/documents/Van%20ban%20dieu%20hanh/2020/Thang%208/5552%20cv_signed.PDF" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -679,32 +813,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>05:40 24/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">09:00 20/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Hà Nội</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Thông báo số 14/TB-BCĐ</strong></p>
+																						<p>Thông báo kết luận của Phó Chủ tịch UBND Thành phố Ngô Văn Quý - Trưởng Ban Chỉ đạo về công tác phòng, chống dịch bệnh COVID-19, thành phố Hà Nội (tại phiên họp số 55)</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 58 CA MẮC MỚI (BN5218-5275)</p>
-																						<p>- 02 ca cách ly ngay sau khi nhập cảnh tại Hà Nội.<br />
-																							- 56 ca ghi nhận trong nước tại Bắc Giang (33), Hà Nội (8), Bắc Ninh (7), Lạng Sơn (5), Điện Biên (2), Hải Dương (1).</p>
-																						<p>a. 02 ca cách ly ngay sau khi nhập cảnh</p>
-																						<p>- CA BỆNH BN5240 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nữ, 3 tuổi, quốc tịch Ấn Độ.<br />
-																							- CA BỆNH BN5241 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nữ, 35 tuổi, quốc tịch Ấn Độ.<br />
-																							Ngày 24/4/2021, từ Ấn Độ nhập cảnh Việt Nam và được cách ly ngay sau khi nhập cảnh tại Thành phố Hải Phòng. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SAR-CoV-2.</p>
-																						<p>b. 56 ca ghi nhận trong nước</p>
-																						<p>- CA BỆNH BN5218-BN5221, BN5226, BN5231-BN5232 ghi nhận tại tỉnh Bắc Ninh: là các trường hợp F1, đã được cách ly. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5222, BN5225, BN5227-BN5229 ghi nhận tại tỉnh Lạng Sơn: 3 ca là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang và 2 ca là F1. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5223 ghi nhận tại tỉnh Điện Biên: nam, 27 tuổi, địa chỉ tại huyện Nậm Bồ, tỉnh Điện Biên; là F1 của BN4227.<br />
-																							- CA BỆNH BN5230 ghi nhận tại tỉnh Điện Biên: nam, 49 tuổi, địa chỉ tại huyện Nậm Bồ, tỉnh Điện Biên; là F1 của BN3837.<br />
-																							Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5233 ghi nhận tại tỉnh Hải Dương: nam, 61 tuổi, địa chỉ tại Thành phố Hải Dương, tỉnh Hải Dương; trong vùng phong tỏa. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5224, BN5234-BN5235, BN5237-5239, BN5242-BN5243 ghi nhận tại Thành phố Hà Nội: 4 ca là F1, 1 ca sàng lọc và 3 ca liên quan dịch tễ. Kết quả xét nghiệm ngày 22-23/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5236, BN5244-BN5275 ghi nhận tại tỉnh Bắc Giang: liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 19/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.hanoi.gov.vn//documents/10182/2518750/Bcdcovid-14-2020.pdf" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -720,16 +841,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>18:10 23/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">10:00 19/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Quảng Ngãi</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công văn số 3839/UBND-KGVX</strong></p>
+																						<p>Về việc thực hiện các biện pháp phòng, chống dịch Covid-19 trên địa bàn tỉnh trong giai đoạn hiện nay</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 76 CA MẮC MỚI (BN5142-5217)</p>
-																						<p>Đều ghi nhận trong nước tại Bắc Giang (57), Bắc Ninh (19). Cụ thể:</p>
-																						<p>- CA BỆNH BN5142-BN5160 ghi nhận tại tỉnh Bắc Ninh: 18 ca là F1, 1 ca sàng lọc ho sốt. Kết quả xét nghiệm ngày 21-23/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5161-BN5217 ghi nhận tại tỉnh Bắc Giang: liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, Song Khê &nbsp;- Nội Hoàng. Kết quả xét nghiệm ngày 19-22/5/2021 dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 18/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.quangngai.gov.vn/thongtin/vanban/detail?id=115531" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -745,20 +869,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>12:12 23/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">09:00 19/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Hải Dương</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công văn số 3010/UBND-VP</strong></p>
+																						<p>Về việc thực hiện biện pháp cấp bách phòng, chống dịch Covid-19 tại Cơ sở Cai nghiện ma tuý và các cơ sở BTXH</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 22 CA MẮC MỚI (BN5120-5141)</p>
-																						<p>Ghi nhận trong nước tại Bắc Giang (11), Hải Dương (3), Đà Nẵng (1), Bệnh viện K cơ sở Tân Triều (7). Cụ thể:</p>
-																						<p>- CA BỆNH BN5120-BN5122 ghi nhận tại tỉnh Hải Dương: 1 ca là F1 của BN5038, 2 ca đang được điều tra dịch tễ. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5123-BN5129 ghi nhận tại Bệnh viện K cơ sở Tân Triều (là các F1 đã được cách ly trong bệnh viện từ trước).<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5130-BN5140 ghi nhận tại tỉnh Bắc Giang: liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung. Kết quả xét nghiệm ngày 19-22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5141 ghi nhận tại Thành phố Đà Nẵng: nữ, 16 tuổi, địa chỉ tại quận Thanh Khê, Thành phố Đà Nẵng; là F1 của BN4252, đã được cách ly trước đó. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 18/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="http://vanban.vpubnd.haiduong.gov.vn/FileUpload/2020/8/CVDI-2020-3010-1.pdf" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -774,25 +897,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>06:00 23/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">17:28 18/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Hà Nội</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công điện khẩn số 07/CĐ-UBND</strong></p>
+																						<p><span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: justify; background-color: rgb(249, 248, 248);">Về việc thực hiện có hiệu quả các biện pháp phòng, chống dịch, không để lây lan dịch bệnh Covid-19 ra diện rộng trên địa bàn Thành phố</span></p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 33 CA MẮC MỚI (BN5087-5119)</p>
-																						<p>- 02 ca cách ly ngay sau khi nhập cảnh tại Đồng Nai (1), Bắc Ninh (1).<br />
-																							- 31 ca mắc ghi nhận trong nước tại Bắc Ninh (29), Ninh Bình (2).</p>
-																						<p>a. 02 ca được cách ly ngay sau khi nhập cảnh:<br />
-																							- CA BỆNH BN5112 được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai: nữ, 32 tuổi, là công dân Việt Nam, địa chỉ tại huyện Gia Lâm, Thành phố Hà Nội.&nbsp;<br />
-																							Ngày 07/5/2021, từ Pháp nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN10 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm lần 3 ngày 21/5/2021 dương tính với SAR-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Phổi Đồng Nai<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5119 được cách ly ngay sau khi nhập cảnh tại tỉnh Bắc Ninh: nam, 38 tuổi, là chuyên gia, quốc tịch Hàn Quốc. &nbsp;Ngày 07/5/2021, từ Hàn Quốc nhập cảnh Sân bay Vân Đồn trên chuyến bay OZ7747 và được cách ly ngay sau khi nhập cảnh tại tỉnh Bắc Ninh. Kết quả xét nghiệm lần 2 ngày 21/5/2021 dương tính với SAR-CoV-2.</p>
-																						<p>b. 31 ca ghi nhận trong nước:</p>
-																						<p>- CA BỆNH BN5087 ghi nhận tại tỉnh Ninh Bình: nữ, 37 tuổi, địa chỉ tại huyện Hoa Lư, tỉnh Ninh Bình; là F1 liên quan đến ổ dịch cũ, đã được cách ly từ trước.<br />
-																							- CA BỆNH BN5088 ghi nhận tại tỉnh Ninh Bình: nữ, 53 tuổi, địa chỉ tại huyện Yên Khánh, tỉnh Ninh Bình; là F1 liên quan đến ổ dịch cũ, đã được cách ly từ trước.<br />
-																							Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Phòng khám Đa khoa Khu vực Cầu Yên, huyện Hoa Lư, tỉnh Ninh Bình.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5089-BN5111, BN5113-BN5118 ghi nhận tại tỉnh Bắc Ninh; 19 ca là F1, 2 ca là công nhân Khu công nghiệp Quang Châu, 8 ca trong khu phong tỏa. Kết quả xét nghiệm ngày 21-22/5/2021 dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 18/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.hanoi.gov.vn//documents/10182/2518750/CD-07-2020.pdf" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -808,30 +925,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>19:00 22/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">20:06 16/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Hải Dương</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Thông báo số 371/TB-UBND</strong></p>
+																						<p>V/v áp dụng bổ sung các biện pháp cấp bách phong, chống dịch bệnh COVID-19 trên địa bàn thành phố</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 73 CA MẮC MỚI (BN5014-5086)</p>
-																						<p>Ghi nhận trong nước tại Bắc Giang (39), Bắc Ninh (25), Lạng Sơn (2), Điện Biên (2), Thanh Hóa (2), &nbsp;Đà Nẵng (1), Hải Dương (1), Thái Nguyên (1).</p>
-																						<p>- CA BỆNH BN5014 ghi nhận tại tỉnh Thái Nguyên: nữ, 46 tuổi, địa chỉ tại huyện Phú Bình, tỉnh Thái Nguyên; là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viên Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5015 ghi nhận tại Thành phố Đà Nẵng: nam, 38 tuổi, địa chỉ tại quận Hải Châu, Thành phố Đà Nẵng; là F1 của BN3656, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5016-BN5037, BN5043-BN5045 ghi nhận tại tỉnh Bắc Ninh: 18 &nbsp;ca là F1, 3 ca là công nhân Khu công nghiệp Quang Châu, 3 ca sàng lọc, 1 ca chưa rõ nguồn lây. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5038 ghi nhận tại tỉnh Hải Dương: nam, 59 tuổi, địa chỉ tại Thành phố Hải Dương, tỉnh Hải Dương; là F1 của BN4836, đã được cách ly. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5039 ghi nhận tại tỉnh Lạng Sơn: nữ, 44 tuổi, địa chỉ tại huyện Chi Lăng, tỉnh Lạng Sơn; là F1 của BN4608, đã được cách ly từ trước.<br />
-																							- CA BỆNH BN5040 ghi nhận tại tỉnh Lạng Sơn: nữ, 33 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn; là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang, đã được cách ly từ trước.<br />
-																							Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Trung tâm Y tế huyện Chi Lăng và Trung tâm Y tế huyện Hữu Lũng.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5041-BN5042 ghi nhận tại tỉnh Điện Biên: 1 ca là F1 của BN4378, 1 ca sàng lọc, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Dã chiến Thành phố Điện Biên Phủ, tỉnh Điện Biên.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5046, BN5086 ghi nhận tại tỉnh Thanh Hóa: 1 ca là F1 của BN4694, 1 ca đang tiếp tục điều tra, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5047-BN5085 ghi nhận tại tỉnh Bắc Giang: 39 ca có liên quan dịch tễ đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, Song Khê – Nội Hoàng, Đình Trám, đã được cách ly, phong tỏa. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 16/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://luatvietnam.vn/y-te/thong-bao-371-bo-sung-bien-phap-phong-chong-dich-tai-thanh-pho-hai-duong-188946-d2.html" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -847,28 +953,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>11:58 22/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">17:55 09/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Khánh Hòa</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Công điện số 06/CĐ-CTUBND</strong></p>
+																						<p>V/v triển khai các công tác phòng, chống dịch bệnh COVID-19 trên địa bàn tỉnh Khánh Hòa trong tình hình mới</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 52 CA MẮC MỚI (BN4962-5013)</p>
-																						<p>- 02 ca cách ly ngay sau khi nhập cảnh tại Hà Nội.<br />
-																							- 50 ca mắc ghi nhận trong nước tại Bắc Giang (34), Hà Nội (10), Hưng Yên (4), Hải Dương (2).</p>
-																						<p>a. 02 ca cách ly ngay sau khi nhập cảnh</p>
-																						<p>- CA BỆNH BN4962 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nam, 5 tuổi, là con chuyên gia, quốc tịch Ấn Độ.&nbsp;<br />
-																							- CA BỆNH BN4963 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nữ, 5 tuổi, là con chuyên gia, quốc tịch Ấn Độ.&nbsp;<br />
-																							Ngày 07/5/2021, từ Ấn Độ nhập cảnh Sân bay Nội Bài và được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội. Kết quả xét nghiệm lần 2 ngày 21/5/2021 dương tính với SAR-CoV-2.</p>
-																						<p>b. 50 ca mắc ghi nhận trong nước</p>
-																						<p>- CA BỆNH BN4964-BN4973 ghi nhận tại Thành phố Hà Nội: 1 ca liên quan dịch tễ với BN4706, 3 ca là F1 của BN3634, 6 ca là F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 21-22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN4974 ghi nhận tại tỉnh Hải Dương: nữ, 51 tuổi, địa chỉ tại huyện Ninh Giang, tỉnh Hải Dương; là F1 liên quan đến ổ dịch cũ, đã được cách ly.<br />
-																							- CA BỆNH BN5009 ghi nhận tại tỉnh Hải Dương: nữ, 85 tuổi, địa chỉ tại huyện Nam Sách, tỉnh Hải Dương; là F1 của BN4836, đã được cách ly.<br />
-																							Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN4975-BN5008 ghi nhận tại tỉnh Bắc Giang: 32 ca có liên quan dịch tễ đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, đã được cách ly và 2 ca trong khu phong tỏa. Kết quả xét nghiệm dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN5010-BN5013 ghi nhận tại tỉnh Hưng Yên: 2 ca là F1 của BN3168, 2 ca là F1 của BN3169, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viên Bệnh Nhiệt đới Trung ương cơ sở Đông Anh và Bệnh viện Bệnh Nhiệt đới tỉnh Hưng Yên.</p>
+																							<strong>Hiệu lực từ:</strong> 09/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://www.khanhhoa.gov.vn/Modules/Document/LawDocumentDetail.aspx?DocumentId=0f36cd34-f413-476e-beaf-8d8ef7119c63" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -884,22 +981,19 @@
 																				</div>
 																				<div class="timeline-detail">
 																					<div class="timeline-head">
-																						<h3>06:00 22/05/2021</h3>
+																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																							<span class="ngay-xuat-ban">15:56 07/08/2020
+																							</span>
+																							<span class="tinh-thanhpho">Hà Nội</span>
+																						</p>
 																					</div>
 																					<div class="timeline-content">
+																						<p style="margin-top: 10px;"><strong>Thông báo số 2792-TB/TU</strong></p>
+																						<p>Thông báo kết luận của Chủ tịch UBND Thành phố Nguyễn Đức Chung, Trưởng Ban Chỉ đạo về công tác phòng, chống dịch bệnh Covid-19, thành phố Hà Nội (tại phiên họp số 48)</p>
 																						<p>
-																						<p>THÔNG BÁO VỀ 20 CA MẮC MỚI (BN4942 - 4961)</p>
-																						<p>Ghi nhận trong nước tại Bắc Giang (11), Hải Dương (4), Bắc Ninh (3), Thái Bình (1), Điện Biên (1).</p>
-																						<p>- CA BỆNH BN4942 ghi nhận tại tỉnh Thái Bình: nam, 84 tuổi, địa chỉ tại huyện Kiến Xương, tỉnh Thái Bình; là F1 của BN3750, đã được cách ly từ trước. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN4943-BN4945 ghi nhận tại tỉnh Bắc Ninh: là các trường hợp F1 đã được cách ly từ trước. Kết quả xét nghiệm ngày 20-21/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN4946 ghi nhận tại tỉnh Điện Biên: nữ, 30 tuổi, địa chỉ tại huyện Nậm Pồ, tỉnh Điện Biên; là F1 của BN3997, đã được cách ly từ trước. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viên dã chiến Điện Biên Phủ.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN4947-BN4950 ghi nhận tại tỉnh Hải Dương: là các trường hợp F1, đã được cách ly. Kết quả xét nghiệm ngày 18/5/2021 dương tính với SARS-CoV-2.<br />
-																							&nbsp;<br />
-																							- CA BỆNH BN4951-BN4961 ghi nhận tại tỉnh Bắc Giang: 10 ca là F1 liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, đã được cách ly và 1 ca trong khu phong tỏa. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p>
+																							<strong>Hiệu lực từ:</strong> 06/08/2020
 																						</p>
+																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.hanoi.gov.vn//documents/10182/2518750/Bcdcovid-05-2020.pdf" target="_blank">Link</a>
 																					</div>
 																				</div>
 																			</div>
@@ -918,56 +1012,23 @@
 															</a>
 														</li>
 														<li class="">
-															<a href="https://ncov.moh.gov.vn/web/guest/dong-thoi-gian?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs_delta=10&amp;p_r_p_resetCur=false&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs_cur=2" onclick="" tabIndex="0" target="_self">
+															<a href="https://ncov.moh.gov.vn/web/guest/chinh-sach-phong-chong-dich?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_delta=10&amp;p_r_p_resetCur=false&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_cur=2" onclick="" tabIndex="0" target="_self">
 																Tiếp theo
 															</a>
 														</li>
 													</ul>
 												</div>
 												<script>
-													function _com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs_submitForm(curParam, cur) {
+													function _com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_submitForm(curParam, cur) {
 														var data = {};
 														data[curParam] = cur;
 														Liferay.Util.postForm(
-															document.ofde__com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs_pageIteratorFm, {
+															document.xwsr__com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_pageIteratorFm, {
 																data: data
 															}
 														);
 													}
 												</script>
-											</div>
-										</div>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 portlet-column portlet-column-last" id="column-2">
-						<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2">
-							<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv_">
-								<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv"></span>
-								<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv">
-									<div class="portlet-content">
-										<div class="autofit-float autofit-row portlet-header">
-											<div class="autofit-col autofit-col-end">
-												<div class="autofit-section">
-													<div class="visible-interaction">
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class=" portlet-content-container">
-											<div class="portlet-body">
-												<div class="" data-fragments-editor-item-id="20109-6848020" data-fragments-editor-item-type="fragments-editor-mapped-item">
-													<div class="journal-content-article " data-analytics-asset-id="6848018" data-analytics-asset-title="Đường dây nóng" data-analytics-asset-type="web-content">
-														<div class="box-ddn"><span class="text-vang">Đường dây nóng</span><br />
-															<a class="hotline1" href="tel:19009095">19009095</a><br />
-														</div>
-														<div>
-															<a href="https://ncov.moh.gov.vn/documents/20182/6848000/Duongdaynong/69d6a130-defa-4cbc-92f7-67d50937d68f?t=1581123135834"><img alt="" src="https://ncov.moh.gov.vn/documents/20182/6848000/dnnong.jpg/4cf1fea6-7856-4fe0-bbef-50a7c2dc0ba8?t=1581317123857" width="100%" /></a>
-														</div>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
@@ -1028,7 +1089,6 @@
 					});
 					$('.scroll-top-wrapper').on('click', scrollToTop);
 				});
-
 				function scrollToTop() {
 					verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
 					element = $('body');
@@ -1054,8 +1114,8 @@
 	</script>
 	<script type="text/javascript">
 		// <![CDATA[
-		Liferay.currentURL = '\x2fweb\x2fguest\x2fdong-thoi-gian';
-		Liferay.currentURLEncoded = '\x252Fweb\x252Fguest\x252Fdong-thoi-gian';
+		Liferay.currentURL = '\x2fchinh-sach-phong-chong-dich';
+		Liferay.currentURLEncoded = '\x252Fchinh-sach-phong-chong-dich';
 		// ]]>
 	</script>
 	<script type="text/javascript">
@@ -1088,7 +1148,6 @@
 			var $ = AUI.$;
 			var _ = AUI._;
 			var pathnameRegexp = /\/documents\/(\d+)\/(\d+)\/(.+?)\/([^&]+)/;
-
 			function handleDownloadClick(event) {
 				if (event.target.nodeName.toLowerCase() === 'a' && window.Analytics) {
 					var anchor = event.target;
@@ -1176,6 +1235,16 @@
 				polyfill: true
 			});
 		}
+		Liferay.Portlet.register('com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks');
+		Liferay.Portlet.onLoad({
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks_',
+			portletId: 'com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d7040748\x26p_p_id\x3dcom_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_0NJPK7J1D5Ks\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fchinh-sach-phong-chong-dich',
+			refreshURLData: {}
+		});
 		(function() {
 			var $ = AUI.$;
 			var _ = AUI._;
@@ -1184,24 +1253,14 @@
 				window.location.hash = assetEntryId;
 			}
 		})();
-		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs');
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7');
 		Liferay.Portlet.onLoad({
 			canEditTitle: false,
-			columnPos: 0,
+			columnPos: 1,
 			isStatic: 'end',
-			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs_',
-			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs',
-			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6854119\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_nf7Qy5mlPXqs\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fguest\x252Fdong-thoi-gian',
-			refreshURLData: {}
-		});
-		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv');
-		Liferay.Portlet.onLoad({
-			canEditTitle: false,
-			columnPos: 0,
-			isStatic: 'end',
-			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv_',
-			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv',
-			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6854119\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_eB0emdM26Ukv\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fguest\x252Fdong-thoi-gian',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d7040748\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fchinh-sach-phong-chong-dich',
 			refreshURLData: {}
 		});
 		Liferay.Portlet.register('com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet');
@@ -1211,7 +1270,7 @@
 			isStatic: 'end',
 			namespacedId: 'p_p_id_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_',
 			portletId: 'com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet',
-			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6854119\x26p_p_id\x3dcom_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fguest\x252Fdong-thoi-gian\x26settingsScope\x3dportletInstance',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d7040748\x26p_p_id\x3dcom_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fchinh-sach-phong-chong-dich\x26settingsScope\x3dportletInstance',
 			refreshURLData: {}
 		});
 		Liferay.Loader.require('metal-dom/src/all/dom', function(metalDomSrcAllDom) {
@@ -1357,5 +1416,4 @@
 		// ]]>
 	</script>
 </body>
-
 </html>

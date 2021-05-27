@@ -16,6 +16,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://moh.gov.vn/video">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 	<link href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/favicon.ico" rel="icon" />
 	<link class="lfr-css-file" data-senna-track="temporary"
 		href="https://ncov.moh.gov.vn/o/corona-theme-guest/css/clay.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=en_US&amp;b=7303&amp;t=1600476400000"
