@@ -612,233 +612,50 @@
 												</div>
 											</div>
 										</div>
+										
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
 												<div>
-													<div class="embed-responsive embed-responsive-16by9 mb-1">
-														<video
-															poster="../../../image/journal/article.png"
-															controls preload="none">
-															<source
-																src="https://ncov.moh.gov.vn/documents/20182/6863405/Phan+ung+thong+thuong+sau+tiem+Vac+xin.mp4/5f51bbae-a578-d775-29e0-fb6d1909aec5?t=1618820291579"
-																type="video/mp4" autostart="false">
-														</video>
-													</div>
-													<a href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-2">
-														<h3>Phản ứng thông thường sau tiêm vắc xin phòng COVID-19</h3>
-													</a>
-													<p></p>
+												<?php  ?>
+														<div class="embed-responsive embed-responsive-16by9 mb-1">
+															<video
+																poster="<?= $video[0]['poster']?>"
+																controls preload="true">
+																<source
+																	src="<?= $video[0]['video']?>"
+																	type="video/mp4" autostart="false">
+															</video>
+														</div>
+														<a href="<?= base_url()?>/Videodetail/<?php $video[0]['id']?>">
+															<h3><?= $video[0]['title']?></h3>
+														</a>
+														<p></p>
+													<?php ?>
 												</div>
 												<div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-1.png"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/T%C6%AF%CC%A3+HA%CC%80O+NH%C6%AF%CC%83NG+CHI%C3%8A%CC%81N+SI%CC%83+A%CC%81O+TR%C4%82%CC%81NG.mp4/5a23911f-fb43-1768-ae9f-951ea9e9ea24?t=1614328901602"
-																		type="video/mp4" autostart="false">
-																</video>
+													<?php foreach($video as $key => $video1): ?>
+														<?php if ($key > 0): ?>
+															<div class="row mb-15">
+																<div class="col-md-5 col-xs-12">
+																	<div class="embed-responsive embed-responsive-16by9 mb-1">
+																		<video
+																			poster="<?= $video1['poster']?>"
+																			controls preload="true">
+																			<source
+																				src="<?= $video1['video']?>"
+																				type="video/mp4" autostart="false">
+																		</video>
+																	</div>
+																</div>
+																<div class="col-md-7 col-xs-12">
+																	<a class="text-tletin" href="<?= base_url()?>/Videodetail/<?php $video1['id']?>"><?= $video1['title']?></a>
+																	<br>
+																	<small class="text-muted"><?= $video1['time']?></small>
+																	<p class="text-muted mt-15 hidden-xs"></p>
+																</div>
 															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-1">TỰ
-																HÀO NHỮNG CHIẾN SĨ ÁO TRẮNG</a>
-															<br>
-															<small class="text-muted">Friday, 26/02/2021, 15:40</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video poster="../../../image/journal/covid_19.jpg" controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/Cam+on+bac+si.mp4/aa86c226-934e-baab-0397-2279030c9d61?t=1614323665110"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/6848045">Tranh
-																vẽ "Tri ân những chiến sĩ áo trắng" nhân dịp kỷ niệm 66
-																năm Ngày Thầy thuốc Việt Nam (27/2/1955 – 27/2/2021)</a>
-															<br>
-															<small class="text-muted">Friday, 26/02/2021, 14:13</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-5.png"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/atgt-toadamcovid1+%281%29.mp4/71f05689-f67c-a4d3-e9ab-302878d33109?t=1610604377890"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-8">Toạ
-																đàm “An toàn giao thông công cộng trong mùa dịch
-																COVID-19”</a>
-															<br>
-															<small class="text-muted">Thursday, 14/01/2021,
-																14:07</small>
-															<p class="text-muted mt-15 hidden-xs">
-															<p>Trong mấy tháng gần đây, tình hình dịch COVID-19 tại các
-																quốc gia trên thế giới và trong khu vực vẫn đang diễn
-																biến phức tạp và một số nước đã bùng phát dịch trở lại.
-																Đồng thời, phát hiện thêm biến chủng mới của virus
-																SARS-CoV-2 với đặc tính lây lan mạnh hơn, cho thấy nguy
-																cơ dịch bệnh COVID-19 luôn tiềm ẩn và cần cảnh giác cao.
-															</p>
-															</p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-6.png"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/ThutruongSon_BoYte.mp4/71f14989-c43d-41bb-be60-34052e4d3267?t=1597998653000"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/thu-truong-bo-y-te-nguyen-truong-son-chung-toi-nhu-xat-muoi-trong-long-khi-nhan-uoc-tin-tu-vong-">Thứ
-																trưởng Bộ Y tế Nguyễn Trường Sơn: "Chúng tôi như xát
-																muối trong lòng khi nhận được tin tử vong"</a>
-															<br>
-															<small class="text-muted">Friday, 21/08/2020, 15:27</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-7.png"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/L%E1%BA%A5y+m%E1%BA%ABu+x%C3%A9t+nghi%E1%BB%87m+B%E1%BB%99+sub.mp4/f8cd3cc4-bbed-48b2-8e9a-87c3c8cc249f?t=1597998273000"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/cach-lay-mau-xet-nghiem-sars-cov-2-theo-huong-dan-cua-bo-y-te">Cách
-																lấy mẫu xét nghiệm SARS-CoV-2 theo hướng dẫn của Bộ Y
-																tế</a>
-															<br>
-															<small class="text-muted">Friday, 21/08/2020, 15:20</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article.jpeg"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/G%C3%B3c+nh%C3%ACn+chuy%C3%AAn+gia+_COVID-19+t%E1%BA%A5n+c%C3%B4ng+c%C6%A1+th%E1%BB%83+nh%C6%B0+th%E1%BA%BF+n%C3%A0o_.mp4/e983a3d6-dd5b-4bdb-9dd5-1ffe5c0bd714?t=1597859323000"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/goc-nhin-chuyen-gia-covid-19-tan-cong-co-the-nhu-the-nao-">Góc
-																nhìn chuyên gia: COVID-19 tấn công cơ thể như thế
-																nào?</a>
-															<br>
-															<small class="text-muted">Thursday, 20/08/2020,
-																00:42</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-1.jpeg"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/B%C3%8AN+TRONG+PH%C3%92NG+X%C3%89T+NGHI%E1%BB%86M+RT-PCR+M%C3%80+VI%E1%BB%86N+PASTER+TP+HCM+THI%E1%BA%BET+L%E1%BA%ACP+%E1%BB%9E+B%E1%BB%86NH+VI%E1%BB%86N+199+%281%29.mp4/fbca14e2-6c0a-45a2-b571-5f559182001b?t=1597858811000"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/ben-trong-phong-xet-nghiem-rt-pcr-ma-vien-pasteur-tp-hcm-thiet-lap-o-benh-vien-199">Bên
-																trong phòng xét nghiệm RT-PCR mà Viện Pasteur TP.HCM
-																thiết lập ở Bệnh viện 199</a>
-															<br>
-															<small class="text-muted">Thursday, 20/08/2020,
-																00:32</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-2.jpeg"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/c%E1%BB%A9u+ch%E1%BB%AFa+c%C3%A1c+b%E1%BB%87nh+nh%C3%A2n+ch%E1%BA%A1y+th%E1%BA%ADn+nh%C3%A2n+t%E1%BA%A1o+t%E1%BA%A1i+Trung+t%C3%A2m+y+t%E1%BA%BF+H%C3%B2a+Vang+%281%29.mp4/63321a64-fdbf-407f-9cc1-328876a38b51?t=1597858213000"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/cuu-chua-benh-nhan-chay-than-nhan-tao-tai-trung-tam-y-te-hoa-vang">Cứu
-																chữa bệnh nhân chạy thận nhân tạo tại Trung tâm y tế Hòa
-																Vang</a>
-															<br>
-															<small class="text-muted">Thursday, 20/08/2020,
-																00:29</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-													<div class="row mb-15">
-														<div class="col-md-5 col-xs-12">
-															<div class="embed-responsive embed-responsive-16by9 mb-1">
-																<video
-																	poster="../../../image/journal/article-3.jpeg"
-																	controls preload="none">
-																	<source
-																		src="https://ncov.moh.gov.vn/documents/20182/6863405/theo+ch%C3%A2n+Bs.+Tr%E1%BA%A7n+Thanh+Linh+B%E1%BB%87nh+vi%E1%BB%87n+Ch%E1%BB%A3+R%E1%BA%ABy+c%E1%BA%A5p+c%E1%BB%A9u+c%C3%A1c+b%E1%BB%87nh+nh%C3%A2n+COVID-19+t%E1%BA%A1i+B%E1%BB%87nh+vi%E1%BB%87n+Ph%E1%BB%95i+%C4%90%C3%A0+N%E1%BA%B5ng+%281%29.mp4/04468690-0d58-43dc-a8a0-2b42bade0351?t=1597856533000"
-																		type="video/mp4" autostart="false">
-																</video>
-															</div>
-														</div>
-														<div class="col-md-7 col-xs-12">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/en/web/guest/-/theo-chan-bac-si-bv-cho-ray-cap-cuu-benh-nhan-covid-19-tai-bv-phoi-a-nang">Theo
-																chân bác sĩ BV Chợ Rẫy cấp cứu bệnh nhân COVID-19 tại BV
-																Phổi Đà Nẵng</a>
-															<br>
-															<small class="text-muted">Thursday, 20/08/2020,
-																00:01</small>
-															<p class="text-muted mt-15 hidden-xs"></p>
-														</div>
-													</div>
-												</div>
+														<?php endif?>
+													<?php endforeach; ?>
 												<div class="clearfix lfr-pagination">
 													<ul class="lfr-pagination-buttons pager">
 														<li class="disabled">
@@ -968,7 +785,7 @@
 		<!-- The scroll to top feature -->
 		<div class="scroll-top-wrapper ">
 			<span class="scroll-top-inner">
-				<i class="fas fa-arrow-alt-circle-up"></i>
+				<i class="fa fa-2x fa-arrow-circle-up"></i>
 			</span>
 		</div>
 		<script>

@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="en-US">
 <head>
-	<title>TIN TỨC - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
+	<title>Phản ứng thông thường sau tiêm vắc xin phòng COVID-19 - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/tin-tuc" rel="canonical" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/tin-tuc" hreflang="vi-VN" rel="alternate" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/en/tin-tuc" hreflang="en-US" rel="alternate" />
-	<link data-senna-track="temporary" href="https://moh.gov.vn/tin-tuc" hreflang="x-default" rel="alternate" />
+	<meta content="(Thứ hai, 19/04/2021 15:17)" lang="vi-VN" name="description" />
+	<meta content="general,video" lang="vi-VN" name="keywords" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/-/6848045-2" rel="canonical" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/-/6848045-2" hreflang="vi-VN" rel="alternate" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/en/-/6848045-2" hreflang="en-US" rel="alternate" />
+	<link data-senna-track="temporary" href="https://moh.gov.vn/-/6848045-2" hreflang="x-default" rel="alternate" />
 	<meta property="og:locale" content="en_US">
 	<meta property="og:locale:alternate" content="en_US">
 	<meta property="og:locale:alternate" content="vi_VN">
 	<meta property="og:site_name" content="Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
-	<meta property="og:title" content="TIN TỨC - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
+	<meta property="og:title" content="Phản ứng thông thường sau tiêm vắc xin phòng COVID-19 - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://moh.gov.vn/tin-tuc">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<meta property="og:url" content="https://moh.gov.vn/-/6848045-2">
 	<link href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/favicon.ico" rel="icon" />
 	<link class="lfr-css-file" data-senna-track="temporary" href="https://ncov.moh.gov.vn/o/corona-theme-guest/css/clay.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=en_US&amp;b=7303&amp;t=1600476400000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
 	<link data-senna-track="temporary" href="/o/frontend-css-web/main.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=en_US&amp;b=7303&amp;t=1600501533456" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
-	<link data-senna-track="temporary" href="/combo?browserId=other&amp;minifierType=&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;languageId=en_US&amp;b=7303&amp;com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM:%2Fcss%2Fmain.css&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo:%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fcss%2Fmain.css&amp;t=1600476400000" id="f21a62fc" rel="stylesheet" type="text/css" />
+	<link data-senna-track="temporary" href="/combo?browserId=other&amp;minifierType=&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;languageId=en_US&amp;b=7303&amp;com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN:%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fcss%2Fmain.css&amp;t=1600476400000" id="c641341f" rel="stylesheet" type="text/css" />
 	<script data-senna-track="temporary" type="text/javascript">
 		// <![CDATA[
 		var Liferay = Liferay || {};
@@ -109,16 +110,16 @@
 		};
 		Liferay.ThemeDisplay = {
 			getLayoutId: function() {
-				return '1000686';
+				return '1000647';
 			},
 			getLayoutRelativeControlPanelURL: function() {
-				return '/en/group/guest/~/control_panel/manage';
+				return '/en/group/guest/~/control_panel/manage?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN';
 			},
 			getLayoutRelativeURL: function() {
-				return '/en/web/guest/tin-tuc';
+				return '/en/web/guest/chi-tiet';
 			},
 			getLayoutURL: function() {
-				return 'https://ncov.moh.gov.vn/en/web/guest/tin-tuc';
+				return 'https://ncov.moh.gov.vn/en/web/guest/chi-tiet';
 			},
 			getParentLayoutId: function() {
 				return '0';
@@ -136,7 +137,7 @@
 				return 'en-US';
 			},
 			getCanonicalURL: function() {
-				return 'https\x3a\x2f\x2fmoh\x2egov\x2evn\x2ftin-tuc';
+				return 'https\x3a\x2f\x2fmoh\x2egov\x2evn\x2f-\x2f6848045-2';
 			},
 			getCDNBaseURL: function() {
 				return 'https://ncov.moh.gov.vn';
@@ -184,7 +185,7 @@
 				return '/o/corona-theme-guest';
 			},
 			getPlid: function() {
-				return '6848938';
+				return '6791594';
 			},
 			getPortalURL: function() {
 				return 'https://ncov.moh.gov.vn';
@@ -205,7 +206,7 @@
 				return '20182';
 			},
 			getURLControlPanel: function() {
-				return '/en/group/control_panel?refererPlid=6848938';
+				return '/en/group/control_panel?refererPlid=6791594';
 			},
 			getURLHome: function() {
 				return 'https\x3a\x2f\x2fncov\x2emoh\x2egov\x2evn\x2fvi\x2fweb\x2fguest';
@@ -284,9 +285,9 @@
 				return '?browserId=other&minifierType=&languageId=en_US&b=7303&t=1600501533941';
 			}
 		};
-		Liferay.authToken = '3XYSfqIu';
-		Liferay.currentURL = '\x2fen\x2fweb\x2fguest\x2ftin-tuc';
-		Liferay.currentURLEncoded = '\x252Fen\x252Fweb\x252Fguest\x252Ftin-tuc';
+		Liferay.authToken = '3shmkXmE';
+		Liferay.currentURL = '\x2fen\x2f-\x2f6848045-2';
+		Liferay.currentURLEncoded = '\x252Fen\x252F-\x252F6848045-2';
 		// ]]>
 	</script>
 	<script src="/o/js_loader_config?t=1620621398986" type="text/javascript"></script>
@@ -326,6 +327,17 @@
 	</script>
 	<link class="lfr-css-file" data-senna-track="temporary" href="https://ncov.moh.gov.vn/o/corona-theme-guest/css/main.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=en_US&amp;b=7303&amp;t=1600476400000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
 	<style data-senna-track="temporary" type="text/css">
+		#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_ .portlet-content {
+			background-color: #;
+			border-top-color: #;
+			border-right-color: #;
+			border-bottom-color: #;
+			border-left-color: #;
+			color: #
+		}
+		.header-back-to {
+			display: none;
+		}
 	</style>
 	<style data-senna-track="temporary" type="text/css">
 	</style>
@@ -455,7 +467,7 @@
 	</script>
 </head>
 <body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site">
-	<nav class="quick-access-nav" id="rsbp_quickAccessNav">
+	<nav class="quick-access-nav" id="bgdo_quickAccessNav">
 		<h1 class="hide-accessible">Navigation</h1>
 		<ul>
 			<li><a href="#main-content">Skip to Content</a></li>
@@ -478,7 +490,7 @@
 								</a>
 							</div>
 							<div class="autofit-col">
-								<a href="javascript:;" class="d-inline-block d-md-none icon-monospaced sidenav-close" id="_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_qfkd____"><svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+								<a href="javascript:;" class="d-inline-block d-md-none icon-monospaced sidenav-close" id="_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_jbfs____"><svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
 										<use data-href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/lexicon/icons.svg#times"></use>
 									</svg></a>
 							</div>
@@ -495,7 +507,7 @@
 			<div class="container bg-td">
 				<div class="row">
 					<div class="col-9 mr-auto">
-						<a class="logo float-left" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
+						<a class="logo float-left" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
 						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
 						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
 					</div>
@@ -508,7 +520,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-yte pt-0 pb-0 mb-3">
 			<div class="container">
 				<div class="d-none d-block d-lg-none">
-					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
+					<a class="navbar-brand float-left mr-2" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
 						<h4>Bộ Y tế</h4>
 						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
@@ -520,32 +532,32 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 					<ul class="navbar-nav text-uppercase">
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url() ?>/Home">
+							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/trang-chu">
 								TRANG CHỦ
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url() ?>/Dongthoigian">
+							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/dong-thoi-gian">
 								Diễn biến dịch
 							</a>
 						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="<?= base_url() ?>/News">
-								TIN TỨC<span class="sr-only">(current)</span>
+						<li class="nav-item">
+							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/tin-tuc">
+								TIN TỨC
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url() ?>/Video">
+							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/video">
 								VIDEO
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url() ?>/Dieucanbiet">
+							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/-ieu-can-biet">
 								Điều cần biết
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url() ?>/Khuyencao">
+							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/khuyen-cao">
 								Khuyến cáo
 							</a>
 						</li>
@@ -568,14 +580,15 @@
 			});
 		</script>
 		<section id="content">
-			<h2 class="hide-accessible" role="heading" aria-level="1">TIN TỨC</h2>
+			<?php ?>
+			<h2 class="hide-accessible" role="heading" aria-level="1"><?php $video_result['title']?></h2>
 			<div class="container" id="8_2_contain" role="main">
 				<div class="portlet-layout row">
 					<div class="col-md-9 portlet-column portlet-column-first" id="column-1">
 						<div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column_column-1">
-							<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM_">
-								<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM"></span>
-								<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM">
+							<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_">
+								<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN"></span>
+								<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN">
 									<div class="portlet-content">
 										<div class="autofit-float autofit-row portlet-header">
 											<div class="autofit-col autofit-col-end">
@@ -585,121 +598,42 @@
 										</div>
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
-												<div>
-													<!-- <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/dsc03430-16218548158061420285328.jpg" alt="">
-					 -->
-													<img style="width:100%" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/dsc03430-16218548158061420285328.jpg" alt="">
-													<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3899">
-														<h2 class="mt-3">Từ 12h ngày 25/5, Hà Nội dừng hoạt động nhà hàng, quán cắt tóc, khu vui chơi, công viên, vườn hoa</h2>
-													</a>
-													<small class="text-muted">Monday, 24/05/2021, 22:38</small>
-													<p>
-													<p>Tối 24/5, Chủ tịch UBND TP Hà Nội đã có công điện khẩn số 11, hỏa tốc yêu cầu quyết liệt triển khai các biện pháp phòng, chống dịch.</p>
-													</p>
-												</div>
-												<div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/190670198101584173180437893567754510321726096n-16218656442638515390.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/190670198101584173180437893567754510321726096n-16218656442638515390.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3898">Bắc Giang có thêm 58 giường điều trị tích cực</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 22:12</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Với sự hỗ trợ của đoàn chuyên gia Bệnh viện Bạch Mai, Bệnh viện Phổi tỉnh Bắc Giang đã thiết lập xong 58 giường điều trị tích cực (ICU); đồng thời, lên kế hoạch thu dung, điều trị các trường hợp bệnh nhân nặng.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Với sự hỗ trợ của đoàn chuyên gia Bệnh viện Bạch Mai, Bệnh viện Phổi tỉnh Bắc Giang đã thiết lập xong 58 giường điều trị tích cực (ICU); đồng thời, lên kế hoạch thu dung, điều trị các trường hợp bệnh nhân nặng.</p>
-														</div>
+												<div class="asset-full-content clearfix mb-5 default-asset-publisher show-asset-title " data-fragments-editor-item-id="20109-7282215" data-fragments-editor-item-type="fragments-editor-mapped-item">
+													<div class="mb-2">
+														<h4 class="component-title">
+															<span class="header-back-to">
+																<a href="javascript:;" target="_self" class=" lfr-icon-item taglib-icon" id="_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_rjus__column1__0" onClick="event.preventDefault();submitForm(document.hrefFm, &#39;https\x3a\x2f\x2fncov\x2emoh\x2egov\x2evn\x2fen\x2fweb\x2fguest\x2fchi-tiet\x2f-\x2fasset_publisher\x2fhyvGyPUjuRrN\x2f&#39;)" data-senna-off="true">
+																	<span id="qfkd__column1__0"><svg class="lexicon-icon lexicon-icon-angle-left" focusable="false" role="presentation">
+																			<use data-href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/lexicon/icons.svg#angle-left"></use>
+																		</svg></span>
+																	<span class="taglib-text hide-accessible">null</span>
+																</a>
+															</span>
+															<span class="asset-title d-inline">
+																<?php $video_result['title']?>
+															</span>
+															<span class="d-inline-flex">
+															</span>
+														</h4>
 													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/tb234-16218639312801097980409.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/tb234-16218639312801097980409.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3897">Cụ bà 82 tuổi bị tai biến dương tính với COVID-19 sau 4 lần âm tính</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 21:38</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Theo cơ quan chức năng, trường hợp được phát hiện dương tính chiều nay là cụ bà 82 tuổi bị tai biến mạch máu não, nằm điều trị tại Khoa Nội lão khoa và có 4 lần âm tính với SARS-CoV-2.</p>
+													<span class="asset-anchor lfr-asset-anchor" id="7282220"></span>
+													<div class="asset-content mb-3">
+														<div class="journal-content-article " data-analytics-asset-id="7282213" data-analytics-asset-title="<?php $video_result['title']?>" data-analytics-asset-type="web-content">
+															<div>
+																<section>
+																	<span class="text-ngayxam-page"><?php $video_result['time']?></span>
+																	<p class="text-justify"><strong class="text-muted"></strong></p>
+																	<div class="embed-responsive embed-responsive-16by9 mb-5">
+																		<video poster="/image/journal/article?img_id=7282216&t=1620621467076" controls preload="none">
+																			<source src="<?php $video_result['video']?>" type="video/mp4" autostart="false">
+																		</video>
+																	</div>
+																	<div></div>
+																</section>
 															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Theo cơ quan chức năng, trường hợp được phát hiện dương tính chiều nay là cụ bà 82 tuổi bị tai biến mạch máu não, nằm điều trị tại Khoa Nội lão khoa và có 4 lần âm tính với SARS-CoV-2.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/hn.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/hn.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3896">Hà Nội sẽ tăng tần suất xét nghiệm đối với F1 lên 6 lần</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 21:02</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Chiều 24-5, Phó Chủ tịch UBND TP Chử Xuân Dũng, Phó Trưởng ban Thường trực Ban chỉ đạo phòng chống dịch COVID-19 Hà Nội đã chủ trì phiên họp trực tuyến với các quận, huyện, phường xã để tiếp tục triển khai các biện pháp nhanh chóng khoanh vùng dập dịch.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Chiều 24-5, Phó Chủ tịch UBND TP Chử Xuân Dũng, Phó Trưởng ban Thường trực Ban chỉ đạo phòng chống dịch COVID-19 Hà Nội đã chủ trì phiên họp trực tuyến với các quận, huyện, phường xã để tiếp tục triển khai các biện pháp nhanh chóng khoanh vùng dập dịch.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/xn.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/xn.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3895">Thêm các trường hợp mắc COVID-19 mới ở Hà Nội liên quan đến chùm ca bệnh ở Times City</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 21:01</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Chiều muộn ngày 24/5, Trung tâm kiểm soát bệnh tật (CDC) Hà Nội đã thông tin về 3 ca nhiễm mới tại Công ty T&amp;T, liên quan đến chùm ca bệnh ở Times City.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Chiều muộn ngày 24/5, Trung tâm kiểm soát bệnh tật (CDC) Hà Nội đã thông tin về 3 ca nhiễm mới tại Công ty T&amp;T, liên quan đến chùm ca bệnh ở Times City.</p>
 														</div>
 													</div>
 												</div>
-												<div class="clearfix lfr-pagination">
-													<ul class="lfr-pagination-buttons pager">
-														<li class="disabled">
-															<a href="javascript:;" onclick="" tabIndex="-1" target="_self">
-																Previous
-															</a>
-														</li>
-														<li class="">
-															<a href="https://ncov.moh.gov.vn/en/web/guest/tin-tuc?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM_delta=5&amp;p_r_p_resetCur=false&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM_cur=2" onclick="" tabIndex="0" target="_self">
-																Next
-															</a>
-														</li>
-													</ul>
-												</div>
-												<script>
-													function _com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM_submitForm(curParam, cur) {
-														var data = {};
-														data[curParam] = cur;
-														Liferay.Util.postForm(
-															document.cmsr__com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM_pageIteratorFm, {
-																data: data
-															}
-														);
-													}
-												</script>
 											</div>
 										</div>
 									</div>
@@ -709,27 +643,49 @@
 					</div>
 					<div class="col-md-3 portlet-column portlet-column-last" id="column-2">
 						<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2">
-							<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo_">
-								<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo"></span>
-								<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo">
+							<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_  portlet-static portlet-static-end decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1_">
+								<span id="p_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1"></span>
+								<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1">
 									<div class="portlet-content">
 										<div class="autofit-float autofit-row portlet-header">
 											<div class="autofit-col autofit-col-end">
 												<div class="autofit-section">
-													<div class="visible-interaction">
-													</div>
 												</div>
 											</div>
 										</div>
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
-												<div class="" data-fragments-editor-item-id="20109-6848020" data-fragments-editor-item-type="fragments-editor-mapped-item">
-													<div class="journal-content-article " data-analytics-asset-id="6848018" data-analytics-asset-title="Đường dây nóng" data-analytics-asset-type="web-content">
-														<div class="box-ddn"><span class="text-vang">Đường dây nóng</span><br />
-															<a class="hotline1" href="tel:19009095">19009095</a><br />
+												<h4 class="tle1">Tin đọc nhiều</h4>
+												<div class="mb-10">
+													<img class="img-responsive mb-10a" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/16/photo-1-162112600822142232386.jpg" alt="">
+													<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3539">"Bạn đã bao giờ nhìn thấy một bác sĩ vừa khóc vừa khám cho bệnh nhân chưa?"</a>
+												</div>
+												<div class="media-object-default">
+													<div class="media">
+														<div class="media-left"><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-2995"><img class="media-object" src="https://media.suckhoedoisong.vn/Images/anhvan/2021/05/06/phan%20luong.jpg" alt="placeholder image" width="80"></a></div>
+														<div class="media-body" style="margin-left: 5px;">
+															<a class="text-black1" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-2995">"Bảo vệ" bệnh viện tuyến cuối của Quảng Ninh</a>
 														</div>
-														<div>
-															<a href="https://ncov.moh.gov.vn/documents/20182/6848000/Duongdaynong/69d6a130-defa-4cbc-92f7-67d50937d68f?t=1581123135834"><img alt="" src="https://ncov.moh.gov.vn/documents/20182/6848000/dnnong.jpg/4cf1fea6-7856-4fe0-bbef-50a7c2dc0ba8?t=1581317123857" width="100%" /></a>
+													</div>
+													<hr>
+													<div class="media">
+														<div class="media-left"><a href="https://ncov.moh.gov.vn/en/web/guest/-/-bien-phong-cach-ly-thanh-phong-e-e-cuu-2-san-phu"><img class="media-object" src="http://giadinh.mediacdn.vn/2020/5/8/9571587330154064618588707004330754779906048o-15889047856451501926427.jpg" alt="placeholder image" width="80"></a></div>
+														<div class="media-body" style="margin-left: 5px;">
+															<a class="text-black1" href="https://ncov.moh.gov.vn/en/web/guest/-/-bien-phong-cach-ly-thanh-phong-e-e-cuu-2-san-phu">"Biến" phòng cách ly thành phòng đẻ để cứu 2 sản phụ</a>
+														</div>
+													</div>
+													<hr>
+													<div class="media">
+														<div class="media-left"><a href="https://ncov.moh.gov.vn/en/web/guest/-/-bo-pho-ve-que-e-tranh-covid-19-la-phan-khoa-hoc-phan-tac-dung"><img class="media-object" src="http://giadinh.mediacdn.vn/thumb_w/640/2020/3/9/di-tan-15837228665801082593431.jpg" alt="placeholder image" width="80"></a></div>
+														<div class="media-body" style="margin-left: 5px;">
+															<a class="text-black1" href="https://ncov.moh.gov.vn/en/web/guest/-/-bo-pho-ve-que-e-tranh-covid-19-la-phan-khoa-hoc-phan-tac-dung">"Bỏ phố về quê" để tránh COVID-19 là phản khoa học, phản tác dụng</a>
+														</div>
+													</div>
+													<hr>
+													<div class="media">
+														<div class="media-left"><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3422"><img class="media-object" src="https://media.suckhoedoisong.vn/Images/anhvan/2021/05/12/phan%20tich%20mau.jpg" alt="placeholder image" width="80"></a></div>
+														<div class="media-body" style="margin-left: 5px;">
+															<a class="text-black1" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3422">"Bóng hồng" trong phòng xét nghiệm</a>
 														</div>
 													</div>
 												</div>
@@ -742,6 +698,7 @@
 					</div>
 				</div>
 			</div>
+			<?php ?>
 			<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><input hidden type="submit" /></form>
 		</section>
 		<footer class="bg-ft">
@@ -769,11 +726,43 @@
 								</div>
 							</div>
 						</div>
-						<p class="text-center"><small>Website được vận hành bởi Group Thiện và 4 con vợ</small></p>
+						<p class="text-center"><small>Website được vận hành trên Microsoft Azure</small></p>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<div class="bt-cn">
+			<div class="material-button-anim">
+				<ul class="list-inline" id="options">
+					<li class="option">
+						<button class="material-button option1 bg-danger1" type="button">
+							<a class="text-trang" href="tel:19009095"><span class="fa fa-phone" aria-hidden="true"></span></a>
+						</button>
+					</li>
+					<li class="option">
+						<button class="material-button option2 bg-success1" type="button">
+							<i class="fas fa-map-marked-alt"></i>
+						</button>
+					</li>
+					<li class="option">
+						<button class="material-button option3" type="button">
+							<i class="fas fa-question"></i>
+						</button>
+					</li>
+				</ul>
+				<button class="material-button material-button-toggle" type="button">
+					<span class="fa fa-plus" aria-hidden="true"></span>
+				</button>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.material-button-toggle').on("click", function() {
+					$(this).toggleClass('open');
+					$('.option').toggleClass('scale-on');
+				});
+			});
+		</script>
 		<!-- body code goes here -->
 		<!-- The scroll to top feature -->
 		<div class="scroll-top-wrapper ">
@@ -818,8 +807,8 @@
 	</script>
 	<script type="text/javascript">
 		// <![CDATA[
-		Liferay.currentURL = '\x2fen\x2fweb\x2fguest\x2ftin-tuc';
-		Liferay.currentURLEncoded = '\x252Fen\x252Fweb\x252Fguest\x252Ftin-tuc';
+		Liferay.currentURL = '\x2fen\x2f-\x2f6848045-2';
+		Liferay.currentURLEncoded = '\x252Fen\x252F-\x252F6848045-2';
 		// ]]>
 	</script>
 	<script type="text/javascript">
@@ -939,6 +928,28 @@
 				polyfill: true
 			});
 		}
+		Liferay.once('allPortletsReady', function() {
+			if (!Liferay.Browser.isIe()) {
+				document
+					.getElementById('p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_')
+					.scrollIntoView();
+			}
+		});
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN');
+		Liferay.Portlet.onLoad({
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN',
+			refreshURL: '\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6791594\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F-\x252F6848045-2',
+			refreshURLData: {
+				"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_mvcPath": ["\/view_content.jsp"],
+				"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_languageId": ["vi_VN"],
+				"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_assetEntryId": ["7282220"],
+				"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_type": ["content"]
+			}
+		});
 		(function() {
 			var $ = AUI.$;
 			var _ = AUI._;
@@ -947,24 +958,14 @@
 				window.location.hash = assetEntryId;
 			}
 		})();
-		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM');
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1');
 		Liferay.Portlet.onLoad({
 			canEditTitle: false,
 			columnPos: 0,
 			isStatic: 'end',
-			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM_',
-			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM',
-			refreshURL: '\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6848938\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uNo2VNPYc2UM\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fweb\x252Fguest\x252Ftin-tuc',
-			refreshURLData: {}
-		});
-		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo');
-		Liferay.Portlet.onLoad({
-			canEditTitle: false,
-			columnPos: 0,
-			isStatic: 'end',
-			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo_',
-			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo',
-			refreshURL: '\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6848938\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_yuXZ5OkWTASo\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fweb\x252Fguest\x252Ftin-tuc',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1',
+			refreshURL: '\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6791594\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F-\x252F6848045-2',
 			refreshURLData: {}
 		});
 		Liferay.Portlet.register('com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet');
@@ -974,7 +975,7 @@
 			isStatic: 'end',
 			namespacedId: 'p_p_id_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_',
 			portletId: 'com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet',
-			refreshURL: '\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6848938\x26p_p_id\x3dcom_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fweb\x252Fguest\x252Ftin-tuc\x26settingsScope\x3dportletInstance',
+			refreshURL: '\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d6791594\x26p_p_id\x3dcom_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252F-\x252F6848045-2\x26settingsScope\x3dportletInstance',
 			refreshURLData: {}
 		});
 		Liferay.Loader.require('metal-dom/src/all/dom', function(metalDomSrcAllDom) {
@@ -1004,7 +1005,7 @@
 				console.error(err);
 			}
 		});
-		AUI().use('liferay-menu', 'aui-base', 'liferay-session', function(A) {
+		AUI().use('liferay-icon', 'liferay-menu', 'aui-base', 'liferay-session', function(A) {
 			(function() {
 				var $ = AUI.$;
 				var _ = AUI._;
@@ -1030,6 +1031,15 @@
 					redirectUrl: 'https\x3a\x2f\x2fncov\x2emoh\x2egov\x2evn\x2fvi\x2fweb\x2fguest',
 					sessionLength: 890,
 					warningLength: 0
+				});
+			})();
+			(function() {
+				var $ = AUI.$;
+				var _ = AUI._;
+				Liferay.Icon.register({
+					forcePost: true,
+					id: '_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_rjus__column1__0',
+					useDialog: false
 				});
 			})();
 		});

@@ -514,7 +514,7 @@
 			<div class="container bg-td">
 				<div class="row">
 					<div class="col-9 mr-auto">
-						<a class="logo float-left" href="/trang-chu"><img
+						<a class="logo float-left" href="<?= base_url()?>/Home"><img
 								src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78"
 								alt=""></a>
 						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
@@ -529,7 +529,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-yte pt-0 pb-0 mb-3">
 			<div class="container">
 				<div class="d-none d-block d-lg-none">
-					<a class="navbar-brand float-left mr-2" href="/trang-chu"><img
+					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>/Home"><img
 							src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt=""
 							width="30"></a>
 					<div class="slogan-mobile">
@@ -718,7 +718,7 @@
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
 												<div>
-													<img src="/o/corona-theme-guest/images/logo_byt.png"
+													<img src="http://baochinhphu.vn/Uploaded/hatheluc/2021_05_24/TTg%20phat%20bieu%204.jpg"
 														class="lazy img-responsive"
 														data-src="http://baochinhphu.vn/Uploaded/hatheluc/2021_05_24/TTg%20phat%20bieu%204.jpg"
 														alt="">
@@ -741,7 +741,7 @@
 												<div>
 													<div class="row mb-1">
 														<div class="col-xs-5">
-															<img src="/o/corona-theme-guest/images/logo_byt.png"
+															<img src="https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg"
 																class="lazy img-responsive"
 																data-src="https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg"
 																alt="">
@@ -777,7 +777,7 @@
 													</div>
 													<div class="row mb-1">
 														<div class="col-xs-5">
-															<img src="/o/corona-theme-guest/images/logo_byt.png"
+															<img src="http://baochinhphu.vn/Uploaded/truonggiangthanh/2021_05_22/TTg%20thi%20sat%20khu%20cach%20ly%202.jpg"
 																class="lazy img-responsive"
 																data-src="http://baochinhphu.vn/Uploaded/truonggiangthanh/2021_05_22/TTg%20thi%20sat%20khu%20cach%20ly%202.jpg"
 																alt="">
@@ -807,7 +807,7 @@
 													</div>
 													<div class="row mb-1">
 														<div class="col-xs-5">
-															<img src="/o/corona-theme-guest/images/logo_byt.png"
+															<img src="http://baochinhphu.vn/Uploaded/tranthithom/2021_05_21/anh%20tuan.jpg"
 																class="lazy img-responsive"
 																data-src="http://baochinhphu.vn/Uploaded/tranthithom/2021_05_21/anh%20tuan.jpg"
 																alt="">
@@ -834,7 +834,7 @@
 													</div>
 													<div class="row mb-1">
 														<div class="col-xs-5">
-															<img src="/o/corona-theme-guest/images/logo_byt.png"
+															<img src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/DDN_6301.jpg"
 																class="lazy img-responsive"
 																data-src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/DDN_6301.jpg"
 																alt="">
@@ -955,7 +955,7 @@
 		<!-- The scroll to top feature -->
 		<div class="scroll-top-wrapper ">
 			<span class="scroll-top-inner">
-				<i class="fas fa-arrow-alt-circle-up"></i>
+				<i class="fa fa-2x fa-arrow-circle-up"></i>
 			</span>
 		</div>
 		<script>

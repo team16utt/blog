@@ -1766,7 +1766,7 @@
 	<!-- The scroll to top feature -->
 	<div class="scroll-top-wrapper ">
 		<span class="scroll-top-inner">
-			<i class="fas fa-arrow-alt-circle-up"></i>
+			<i class="fa fa-2x fa-arrow-circle-up"></i>
 		</span>
 	</div>
 	<script>
