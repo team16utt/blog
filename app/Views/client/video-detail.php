@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="en-US">
 <head>
-	<title>Phản ứng thông thường sau tiêm vắc xin phòng COVID-19 - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
+	<php? ?>
+		<title><?= $video_result['title']?></title>
+	<?php ?>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
 	<meta content="(Thứ hai, 19/04/2021 15:17)" lang="vi-VN" name="description" />
@@ -507,7 +509,7 @@
 			<div class="container bg-td">
 				<div class="row">
 					<div class="col-9 mr-auto">
-						<a class="logo float-left" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
+						<a class="logo float-left" href="<?= base_url()?>/Home"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
 						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
 						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
 					</div>
@@ -520,7 +522,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-yte pt-0 pb-0 mb-3">
 			<div class="container">
 				<div class="d-none d-block d-lg-none">
-					<a class="navbar-brand float-left mr-2" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
+					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>/Home"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
 						<h4>Bộ Y tế</h4>
 						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
@@ -532,32 +534,32 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 					<ul class="navbar-nav text-uppercase">
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/trang-chu">
+							<a class="nav-link" href="<?= base_url()?>/Home">
 								TRANG CHỦ
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/dong-thoi-gian">
+							<a class="nav-link" href="<?= base_url()?>/Dongthoigian">
 								Diễn biến dịch
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/tin-tuc">
+							<a class="nav-link" href="<?= base_url()?>/News">
 								TIN TỨC
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/video">
+							<a class="nav-link" href="<?= base_url()?>/Video">
 								VIDEO
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/-ieu-can-biet">
+							<a class="nav-link" href="<?= base_url()?>/Dieucanbiet">
 								Điều cần biết
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/khuyen-cao">
+							<a class="nav-link" href="<?= base_url()?>/Khuyencao">
 								Khuyến cáo
 							</a>
 						</li>
@@ -597,44 +599,46 @@
 											</div>
 										</div>
 										<div class=" portlet-content-container">
-											<div class="portlet-body">
-												<div class="asset-full-content clearfix mb-5 default-asset-publisher show-asset-title " data-fragments-editor-item-id="20109-7282215" data-fragments-editor-item-type="fragments-editor-mapped-item">
-													<div class="mb-2">
-														<h4 class="component-title">
-															<span class="header-back-to">
-																<a href="javascript:;" target="_self" class=" lfr-icon-item taglib-icon" id="_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_rjus__column1__0" onClick="event.preventDefault();submitForm(document.hrefFm, &#39;https\x3a\x2f\x2fncov\x2emoh\x2egov\x2evn\x2fen\x2fweb\x2fguest\x2fchi-tiet\x2f-\x2fasset_publisher\x2fhyvGyPUjuRrN\x2f&#39;)" data-senna-off="true">
-																	<span id="qfkd__column1__0"><svg class="lexicon-icon lexicon-icon-angle-left" focusable="false" role="presentation">
-																			<use data-href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/lexicon/icons.svg#angle-left"></use>
-																		</svg></span>
-																	<span class="taglib-text hide-accessible">null</span>
-																</a>
-															</span>
-															<span class="asset-title d-inline">
-																<?php $video_result['title']?>
-															</span>
-															<span class="d-inline-flex">
-															</span>
-														</h4>
-													</div>
-													<span class="asset-anchor lfr-asset-anchor" id="7282220"></span>
-													<div class="asset-content mb-3">
-														<div class="journal-content-article " data-analytics-asset-id="7282213" data-analytics-asset-title="<?php $video_result['title']?>" data-analytics-asset-type="web-content">
-															<div>
-																<section>
-																	<span class="text-ngayxam-page"><?php $video_result['time']?></span>
-																	<p class="text-justify"><strong class="text-muted"></strong></p>
-																	<div class="embed-responsive embed-responsive-16by9 mb-5">
-																		<video poster="/image/journal/article?img_id=7282216&t=1620621467076" controls preload="none">
-																			<source src="<?php $video_result['video']?>" type="video/mp4" autostart="false">
-																		</video>
-																	</div>
-																	<div></div>
-																</section>
+											<?php ?>
+												<div class="portlet-body">
+													<div class="asset-full-content clearfix mb-5 default-asset-publisher show-asset-title " data-fragments-editor-item-id="20109-7282215" data-fragments-editor-item-type="fragments-editor-mapped-item">
+														<div class="mb-2">
+															<h4 class="component-title">
+																<span class="header-back-to">
+																	<a href="javascript:;" target="_self" class=" lfr-icon-item taglib-icon" id="_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hyvGyPUjuRrN_rjus__column1__0" onClick="event.preventDefault();submitForm(document.hrefFm, &#39;https\x3a\x2f\x2fncov\x2emoh\x2egov\x2evn\x2fen\x2fweb\x2fguest\x2fchi-tiet\x2f-\x2fasset_publisher\x2fhyvGyPUjuRrN\x2f&#39;)" data-senna-off="true">
+																		<span id="qfkd__column1__0"><svg class="lexicon-icon lexicon-icon-angle-left" focusable="false" role="presentation">
+																				<use data-href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/lexicon/icons.svg#angle-left"></use>
+																			</svg></span>
+																		<span class="taglib-text hide-accessible">null</span>
+																	</a>
+																</span>
+																<span class="asset-title d-inline">
+																	<?= $video_result['title']?>
+																</span>
+																<span class="d-inline-flex">
+																</span>
+															</h4>
+														</div>
+														<span class="asset-anchor lfr-asset-anchor" id="7282220"></span>
+														<div class="asset-content mb-3">
+															<div class="journal-content-article " data-analytics-asset-id="7282213" data-analytics-asset-title="<?= $video_result['title']?>" data-analytics-asset-type="web-content">
+																<div>
+																	<section>
+																		<span class="text-ngayxam-page"><?= $video_result['time']?></span>
+																		<p class="text-justify"><strong class="text-muted"></strong></p>
+																		<div class="embed-responsive embed-responsive-16by9 mb-5">
+																			<video poster="/image/journal/article?img_id=7282216&t=1620621467076" controls preload="none">
+																				<source src="<?= $video_result['video']?>" type="video/mp4" autostart="false">
+																			</video>
+																		</div>
+																		<div></div>
+																	</section>
+																</div>
 															</div>
 														</div>
 													</div>
 												</div>
-											</div>
+											<?php ?>
 										</div>
 									</div>
 								</section>

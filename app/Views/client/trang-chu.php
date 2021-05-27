@@ -507,7 +507,7 @@
 				<div class="row">
 					<div class="col-9 mr-auto">
 						<a class="logo float-left" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
-						<h3 class="slogan2 mt-3">Group Thiện và 4 con vợ</h3>
+						<h3 class="slogan2 mt-3">Group Thiện và 4 con vợ (Nhận chạy bài nước rút giá thỏa thuận)</h3>
 						<h5 class="slogan1">BLOG NCOV</h5>
 					</div>
 					<div class="col-auto">

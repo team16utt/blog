@@ -507,7 +507,7 @@
 			<div class="container bg-td">
 				<div class="row">
 					<div class="col-9 mr-auto">
-						<a class="logo float-left" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
+						<a class="logo float-left" href="<?= base_url()?>/Home"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
 						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
 						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
 					</div>
@@ -520,7 +520,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-yte pt-0 pb-0 mb-3">
 			<div class="container">
 				<div class="d-none d-block d-lg-none">
-					<a class="navbar-brand float-left mr-2" href="/trang-chu"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
+					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>/Home"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
 						<h4>Bộ Y tế</h4>
 						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
@@ -532,32 +532,32 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 					<ul class="navbar-nav text-uppercase">
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/trang-chu">
+							<a class="nav-link" href="<?= base_url()?>/Home">
 								TRANG CHỦ
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/dong-thoi-gian">
+							<a class="nav-link" href="<?= base_url()?>/Dongthoigian">
 								Diễn biến dịch
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/tin-tuc">
+							<a class="nav-link" href="<?= base_url()?>/News">
 								TIN TỨC
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/video">
+							<a class="nav-link" href="<?= base_url()?>/Video">
 								VIDEO
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/-ieu-can-biet">
+							<a class="nav-link" href="<?= base_url()?>/Dieucanbiet">
 								Điều cần biết
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://ncov.moh.gov.vn/en/web/guest/khuyen-cao">
+							<a class="nav-link" href="<?= base_url()?>/Khuyencao">
 								Khuyến cáo
 							</a>
 						</li>

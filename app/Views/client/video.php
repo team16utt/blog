@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="en-US">
 <head>
-	<title>VIDEO - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
+	<title>VIDEO - BLOG NCOV Developed By Group Thiện và 4 con vợ</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
 	<link data-senna-track="temporary" href="https://moh.gov.vn/video" rel="canonical" />
@@ -11,8 +11,8 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:locale:alternate" content="en_US">
 	<meta property="og:locale:alternate" content="vi_VN">
-	<meta property="og:site_name" content="Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
-	<meta property="og:title" content="VIDEO - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
+	<meta property="og:site_name" content="BLOG NCOV Developed By Group Thiện và 4 con vợ">
+	<meta property="og:title" content="VIDEO - BLOG NCOV Developed By Group Thiện và 4 con vợ">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://moh.gov.vn/video">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
@@ -487,8 +487,7 @@
 									<span class="company-details text-truncate">
 										<img alt="" class="company-logo"
 											src="/image/company_logo?img_id=0&t=1620621472684" />
-										<span class="company-name">Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp
-											cấp COVID-19</span>
+										<span class="company-name">Group Thiện và 4 con vợ</span>
 									</span>
 								</a>
 							</div>
@@ -517,8 +516,8 @@
 						<a class="logo float-left" href="<?= base_url()?>"><img
 								src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78"
 								alt=""></a>
-						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
-						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
+						<h3 class="slogan2 mt-3">Group Thiện và 4 con vợ</h3>
+						<h5 class="slogan1">BLOG NCOV</h5>
 					</div>
 					<div class="col-auto">
 						<a class="btn btn-danger mt-3" href="tel:19009095">Đường dây nóng <br>19009095</a>
@@ -533,8 +532,8 @@
 							src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt=""
 							width="30"></a>
 					<div class="slogan-mobile">
-						<h4>Bộ Y tế</h4>
-						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
+						<h4>Group Thiện và 4 con vợ</h4>
+						<h2 class="text-nowrap">BLOG NCOV</h2>
 					</div>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -626,10 +625,10 @@
 																	type="video/mp4" autostart="false">
 															</video>
 														</div>
-														<a href="<?= base_url()?>/Videodetail/<?php $video[0]['id']?>">
+														<a href="<?= base_url()?>/Videodetail?id=<?php echo $video[0]['id']?>">
 															<h3><?= $video[0]['title']?></h3>
 														</a>
-														<p></p>
+														<p><?= $video[0]['heading']?></p>
 													<?php ?>
 												</div>
 												<div>
@@ -648,10 +647,12 @@
 																	</div>
 																</div>
 																<div class="col-md-7 col-xs-12">
-																	<a class="text-tletin" href="<?= base_url()?>/Videodetail/<?php $video1['id']?>"><?= $video1['title']?></a>
+																	<a class="text-tletin" href="<?= base_url()?>/Videodetail?id=<?php echo $video1['id']?>"><?= $video1['title']?></a>
 																	<br>
 																	<small class="text-muted"><?= $video1['time']?></small>
 																	<p class="text-muted mt-15 hidden-xs"></p>
+																	<p><?= $video1['heading']?></p>
+																	<p></p>
 																</div>
 															</div>
 														<?php endif?>

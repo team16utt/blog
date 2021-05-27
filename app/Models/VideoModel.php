@@ -11,9 +11,6 @@ class VideoModel extends Model
     public function getAllVideo(){
         return $this->orderBy('time','desc')->findAll();
     }
-    public function getOneVideo()
-    {
-        return $this->orderBy('time','desc')->limit(1);
-    }
+
 
 }

@@ -585,93 +585,38 @@
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
 												<div>
-													<!-- <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/duongthuong/2021/05/24/7-5%20vuon%20tuoi%20tho%204.jpg" alt=""> -->
-													<img style="width:100%; float:left;" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/tb234-16218639312801097980409.jpg" alt="">
-													<a href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-36">
-														<h2 class="mt-3">Cần bảo vệ trẻ em trước đại dịch COVID-19</h2>
-													</a>
-													<small class="text-muted">Monday, 24/05/2021, 18:08</small>
-													<p>
-													<p>Từ trường hợp một bé trai 18 tháng tuổi dương tính với COVID-19. Các bác sĩ khuyến cáo: Hiện nay chưa có vắc xin phòng COVID-19 cho trẻ em, phụ huynh cần chủ động bảo vệ trẻ trước đại dịch COVID-19.</p>
-													</p>
+													<?php ?>
+														<img style="width:100%; float:left;" src="<?= $recommandation[0]['image']?>" alt="">
+														<a href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-36">
+															<h2 class="mt-3"><?= $recommandation[0]['title']?></h2>
+														</a>
+														<small class="text-muted"><?= $recommandation[0]['time']?></small>
+														<p>
+														<p><?= $recommandation[0]['heading']?></p>
+														</p>
+													<?php ?>
 												</div>
 												<div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/ha-noi-nguoi-dan-can-da-toi-cac-dia-diem-nay-khan-cap-lien-he-toi-co-quan-y-te-de-duoc-ho-tro1621828436.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/ha-noi-nguoi-dan-can-da-toi-cac-dia-diem-nay-khan-cap-lien-he-toi-co-quan-y-te-de-duoc-ho-tro1621828436.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-35">Hà Nội: Người dân cần đã tới các địa điểm này, khẩn cấp liên hệ cơ quan y tế để được hỗ trợ</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 11:33</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Trung tâm Kiểm soát bệnh tật thành phố Hà Nội thông báo tìm người trên địa bàn thành phố Hà Nội đã đến các địa điểm dưới đây vì liên quan đến các ca COVID-19.</p>
+													<?php foreach($recommandation as $key => $item):?>
+														<?php if($key >0): ?>
+															<div class="row mb-1">
+																<div class="col-xs-5">
+																	<img style="width:100%; float:left;" src="<?= $item['image']?>" alt="">
+																</div>
+																<div class="col-xs-7">
+																	<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-35"><?= $item['title']?></a>
+																	<br>
+																	<small class="text-muted"><?= $item['time']?></small>
+																	<div class="text-muted mt-15 d-none d-lg-block">
+																		<p><?= $item['heading']?></p>
+																	</div>
+																</div>
+																<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
+																	<p><?= $item['heading']?></p>
+																</div>
 															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Trung tâm Kiểm soát bệnh tật thành phố Hà Nội thông báo tìm người trên địa bàn thành phố Hà Nội đã đến các địa điểm dưới đây vì liên quan đến các ca COVID-19.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/phamhiep/2021/05/22/xet%20nghiem%207.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/phamhiep/2021/05/22/xet%20nghiem%207.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-34">Hiệu thuốc, quán gà vịt, cà phê... ở Hải Dương, ai đã đến cần khai báo y tế ngay</a>
-															<br>
-															<small class="text-muted">Saturday, 22/05/2021, 09:40</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Trên địa bàn thành phố Hải Dương vừa ghi nhận thêm 4 trường hợp mắc COVID-19, Ban chỉ đạo phòng chống dịch thành phố Hải Dương yêu cầu những ai đã đến các địa điểm sau cần nhanh chóng khai báo y tế:</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Trên địa bàn thành phố Hải Dương vừa ghi nhận thêm 4 trường hợp mắc COVID-19, Ban chỉ đạo phòng chống dịch thành phố Hải Dương yêu cầu những ai đã đến các địa điểm sau cần nhanh chóng khai báo y tế:</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/thuha/2021/05/18/khai%20bao%20y%20te%20truoc%20khi%20tiem%20covid.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/thuha/2021/05/18/khai%20bao%20y%20te%20truoc%20khi%20tiem%20covid.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-33">Người có tiền sử dị ứng có nên tiêm phòng vaccine COVID-19?</a>
-															<br>
-															<small class="text-muted">Saturday, 22/05/2021, 09:38</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Tại Hướng dẫn tạm thời khám sàng lọc trước tiêm chủng vaccine phòng COVID-19 của Bộ Y tế, quy định 4 đối tượng cần thận trọng tiêm chủng, trong đó người có tiền sử dị ứng với các dị nguyên. Tuy nhiên, không phải mọi trường hơp có tiền sử dị ứng đều&nbsp;chống chỉ định tiêm vaccine COVID-19.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Tại Hướng dẫn tạm thời khám sàng lọc trước tiêm chủng vaccine phòng COVID-19 của Bộ Y tế, quy định 4 đối tượng cần thận trọng tiêm chủng, trong đó người có tiền sử dị ứng với các dị nguyên. Tuy nhiên, không phải mọi trường hơp có tiền sử dị ứng đều&nbsp;chống chỉ định tiêm vaccine COVID-19.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/PGS-TS%20Tran%20Dac%20Phu%20(1).jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/PGS-TS%20Tran%20Dac%20Phu%20(1).jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-177">Mầm bệnh "lẩn khuất", chuyên gia khuyến cáo gì để phòng tránh COVID-19?</a>
-															<br>
-															<small class="text-muted">Friday, 21/05/2021, 09:56</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Đợt dịch thứ 4 tại Việt Nam trải qua hơn 3 tuần nhưng số ca mắc COVID-19 đã lên gần 1.800, xuất hiện tại 30 tỉnh, thành. Chuyên gia Trần Đắc Phu cho rằng thực hiện tốt 5K có thể cắt đứt chuỗi lây nhiễm, chuỗi dịch tễ trong cộng đồng...</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Đợt dịch thứ 4 tại Việt Nam trải qua hơn 3 tuần nhưng số ca mắc COVID-19 đã lên gần 1.800, xuất hiện tại 30 tỉnh, thành. Chuyên gia Trần Đắc Phu cho rằng thực hiện tốt 5K có thể cắt đứt chuỗi lây nhiễm, chuỗi dịch tễ trong cộng đồng...</p>
-														</div>
-													</div>
+															<?php endif ?>
+													<?php endforeach; ?>
 												</div>
 												<div class="clearfix lfr-pagination">
 													<ul class="lfr-pagination-buttons pager">

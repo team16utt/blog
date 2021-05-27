@@ -588,94 +588,39 @@
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
 												<div>
-													<!-- <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/phamhiep/2021/05/24/nguoi-den-13-dia-diem-duoi-day-nhanh-chong-khai-bao-y-te1621832031.jpg" alt="">
-					 -->
-													<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/phamhiep/2021/05/24/nguoi-den-13-dia-diem-duoi-day-nhanh-chong-khai-bao-y-te1621832031.jpg" alt="">
-													<a href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-64">
-														<h2 class="mt-3">Người đến 13 địa điểm dưới đây nhanh chóng khai báo y tế</h2>
-													</a>
-													<small class="text-muted">Monday, 24/05/2021, 12:09</small>
-													<p>
-													<p>TP. Hải Dương vừa ban hành Thông báo khẩn yêu cầu những ai đã đến 13 địa điểm sau nhanh chóng chóng khai báo y tế.</p>
-													</p>
+													<?php ?>
+														<img style="width:100%; float:left;" src="<?= $DCB[0]['image']?>" alt="">
+														<a href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-64">
+															<h2 class="mt-3"><?= $DCB[0]['title']?></h2>
+														</a>
+														<small class="text-muted"><?= $DCB[0]['time']?></small>
+														<p>
+														<p><?= $DCB[0]['heading']?></p>
+														</p>
+													<?php ?>
 												</div>
 												<div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/hoangduong/2021/05/22/C%C3%B4ng%20t%C3%A1c%20XN%20%C4%91ang%20%C4%91%C6%B0%E1%BB%A3c%20ti%E1%BA%BFn%20h%C3%A0nh%20h%E1%BB%91i%20h%E1%BA%A3%20trong%20t%C3%ACnh%20h%C3%ACnh%20d%E1%BB%8Bch.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/hoangduong/2021/05/22/C%C3%B4ng%20t%C3%A1c%20XN%20%C4%91ang%20%C4%91%C6%B0%E1%BB%A3c%20ti%E1%BA%BFn%20h%C3%A0nh%20h%E1%BB%91i%20h%E1%BA%A3%20trong%20t%C3%ACnh%20h%C3%ACnh%20d%E1%BB%8Bch.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-63">Công tác xét nghiệm ở Bắc Giang hiện có thể đáp ứng được tình hình</a>
-															<br>
-															<small class="text-muted">Saturday, 22/05/2021, 22:42</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Xét nghiệm có vai trò rất quan trọng trong phòng chống dịch, xác định các ca dương tính, giúp công tác khoanh vùng, dập dịch, các hệ thống truy vết, chiến lược dự phòng, quản lý phù hợp, hiệu quả. Phóng viên Báo Sức khỏe &amp; Đời sống đã cuộc trò chuyện với TS.BS Dương Thị Hiển, trưởng khoa Xét nghiệm của CDC Bắc Giang về tình hình xét nghiệm trong thời điểm này.</p>
+													<?php foreach($DCB as $key => $item):?>
+														<?php if($key>0):?>
+															<div class="row mb-1">
+																<div class="col-xs-5">
+																	<img style="width:100%; float:left;" src="<?= $item['image']?>" alt="">
+																</div>
+																<div class="col-xs-7">
+																	<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-63"><?= $item['title']?></a>
+																	<br>
+																	<small class="text-muted"><?= $item['time']?></small>
+																	<div class="text-muted mt-15 d-none d-lg-block">
+																		<p><?= $item['heading']?></p>
+																	</div>
+																</div>
+																<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
+																	<p><?= $item['heading']?></p>
+																</div>
 															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Xét nghiệm có vai trò rất quan trọng trong phòng chống dịch, xác định các ca dương tính, giúp công tác khoanh vùng, dập dịch, các hệ thống truy vết, chiến lược dự phòng, quản lý phù hợp, hiệu quả. Phóng viên Báo Sức khỏe &amp; Đời sống đã cuộc trò chuyện với TS.BS Dương Thị Hiển, trưởng khoa Xét nghiệm của CDC Bắc Giang về tình hình xét nghiệm trong thời điểm này.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/Benh%20vien%20co%20so%209A%20.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/Benh%20vien%20co%20so%209A%20.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-62">Từ 24/5, Bệnh viện K cơ sở 9A – 9B Phan Chu Trinh và cơ sở Tam Hiệp hoạt động trở lại</a>
-															<br>
-															<small class="text-muted">Friday, 21/05/2021, 19:30</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Chiều 21/5, thông tin từ Bệnh viện K cho biết, từ ngày 24/5, Bệnh viện K cơ sở Phan Chu Trinh và cơ sở Tam Hiệp sẽ gỡ bỏ phong toả hoạt động trở lại tiếp nhận người bệnh đến thăm khám, điều trị...</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Chiều 21/5, thông tin từ Bệnh viện K cho biết, từ ngày 24/5, Bệnh viện K cơ sở Phan Chu Trinh và cơ sở Tam Hiệp sẽ gỡ bỏ phong toả hoạt động trở lại tiếp nhận người bệnh đến thăm khám, điều trị...</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/phamhiep/2021/05/21/186508457_5596929157016435_8122139114445854048_n.png" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/phamhiep/2021/05/21/186508457_5596929157016435_8122139114445854048_n.png" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-61">Các phản ứng nghiêm trọng sau tiêm chủng là rất hiếm, thường là trùng hợp ngẫu nhiên</a>
-															<br>
-															<small class="text-muted">Friday, 21/05/2021, 19:29</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Tổ chức Y tế thế giới (WHO) nhấn mạnh như vậy và khuyến cáo: Cùng với vắc xin, người dân hãy tiếp tục thực hiện tốt thông điệp 5K của Bộ Y tế để bảo vệ sức khỏe và cứu sinh mạng.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Tổ chức Y tế thế giới (WHO) nhấn mạnh như vậy và khuyến cáo: Cùng với vắc xin, người dân hãy tiếp tục thực hiện tốt thông điệp 5K của Bộ Y tế để bảo vệ sức khỏe và cứu sinh mạng.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="/image/journal/article?img_id=7331038&t=1621868532521" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://ncov.moh.gov.vn/image/journal/article?img_id=7331038&t=1621927263578" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-60">133 đơn vị được Bộ Y tế cho phép thực hiện xét nghiệm khẳng định COVID-19</a>
-															<br>
-															<small class="text-muted">Friday, 21/05/2021, 11:20</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Cục Y tế dự phòng, Bộ Y tế cho biết đã có 133 đơn vị được Bộ Y tế cho phép thực hiện xét nghiệm khẳng định COVID-19 (tính đến 17/5/2021).</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Cục Y tế dự phòng, Bộ Y tế cho biết đã có 133 đơn vị được Bộ Y tế cho phép thực hiện xét nghiệm khẳng định COVID-19 (tính đến 17/5/2021).</p>
-														</div>
-													</div>
+														<?php endif?>
+													<?php endforeach; ?>
+													
 												</div>
 												<div class="clearfix lfr-pagination">
 													<ul class="lfr-pagination-buttons pager">

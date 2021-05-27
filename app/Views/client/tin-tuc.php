@@ -585,95 +585,42 @@
 										</div>
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
+											<?php ?>
+													<div>
+														<img style="width:100%" src="<?= $newPost[0]['image']?>" alt="">
+														<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3899">
+															<h2 class="mt-3"><?= $newPost[0]['title']?></h2>
+														</a>
+														<small class="text-muted"><?= $newPost[0]['time']?></small>
+														<p>
+														<p><?= $newPost[0]['heading']?></p>
+														</p>
+													</div>
+												<?php ?>
 												<div>
-													<!-- <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/dsc03430-16218548158061420285328.jpg" alt="">
-					 -->
-													<img style="width:100%" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/dsc03430-16218548158061420285328.jpg" alt="">
-													<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3899">
-														<h2 class="mt-3">Từ 12h ngày 25/5, Hà Nội dừng hoạt động nhà hàng, quán cắt tóc, khu vui chơi, công viên, vườn hoa</h2>
-													</a>
-													<small class="text-muted">Monday, 24/05/2021, 22:38</small>
-													<p>
-													<p>Tối 24/5, Chủ tịch UBND TP Hà Nội đã có công điện khẩn số 11, hỏa tốc yêu cầu quyết liệt triển khai các biện pháp phòng, chống dịch.</p>
-													</p>
-												</div>
-												<div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/190670198101584173180437893567754510321726096n-16218656442638515390.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/190670198101584173180437893567754510321726096n-16218656442638515390.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3898">Bắc Giang có thêm 58 giường điều trị tích cực</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 22:12</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Với sự hỗ trợ của đoàn chuyên gia Bệnh viện Bạch Mai, Bệnh viện Phổi tỉnh Bắc Giang đã thiết lập xong 58 giường điều trị tích cực (ICU); đồng thời, lên kế hoạch thu dung, điều trị các trường hợp bệnh nhân nặng.</p>
+													<?php foreach($newPost as $key => $item): ?>
+														<?php if ($key > 0): ?>
+															<div class="row mb-1">
+																<!-- <div class="col-xs-5">
+										<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/190670198101584173180437893567754510321726096n-16218656442638515390.jpg" alt="">
+									</div> -->
+																<div class="col-xs-5">
+																	<img style="width:100%; float:left;" src="<?= $item['image']?>" alt="">
+																</div>
+																<div class="col-xs-7">
+																	<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3898"><?= $item['title']?></a>
+																	<br>
+																	<small class="text-muted"><?= $item['time']?></small>
+																	<div class="text-muted mt-15 d-none d-lg-block">
+																		<p><?= $item['heading']?></p>
+																	</div>
+																</div>
+																<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
+																	<p><?= $item['heading']?></p>
+																</div>
 															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Với sự hỗ trợ của đoàn chuyên gia Bệnh viện Bạch Mai, Bệnh viện Phổi tỉnh Bắc Giang đã thiết lập xong 58 giường điều trị tích cực (ICU); đồng thời, lên kế hoạch thu dung, điều trị các trường hợp bệnh nhân nặng.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/tb234-16218639312801097980409.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/tb234-16218639312801097980409.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3897">Cụ bà 82 tuổi bị tai biến dương tính với COVID-19 sau 4 lần âm tính</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 21:38</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Theo cơ quan chức năng, trường hợp được phát hiện dương tính chiều nay là cụ bà 82 tuổi bị tai biến mạch máu não, nằm điều trị tại Khoa Nội lão khoa và có 4 lần âm tính với SARS-CoV-2.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Theo cơ quan chức năng, trường hợp được phát hiện dương tính chiều nay là cụ bà 82 tuổi bị tai biến mạch máu não, nằm điều trị tại Khoa Nội lão khoa và có 4 lần âm tính với SARS-CoV-2.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/hn.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/hn.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3896">Hà Nội sẽ tăng tần suất xét nghiệm đối với F1 lên 6 lần</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 21:02</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Chiều 24-5, Phó Chủ tịch UBND TP Chử Xuân Dũng, Phó Trưởng ban Thường trực Ban chỉ đạo phòng chống dịch COVID-19 Hà Nội đã chủ trì phiên họp trực tuyến với các quận, huyện, phường xã để tiếp tục triển khai các biện pháp nhanh chóng khoanh vùng dập dịch.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Chiều 24-5, Phó Chủ tịch UBND TP Chử Xuân Dũng, Phó Trưởng ban Thường trực Ban chỉ đạo phòng chống dịch COVID-19 Hà Nội đã chủ trì phiên họp trực tuyến với các quận, huyện, phường xã để tiếp tục triển khai các biện pháp nhanh chóng khoanh vùng dập dịch.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<!-- <div class="col-xs-5">
-								<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/xn.jpg" alt="">
-							</div> -->
-														<div class="col-xs-5">
-															<img style="width:100%; float:left;" src="https://media.suckhoedoisong.vn/Images/haiyen/2021/05/24/xn.jpg" alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3895">Thêm các trường hợp mắc COVID-19 mới ở Hà Nội liên quan đến chùm ca bệnh ở Times City</a>
-															<br>
-															<small class="text-muted">Monday, 24/05/2021, 21:01</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Chiều muộn ngày 24/5, Trung tâm kiểm soát bệnh tật (CDC) Hà Nội đã thông tin về 3 ca nhiễm mới tại Công ty T&amp;T, liên quan đến chùm ca bệnh ở Times City.</p>
-															</div>
-														</div>
-														<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Chiều muộn ngày 24/5, Trung tâm kiểm soát bệnh tật (CDC) Hà Nội đã thông tin về 3 ca nhiễm mới tại Công ty T&amp;T, liên quan đến chùm ca bệnh ở Times City.</p>
-														</div>
-													</div>
+														<?php endif ?>
+													<?php endforeach; ?>
 												</div>
 												<div class="clearfix lfr-pagination">
 													<ul class="lfr-pagination-buttons pager">
