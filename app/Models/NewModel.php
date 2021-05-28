@@ -10,16 +10,24 @@ class NewModel extends Model
 
     public function getAllNews()
     {
-        return $this->where('category_id',1)->findAll();
+        return $this->where('category_id',1)->orderby('time','desc')->findAll();
     }
 
     public function getAllDCB()
     {
-        return $this->where('category_id',2)->findAll();
+        return $this->where('category_id',2)->orderby('time','desc')->findAll();
     }
 
-    public function getAllRecommandation()
+    public function getAllRecommendation()
     {
-        return $this->where('category_id',3)->findAll();
+        return $this->where('category_id',3)->orderby('time','desc')->findAll();
+    }
+    public function getAllCDDH()
+    {
+        return $this->where('category_id',4)->orderby('time','desc')->findAll();
+    }
+    public function getAllCSPCD()
+    {
+        return $this->where('category_id',5)->orderby('time','desc')->findAll();
     }
 }

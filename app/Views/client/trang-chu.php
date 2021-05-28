@@ -577,7 +577,7 @@
 			});
 		</script>
 		<section id="content">
-			<h2 class="hide-accessible" role="heading" aria-level="1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
+			<h2 class="hide-accessible" role="heading" aria-level="1">BLOG NCOV</h2>
 			<div class="columns-1" id="main-content" role="main">
 				<div class="portlet-layout row">
 					<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
@@ -636,28 +636,34 @@
 																</div>
 																<div class=" portlet-content-container"></div>
 																<div class="portlet-body">
-																	<img class="lazy img-fluid mb-3" src="http://baochinhphu.vn/Uploaded/hatheluc/2021_05_24/TTg%20phat%20bieu%204.jpg" data-src="http://baochinhphu.vn/Uploaded/hatheluc/2021_05_24/TTg%20phat%20bieu%204.jpg" alt="">
-																	<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-184">
-																		<h4>Quyết tâm đẩy lùi đợt dịch này, thần tốc hơn nữa, thực hiện bằng được chiến lược vaccine</h4>
-																	</a>
-																	<p class="text-muted mt-15">
-																	<p>Chiều ngày 24/5, Thủ tướng Chính phủ Phạm Minh Chính chủ trì cuộc họp Thường trực Chính phủ về phòng chống dịch bệnh COVID-19, kết luận nhiều nội dung mới, quan trọng về nhiệm vụ phòng chống dịch trong bối cảnh mới, trong đó nhấn mạnh yêu cầu hoàn thiện các quy định để có chiến lược hoàn chỉnh về phòng chống dịch trong khu công nghiệp; thực hiện bằng được chiến lược vaccine theo tinh thần thần tốc hơn nữa, quyết tâm cao hơn, nỗ lực lớn hơn, hành động quyết liệt và hiệu quả hơn.</p>
-																	</p>
+																	<?php ?>
+																		<img class="lazy img-fluid mb-3" src="<?= $AllCDDH[0]['image']?>" data-src="<?= $AllCDDH[0]['image']?>" alt="">
+																		<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-184">
+																			<h4><?= $AllCDDH[0]['title']?></h4>
+																		</a>
+																		<p class="text-muted mt-15">
+																		<p><?= $AllCDDH[0]['heading']?></p>
+																		</p>
+																	<?php ?>
 																	<div class="d-none d-lg-block">
 																		<div class="row">
-																			<div class="col-lg-6 col-md-6 col-6">
-																				<a class="position-relative thum-po" href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-183" style="background-image: url('https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg')">
-																					<div class="bg-tle position-absolute">Dịch COVID-19: Thực hiện khai báo y tế tất cả công nhân ở các nhà máy, khu công nghiệp</div>
-																				</a>
-																			</div>
-																			<div class="col-lg-6 col-md-6 col-6">
+																			<?php foreach($AllCDDH as $key => $item):?>
+																				<?php if ($key > 0): ?>
+																					<div class="col-lg-6 col-md-6 col-6">
+																						<a class="position-relative thum-po" href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-183" style="background-image: url('<?= $item['image']?>')">
+																							<div class="bg-tle position-absolute"><?= $item['title']?></div>
+																						</a>
+																					</div>
+																				<?php endif ?>
+																			<?php endforeach; ?>
+																			<!-- <div class="col-lg-6 col-md-6 col-6">
 																				<a class="position-relative thum-po" href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-181" style="background-image: url('http://baochinhphu.vn/Uploaded/truonggiangthanh/2021_05_22/TTg%20thi%20sat%20khu%20cach%20ly%202.jpg')">
 																					<div class="bg-tle position-absolute">Nhân dân phải vào cuộc để kiểm soát người cách ly được về địa phương, ngăn chặn và đẩy lùi đại dịch</div>
 																				</a>
-																			</div>
+																			</div> -->
 																		</div>
 																	</div>
-																	<div class="d-none d-block d-lg-none">
+																	<!-- <div class="d-none d-block d-lg-none">
 																		<hr>
 																		<div class="media mb-4"> <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy d-flex mr-3" data-src="https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg" alt="placeholder image" width="150">
 																			<div class="media-body">
@@ -673,7 +679,7 @@
 																				</a>
 																			</div>
 																		</div>
-																	</div>
+																	</div> -->
 																	<p class="text-center mt-3"><a class="text-xemthem" href="<?= base_url()?>/Chidaodieuhanh">Xem thêm</a></p>
 																</div>
 														</div>
@@ -1337,20 +1343,26 @@
 																<a href="">
 																	<h4 class="tle1">Tin tức</h4>
 																</a>
-																<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-fluid mb-3" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/dsc03430-16218548158061420285328.jpg" alt="">
-																<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3899">
-																	<h3>Từ 12h ngày 25/5, Hà Nội dừng hoạt động nhà hàng, quán cắt tóc, khu vui chơi, công viên, vườn hoa</h3>
-																</a>
-																<small class="text-muted mb-25">Monday, 24/05/2021 22:38</small>
-																<p class="text-muted mt-15">
-																<p>Tối 24/5, Chủ tịch UBND TP Hà Nội đã có công điện khẩn số 11, hỏa tốc yêu cầu quyết liệt triển khai các biện pháp phòng, chống dịch.</p>
-																</p>
+																<?php ?>
+																	<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-fluid mb-3" data-src="<?= $AllNews[0]['image'] ?>" alt="">
+																	<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3899">
+																		<h3><?= $AllNews[0]['title'] ?></h3>
+																	</a>
+																	<small class="text-muted mb-25"><?= $AllNews[0]['time'] ?></small>
+																	<p class="text-muted mt-15">
+																	<p><?= $AllNews[0]['heading'] ?></p>
+																	</p>
+																<?php ?>
 																<hr>
 																<ul class="ul-list">
-																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3898">Bắc Giang có thêm 58 giường điều trị tích cực</a></li>
-																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3897">Cụ bà 82 tuổi bị tai biến dương tính với COVID-19 sau 4 lần âm tính</a></li>
+																	<?php foreach( $AllNews as $key => $item):?>
+																		<?php if($key > 0 && $key < 5): ?>
+																			<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3898"><?= $item['title'] ?></a></li>
+																		<?php endif ?>
+																	<?php endforeach; ?>
+																	<!-- <li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3897">Cụ bà 82 tuổi bị tai biến dương tính với COVID-19 sau 4 lần âm tính</a></li>
 																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3896">Hà Nội sẽ tăng tần suất xét nghiệm đối với F1 lên 6 lần</a></li>
-																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3895">Thêm các trường hợp mắc COVID-19 mới ở Hà Nội liên quan đến chùm ca bệnh ở Times City</a></li>
+																	<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3895">Thêm các trường hợp mắc COVID-19 mới ở Hà Nội liên quan đến chùm ca bệnh ở Times City</a></li> -->
 																</ul>
 																<p class="text-center"><a class="text-xemthem" href="<?= base_url()?>/News">Xem thêm</a></p>
 															</div>
@@ -1388,53 +1400,38 @@
 																				<div class="timeline-sec">
 																					<ul>
 																						<li>
-																							<div class="timeline">
-																								<div class="user-timeline">
-																									<span>
-																										<img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/johnny-depp.jpg" alt="">
-																									</span>
-																								</div>
-																								<div class="timeline-detail">
-																									<div class="timeline-head">
-																										<h3>18:05 24/05/2021</h3>
+																							<?php foreach( $AllTimeLine as $key => $item):?>
+																								<?php if($key >= 0 && $key < 3): ?>
+																									<div class="timeline">
+																										<div class="user-timeline">
+																											<span>
+																												<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg" alt="">
+																											</span>
+																										</div>
+																										<div class="timeline-detail">
+																											<div class="timeline-head">
+																												<h3><?= $item['time']?></h3>
+																											</div>
+																											<div class="timeline-content">
+																												<p>
+																												<p><?= $item['title']?></p>
+																												<p><?= $item['content']?></p>
+																												<!-- <p>- 01 ca cách ly ngay sau khi nhập cảnh tại Hà Nội.<br />
+																													- 95 ca ghi nhận trong nước tại Bắc Giang (44), Bắc Ninh (31), Hà Nội (13), Lạng Sơn (6), TP Hồ Chí Minh (1).</p>
+																												<p>a. 01 ca cách ly ngay sau khi nhập cảnh</p>
+																												<p>- CA BỆNH BN5328 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nam, 45 tuổi, quốc tịch Trung Quốc. Ngày 24/4/2021, từ nước ngoài nhập cảnh Việt Nam và được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SAR-CoV-2.</p>
+																												<p>b. 95 ca ghi nhận trong nước</p>
+																												<p>- CA BỆNH BN5309-BN5314, BN5316, BN5319, BN5321, BN5323, BN5325-BN5327 ghi nhận tại TP. Hà Nội: 12 ca là F1, 1 ca trong khu phong tỏa. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
+																												<p>- CA BỆNH BN5315, BN5317-BN5318, BN5320, BN5322, BN5324 ghi nhận tại tỉnh Lạng Sơn: 1 ca là F1 của BN3903, 3 ca là công nhân Khu công nghiệp Quang Châu, 2 ca liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
+																												<p>- CA BỆNH BN5329 ghi nhận tại TP. Hồ Chí Minh: nam, 2 tuổi, địa chỉ tại quận Tân Bình, thành phố Hồ Chí Minh; là F1 của BN4780, đã được cách ly. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly điều trị tại Bệnh viện Nhi đồng Thành phố Hồ Chí Minh.&nbsp;</p>
+																												<p>- CA BỆNH BN5330-BN5360 ghi nhận tại tỉnh Bắc Ninh: 27 ca là F1, 3 ca trong khu phong tỏa, 1 ca đang điều tra dịch tễ. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
+																												<p>- CA BỆNH BN5361-BN5404 ghi nhận tại tỉnh Bắc Giang: 44 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p> -->
+																												</p>
+																											</div>
+																										</div>
 																									</div>
-																									<div class="timeline-content">
-																										<p>
-																										<p>THÔNG BÁO VỀ 96 CA MẮC MỚI (BN5309-5404)</p>
-																										<p>- 01 ca cách ly ngay sau khi nhập cảnh tại Hà Nội.<br />
-																											- 95 ca ghi nhận trong nước tại Bắc Giang (44), Bắc Ninh (31), Hà Nội (13), Lạng Sơn (6), TP Hồ Chí Minh (1).</p>
-																										<p>a. 01 ca cách ly ngay sau khi nhập cảnh</p>
-																										<p>- CA BỆNH BN5328 được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội: nam, 45 tuổi, quốc tịch Trung Quốc. Ngày 24/4/2021, từ nước ngoài nhập cảnh Việt Nam và được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SAR-CoV-2.</p>
-																										<p>b. 95 ca ghi nhận trong nước</p>
-																										<p>- CA BỆNH BN5309-BN5314, BN5316, BN5319, BN5321, BN5323, BN5325-BN5327 ghi nhận tại TP. Hà Nội: 12 ca là F1, 1 ca trong khu phong tỏa. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																										<p>- CA BỆNH BN5315, BN5317-BN5318, BN5320, BN5322, BN5324 ghi nhận tại tỉnh Lạng Sơn: 1 ca là F1 của BN3903, 3 ca là công nhân Khu công nghiệp Quang Châu, 2 ca liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																										<p>- CA BỆNH BN5329 ghi nhận tại TP. Hồ Chí Minh: nam, 2 tuổi, địa chỉ tại quận Tân Bình, thành phố Hồ Chí Minh; là F1 của BN4780, đã được cách ly. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly điều trị tại Bệnh viện Nhi đồng Thành phố Hồ Chí Minh.&nbsp;</p>
-																										<p>- CA BỆNH BN5330-BN5360 ghi nhận tại tỉnh Bắc Ninh: 27 ca là F1, 3 ca trong khu phong tỏa, 1 ca đang điều tra dịch tễ. Kết quả xét nghiệm ngày 23-24/5/2021 dương tính với SARS-CoV-2.&nbsp;</p>
-																										<p>- CA BỆNH BN5361-BN5404 ghi nhận tại tỉnh Bắc Giang: 44 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu. Kết quả xét nghiệm dương tính với SARS-CoV-2.</p>
-																										</p>
-																									</div>
-																								</div>
-																							</div>
-																						</li>
-																						<li>
-																							<div class="timeline">
-																								<div class="user-timeline">
-																									<span>
-																										<img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/johnny-depp.jpg" alt="">
-																									</span>
-																								</div>
-																								<div class="timeline-detail">
-																									<div class="timeline-head">
-																										<h3>18:00 24/05/2021</h3>
-																									</div>
-																									<div class="timeline-content">
-																										<p>
-																										<p>73 bệnh nhân được công bố khỏi bệnh, gồm:</p>
-																										<p>BN2857-BN2988-BN2985-BN2975-BN2980-BN3078-BN3081-BN3099-BN3417-BN3156-BN3179-BN3233-BN3170-BN3416-BN3190-BN3146-BN3183-BN3201-BN3208-BN3184-BN3200-BN3253-BN2888-BN3097-BN3147-BN3064-BN3040-BN3346-BN3135-BN3070-BN3066-BN3280-BN3114-BN2862-BN3425-BN2958-BN3113-BN3822-BN2854-BN3009-BN3122-BN3165-BN3051-BN3025-BN3085-BN2855-BN2799-BN2827-BN2914-BN2913-BN2902-BN2941-BN2908-BN2909-BN2834-BN2912-BN2899-BN2635-BN2801-BN3065-BN2957-BN3013-BN2940-BN3087-BN3046-BN3063-BN2922-BN2987-BN2656-BN3011-BN2898-BN2927-BN2960</p>
-																										</p>
-																									</div>
-																								</div>
-																							</div>
+																								<?php endif ?>
+																							<?php endforeach; ?>
 																						</li>
 																					</ul>
 																				</div>
@@ -1477,38 +1474,43 @@
 						<div class="container pad-30">
 							<h4 class="tle1">Video</h4>
 							<div class="row mb-4">
-								<div class="col-lg-3">
-									<div class="embed-responsive embed-responsive-16by9 mb-1">
-										<video poster="../../../image/journal/article.png" controls preload="none">
-											<source src="https://ncov.moh.gov.vn/documents/20182/6863405/Phan+ung+thong+thuong+sau+tiem+Vac+xin.mp4/5f51bbae-a578-d775-29e0-fb6d1909aec5?t=1618820291579" type="video/mp4" autostart="false">
-										</video>
-									</div>
-									<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-2">Phản ứng thông thường sau tiêm vắc xin phòng COVID-19</a>
-								</div>
-								<div class="col-lg-3">
-									<div class="embed-responsive embed-responsive-16by9 mb-1">
-										<video poster="../../../image/journal/article-1.png" controls preload="none">
-											<source src="https://ncov.moh.gov.vn/documents/20182/6863405/T%C6%AF%CC%A3+HA%CC%80O+NH%C6%AF%CC%83NG+CHI%C3%8A%CC%81N+SI%CC%83+A%CC%81O+TR%C4%82%CC%81NG.mp4/5a23911f-fb43-1768-ae9f-951ea9e9ea24?t=1614328901602" type="video/mp4" autostart="false">
-										</video>
-									</div>
-									<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-1">TỰ HÀO NHỮNG CHIẾN SĨ ÁO TRẮNG</a>
-								</div>
-								<div class="col-lg-3">
-									<div class="embed-responsive embed-responsive-16by9 mb-1">
-										<video poster="../../../image/journal/covid_19.jpg" controls preload="none">
-											<source src="https://ncov.moh.gov.vn/documents/20182/6863405/Cam+on+bac+si.mp4/aa86c226-934e-baab-0397-2279030c9d61?t=1614323665110" type="video/mp4" autostart="false">
-										</video>
-									</div>
-									<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045">Tranh vẽ "Tri ân những chiến sĩ áo trắng" nhân dịp kỷ niệm 66 năm Ngày Thầy thuốc Việt Nam (27/2/1955 – 27/2/2021)</a>
-								</div>
-								<div class="col-lg-3">
-									<div class="embed-responsive embed-responsive-16by9 mb-1">
-										<video poster="../../../image/journal/article-5.png" controls preload="none">
-											<source src="https://ncov.moh.gov.vn/documents/20182/6863405/atgt-toadamcovid1+%281%29.mp4/71f05689-f67c-a4d3-e9ab-302878d33109?t=1610604377890" type="video/mp4" autostart="false">
-										</video>
-									</div>
-									<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-8">Toạ đàm “An toàn giao thông công cộng trong mùa dịch COVID-19”</a>
-								</div>
+								<?php foreach($AllVideo as $key => $item):?>
+									<?php if($key > 0 && $key < 5):?>
+										<div class="col-lg-3">
+											<div class="embed-responsive embed-responsive-16by9 mb-1">
+												<video poster="<?= $item['poster']?>" controls preload="none">
+													<source src="<?= $item['video']?>" type="video/mp4" autostart="false">
+												</video>
+											</div>
+											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-2"><?= $item['title']?></a>
+										</div>
+										<!-- <div class="col-lg-3">
+											<div class="embed-responsive embed-responsive-16by9 mb-1">
+												<video poster="../../../image/journal/article-1.png" controls preload="none">
+													<source src="https://ncov.moh.gov.vn/documents/20182/6863405/T%C6%AF%CC%A3+HA%CC%80O+NH%C6%AF%CC%83NG+CHI%C3%8A%CC%81N+SI%CC%83+A%CC%81O+TR%C4%82%CC%81NG.mp4/5a23911f-fb43-1768-ae9f-951ea9e9ea24?t=1614328901602" type="video/mp4" autostart="false">
+												</video>
+											</div>
+											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-1">TỰ HÀO NHỮNG CHIẾN SĨ ÁO TRẮNG</a>
+										</div>
+										<div class="col-lg-3">
+											<div class="embed-responsive embed-responsive-16by9 mb-1">
+												<video poster="../../../image/journal/covid_19.jpg" controls preload="none">
+													<source src="https://ncov.moh.gov.vn/documents/20182/6863405/Cam+on+bac+si.mp4/aa86c226-934e-baab-0397-2279030c9d61?t=1614323665110" type="video/mp4" autostart="false">
+												</video>
+											</div>
+											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045">Tranh vẽ "Tri ân những chiến sĩ áo trắng" nhân dịp kỷ niệm 66 năm Ngày Thầy thuốc Việt Nam (27/2/1955 – 27/2/2021)</a>
+										</div>
+										<div class="col-lg-3">
+											<div class="embed-responsive embed-responsive-16by9 mb-1">
+												<video poster="../../../image/journal/article-5.png" controls preload="none">
+													<source src="https://ncov.moh.gov.vn/documents/20182/6863405/atgt-toadamcovid1+%281%29.mp4/71f05689-f67c-a4d3-e9ab-302878d33109?t=1610604377890" type="video/mp4" autostart="false">
+												</video>
+											</div>
+											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-8">Toạ đàm “An toàn giao thông công cộng trong mùa dịch COVID-19”</a>
+										</div> -->
+
+									<?php endif ?>
+								<?php endforeach; ?>
 							</div>
 							<p class="text-center"><a class="text-xemthem" href="<?= base_url()?>/Video">Xem thêm</a></p>
 						</div>
@@ -1547,13 +1549,12 @@
 														<div class="portlet-body">
 															<div class="col-md-12 mb-10">
 																<h4 class="tle1">Điều cần biết</h4>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-64">Người đến 13 địa điểm dưới đây nhanh chóng khai báo y tế</a> <br><small class="text-muted">Monday, 24/05/2021 12:09</small></p>
-																<hr>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-63">Công tác xét nghiệm ở Bắc Giang hiện có thể đáp ứng được tình hình</a> <br><small class="text-muted">Saturday, 22/05/2021 22:42</small></p>
-																<hr>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-62">Từ 24/5, Bệnh viện K cơ sở 9A – 9B Phan Chu Trinh và cơ sở Tam Hiệp hoạt động trở lại</a> <br><small class="text-muted">Friday, 21/05/2021 19:30</small></p>
-																<hr>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-61">Các phản ứng nghiêm trọng sau tiêm chủng là rất hiếm, thường là trùng hợp ngẫu nhiên</a> <br><small class="text-muted">Friday, 21/05/2021 19:29</small></p>
+																	<?php foreach($AllDCB as $key => $item):?>
+																		<?php if($key >= 0 && $key < 5):?>
+																			<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-64"><?= $item['title']?></a> <br><small class="text-muted"><?= $item['time']?></small></p>
+																			<hr>
+																		<?php endif ?>
+																	<?php endforeach; ?>
 																<p class="text-right"><a class="text-xemthem" href="<?= base_url()?>/Dieucanbiet">Xem thêm</a></p>
 															</div>
 														</div>
@@ -1579,13 +1580,12 @@
 														<div class="portlet-body">
 															<div class="col-md-12 mb-10">
 																<h4 class="tle1">Khuyến cáo</h4>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-36">Cần bảo vệ trẻ em trước đại dịch COVID-19</a> <br><small class="text-muted">Monday, 24/05/2021 18:08</small></p>
-																<hr>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-35">Hà Nội: Người dân cần đã tới các địa điểm này, khẩn cấp liên hệ cơ quan y tế để được hỗ trợ</a> <br><small class="text-muted">Monday, 24/05/2021 11:33</small></p>
-																<hr>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-34">Hiệu thuốc, quán gà vịt, cà phê... ở Hải Dương, ai đã đến cần khai báo y tế ngay</a> <br><small class="text-muted">Saturday, 22/05/2021 09:40</small></p>
-																<hr>
-																<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-33">Người có tiền sử dị ứng có nên tiêm phòng vaccine COVID-19?</a> <br><small class="text-muted">Saturday, 22/05/2021 09:38</small></p>
+																	<?php foreach($AllRecommendation as $key => $item):?>
+																		<?php if($key >= 0 && $key < 5):?>
+																			<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-36"><?= $item['title']?></a> <br><small class="text-muted"><?= $item['time']?></small></p>
+																			<hr>
+																		<?php endif ?>
+																	<?php endforeach; ?>
 																<p class="text-right"><a class="text-xemthem" href="<?= base_url()?>/Khuyencao">Xem thêm</a></p>
 															</div>
 														</div>

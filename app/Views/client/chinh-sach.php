@@ -720,284 +720,64 @@
 															<div class="widget no-padding blank">
 																<div class="timeline-sec">
 																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">09:25 21/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Đà Nẵng</span>
-																						</p>
+																		<?php ?>
+																			<li>
+																				<div class="timeline">
+																					<div class="user-timeline">
+																						<span>
+																							<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg" alt="">
+																						</span>
 																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công văn 5527/UBND-VHXH</strong></p>
-																						<p>V/v đảm bảo công tác phòng, chống dịch COVID-19 tại các hoạt động từ thiện</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 19/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://docs.portal.danang.gov.vn/images/documents/Van%20ban%20dieu%20hanh/2020/Thang%208/5527%20cv_signed.PDF" target="_blank">Link</a>
+																					<div class="timeline-detail">
+																						<div class="timeline-head">
+																							<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																								<span class="ngay-xuat-ban"><?= $CSPCD[0]['time']?></span>
+																								<span class="tinh-thanhpho"><?= $CSPCD[0]['province-city']?></span>
+																							</p>
+																						</div>
+																						<div class="timeline-content">
+																							<p style="margin-top: 10px;"><strong><?= $CSPCD[0]['title']?></strong></p>
+																							<p><?= $CSPCD[0]['heading']?></p>
+																							<p>
+																								<strong>Hiệu lực từ:</strong> <?= $CSPCD[0]['content']?>
+																							</p>
+																							<strong>Xem chi tiết tại: </strong> <a href="<?= $CSPCD[0]['source']?>" target="_blank">Link</a>
+																						</div>
 																					</div>
 																				</div>
-																			</div>
-																		</li>
+																			</li>
+																		<?php ?>
 																	</ul>
 																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">15:00 20/08/2020
+																		<?php foreach($CSPCD as $key => $item):?>
+																			<?php if ($key > 0):?>
+																				<li>
+																					<div class="timeline">
+																						<div class="user-timeline">
+																							<span>
+																								<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg" alt="">
 																							</span>
-																							<span class="tinh-thanhpho">Quảng Nam</span>
-																						</p>
+																						</div>
+																						<div class="timeline-detail">
+																							<div class="timeline-head">
+																								<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
+																									<span class="ngay-xuat-ban"><?= $item['time']?></span>
+																									<span class="tinh-thanhpho"><?= $item['province-city']?></span>
+																								</p>
+																							</div>
+																							<div class="timeline-content">
+																								<p style="margin-top: 10px;"><strong><?= $item['title']?></strong></p>
+																								<p><?= $item['heading']?></p>
+																								<p>
+																									<strong>Hiệu lực từ:</strong> <?= $item['content']?>
+																								</p>
+																								<strong>Xem chi tiết tại: </strong> <a href="<?= $item['source']?>" target="_blank">Link</a>
+																							</div>
+																						</div>
 																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công văn số 4793/UBND-KGVX</strong></p>
-																						<p>V/v tiếp tục thực hiện các biện pháp cấp bách phòng, chống dịch bệnh COVID-19 trong tình hình mới</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 19/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://quangnam.gov.vn/Uploaded/file/thuydung/NAM%202020/CONG%20VAN/COVID/cv4793_signed_signed.pdf" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">09:30 20/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Đà Nẵng</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công văn số 5552/UBND-ĐTĐT</strong></p>
-																						<p>V/v triển khai thi công các dự án trên địa bàn TP trong thời gian giãn cách XH để phòng, chống dịch COVID - 19</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 19/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://docs.portal.danang.gov.vn/images/documents/Van%20ban%20dieu%20hanh/2020/Thang%208/5552%20cv_signed.PDF" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">09:00 20/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Hà Nội</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Thông báo số 14/TB-BCĐ</strong></p>
-																						<p>Thông báo kết luận của Phó Chủ tịch UBND Thành phố Ngô Văn Quý - Trưởng Ban Chỉ đạo về công tác phòng, chống dịch bệnh COVID-19, thành phố Hà Nội (tại phiên họp số 55)</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 19/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.hanoi.gov.vn//documents/10182/2518750/Bcdcovid-14-2020.pdf" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">10:00 19/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Quảng Ngãi</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công văn số 3839/UBND-KGVX</strong></p>
-																						<p>Về việc thực hiện các biện pháp phòng, chống dịch Covid-19 trên địa bàn tỉnh trong giai đoạn hiện nay</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 18/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.quangngai.gov.vn/thongtin/vanban/detail?id=115531" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">09:00 19/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Hải Dương</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công văn số 3010/UBND-VP</strong></p>
-																						<p>Về việc thực hiện biện pháp cấp bách phòng, chống dịch Covid-19 tại Cơ sở Cai nghiện ma tuý và các cơ sở BTXH</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 18/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="http://vanban.vpubnd.haiduong.gov.vn/FileUpload/2020/8/CVDI-2020-3010-1.pdf" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">17:28 18/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Hà Nội</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công điện khẩn số 07/CĐ-UBND</strong></p>
-																						<p><span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: justify; background-color: rgb(249, 248, 248);">Về việc thực hiện có hiệu quả các biện pháp phòng, chống dịch, không để lây lan dịch bệnh Covid-19 ra diện rộng trên địa bàn Thành phố</span></p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 18/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.hanoi.gov.vn//documents/10182/2518750/CD-07-2020.pdf" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">20:06 16/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Hải Dương</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Thông báo số 371/TB-UBND</strong></p>
-																						<p>V/v áp dụng bổ sung các biện pháp cấp bách phong, chống dịch bệnh COVID-19 trên địa bàn thành phố</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 16/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://luatvietnam.vn/y-te/thong-bao-371-bo-sung-bien-phap-phong-chong-dich-tai-thanh-pho-hai-duong-188946-d2.html" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">17:55 09/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Khánh Hòa</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Công điện số 06/CĐ-CTUBND</strong></p>
-																						<p>V/v triển khai các công tác phòng, chống dịch bệnh COVID-19 trên địa bàn tỉnh Khánh Hòa trong tình hình mới</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 09/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://www.khanhhoa.gov.vn/Modules/Document/LawDocumentDetail.aspx?DocumentId=0f36cd34-f413-476e-beaf-8d8ef7119c63" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul>
-																		<li>
-																			<div class="timeline">
-																				<div class="user-timeline">
-																					<span>
-																						<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg/856ced0d-2f20-4819-a2d4-bd773055d327?t=1580732512590" alt="">
-																					</span>
-																				</div>
-																				<div class="timeline-detail">
-																					<div class="timeline-head">
-																						<p style="padding: 9px 0 9px 20px; margin-bottom: 0px;">
-																							<span class="ngay-xuat-ban">15:56 07/08/2020
-																							</span>
-																							<span class="tinh-thanhpho">Hà Nội</span>
-																						</p>
-																					</div>
-																					<div class="timeline-content">
-																						<p style="margin-top: 10px;"><strong>Thông báo số 2792-TB/TU</strong></p>
-																						<p>Thông báo kết luận của Chủ tịch UBND Thành phố Nguyễn Đức Chung, Trưởng Ban Chỉ đạo về công tác phòng, chống dịch bệnh Covid-19, thành phố Hà Nội (tại phiên họp số 48)</p>
-																						<p>
-																							<strong>Hiệu lực từ:</strong> 06/08/2020
-																						</p>
-																						<strong>Xem chi tiết tại: </strong> <a href="https://vanban.hanoi.gov.vn//documents/10182/2518750/Bcdcovid-05-2020.pdf" target="_blank">Link</a>
-																					</div>
-																				</div>
-																			</div>
-																		</li>
+																				</li>
+																			<?php endif ?>
+																		<?php endforeach; ?>
 																	</ul>
 																</div>
 															</div>

@@ -6,9 +6,9 @@ class Khuyencao extends BaseController
 {
 	public function index()
 	{
-		$recommandationModel = new NewModel();
-		$recommandation = $recommandationModel->getAllRecommandation();
-		$data['recommandation'] = $recommandation;
+		$recommendationModel = new NewModel();
+		$recommendation = $recommendationModel->getAllRecommendation();
+		$data['recommandation'] = $recommendation;
 		return view('client/khuyen-cao', $data);
 	}
 }

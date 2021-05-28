@@ -718,158 +718,47 @@
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
 												<div>
-													<img src="http://baochinhphu.vn/Uploaded/hatheluc/2021_05_24/TTg%20phat%20bieu%204.jpg"
-														class="lazy img-responsive"
-														data-src="http://baochinhphu.vn/Uploaded/hatheluc/2021_05_24/TTg%20phat%20bieu%204.jpg"
-														alt="">
-													<a href="https://ncov.moh.gov.vn/web/guest/-/6847912-184">
-														<h2 class="mt-3">Quyết tâm đẩy lùi đợt dịch này, thần tốc hơn
-															nữa, thực hiện bằng được chiến lược vaccine</h2>
-													</a>
-													<small class="text-muted">Thứ hai, 24/05/2021, 20:22</small>
-													<p>
-													<p>Chiều ngày 24/5, Thủ tướng Chính phủ Phạm Minh Chính chủ trì cuộc
-														họp Thường trực Chính phủ về phòng chống dịch bệnh COVID-19, kết
-														luận nhiều nội dung mới, quan trọng về nhiệm vụ phòng chống dịch
-														trong bối cảnh mới, trong đó nhấn mạnh yêu cầu hoàn thiện các
-														quy định để có chiến lược hoàn chỉnh về phòng chống dịch trong
-														khu công nghiệp; thực hiện bằng được chiến lược vaccine theo
-														tinh thần thần tốc hơn nữa, quyết tâm cao hơn, nỗ lực lớn hơn,
-														hành động quyết liệt và hiệu quả hơn.</p>
-													</p>
+													<?php ?>
+														<img src="<?= $AllCDDH[0]['image']?>"
+															class="lazy img-responsive"
+															data-src="<?= $AllCDDH[0]['image']?>"
+															alt="">
+														<a href="https://ncov.moh.gov.vn/web/guest/-/6847912-184">
+															<h2 class="mt-3"><?= $AllCDDH[0]['title']?></h2>
+														</a>
+														<small class="text-muted"><?= $AllCDDH[0]['time']?></small>
+														<p>
+														<p><?= $AllCDDH[0]['heading']?></p>
+														</p>
+													<?php ?>
 												</div>
 												<div>
-													<div class="row mb-1">
-														<div class="col-xs-5">
-															<img src="https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg"
-																class="lazy img-responsive"
-																data-src="https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg"
-																alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/web/guest/-/6847912-183">Dịch
-																COVID-19: Thực hiện khai báo y tế tất cả công nhân ở các
-																nhà máy, khu công nghiệp</a>
-															<br>
-															<small class="text-muted">Thứ hai, 24/05/2021, 18:06</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Tại cuộc họp trực tuyến Ban Chỉ đạo Quốc gia phòng,
-																	chống COVID-19 với tỉnh Bắc Ninh, Bắc Giang sáng
-																	24/5, Phó Thủ tướng Vũ Đức Đam, Trưởng Ban Chỉ đạo
-																	giao Bộ Công Thương, Bộ Kế hoạch và Đầu tư phối hợp
-																	xây dựng, ban hành văn bản yêu cầu tất cả người làm
-																	việc trong các khu công nghiệp tập trung và người
-																	làm việc trong các nhà máy phải thực hiện khai báo y
-																	tế.</p>
+													<?php foreach($AllCDDH as $key => $item):?>
+														<?php if ($key > 0 ):?>
+															<div class="row mb-1">
+																<div class="col-xs-5">
+																	<img src="<?= $item['image']?>"
+																		class="lazy img-responsive"
+																		data-src="<?= $item['image']?>"
+																		alt="">
+																</div>
+																<div class="col-xs-7">
+																	<a class="text-tletin"
+																		href="https://ncov.moh.gov.vn/web/guest/-/6847912-183"><?= $item['title']?></a>
+																	<br>
+																	<small class="text-muted"><?= $item['time']?></small>
+																	<div class="text-muted mt-15 d-none d-lg-block">
+																		<p><?= $item['heading']?></p>
+																	</div>
+																</div>
+																<div
+																	class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
+																	<p><?= $item['heading']?></p>
+																</div>
 															</div>
-														</div>
-														<div
-															class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Tại cuộc họp trực tuyến Ban Chỉ đạo Quốc gia phòng, chống
-																COVID-19 với tỉnh Bắc Ninh, Bắc Giang sáng 24/5, Phó Thủ
-																tướng Vũ Đức Đam, Trưởng Ban Chỉ đạo giao Bộ Công
-																Thương, Bộ Kế hoạch và Đầu tư phối hợp xây dựng, ban
-																hành văn bản yêu cầu tất cả người làm việc trong các khu
-																công nghiệp tập trung và người làm việc trong các nhà
-																máy phải thực hiện khai báo y tế.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<div class="col-xs-5">
-															<img src="http://baochinhphu.vn/Uploaded/truonggiangthanh/2021_05_22/TTg%20thi%20sat%20khu%20cach%20ly%202.jpg"
-																class="lazy img-responsive"
-																data-src="http://baochinhphu.vn/Uploaded/truonggiangthanh/2021_05_22/TTg%20thi%20sat%20khu%20cach%20ly%202.jpg"
-																alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/web/guest/-/6847912-181">Nhân
-																dân phải vào cuộc để kiểm soát người cách ly được về địa
-																phương, ngăn chặn và đẩy lùi đại dịch</a>
-															<br>
-															<small class="text-muted">Thứ bảy, 22/05/2021, 15:34</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Trưa ngày 22/5, Thủ tướng Phạm Minh Chính đã thăm,
-																	động viên cán bộ, chiến sĩ đang thực hiện nhiệm vụ
-																	trong khu cách ly tập trung phòng chống COVID-19 tại
-																	Trung đoàn 926 thuộc Bộ Chỉ huy Quân sự tỉnh Trà
-																	Vinh.</p>
-															</div>
-														</div>
-														<div
-															class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Trưa ngày 22/5, Thủ tướng Phạm Minh Chính đã thăm, động
-																viên cán bộ, chiến sĩ đang thực hiện nhiệm vụ trong khu
-																cách ly tập trung phòng chống COVID-19 tại Trung đoàn
-																926 thuộc Bộ Chỉ huy Quân sự tỉnh Trà Vinh.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<div class="col-xs-5">
-															<img src="http://baochinhphu.vn/Uploaded/tranthithom/2021_05_21/anh%20tuan.jpg"
-																class="lazy img-responsive"
-																data-src="http://baochinhphu.vn/Uploaded/tranthithom/2021_05_21/anh%20tuan.jpg"
-																alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/web/guest/-/6847912-182">Những
-																chỉ đạo “nóng” trong phòng, chống dịch COVID-19 trong
-																tuần qua</a>
-															<br>
-															<small class="text-muted">Thứ bảy, 22/05/2021, 11:38</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Trong tuần qua (từ ngày 17-21/5/2021), Chính phủ, Thủ
-																	tướng Chính phủ đã có một loạt các chỉ đạo “nóng” về
-																	phòng, chống dịch COVID-19.</p>
-															</div>
-														</div>
-														<div
-															class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Trong tuần qua (từ ngày 17-21/5/2021), Chính phủ, Thủ
-																tướng Chính phủ đã có một loạt các chỉ đạo “nóng” về
-																phòng, chống dịch COVID-19.</p>
-														</div>
-													</div>
-													<div class="row mb-1">
-														<div class="col-xs-5">
-															<img src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/DDN_6301.jpg"
-																class="lazy img-responsive"
-																data-src="https://media.suckhoedoisong.vn/Images/thaibinh/2021/05/21/DDN_6301.jpg"
-																alt="">
-														</div>
-														<div class="col-xs-7">
-															<a class="text-tletin"
-																href="https://ncov.moh.gov.vn/web/guest/-/6847912-180">Dịch
-																COVID-19: Nhanh chóng đưa các doanh nghiệp bảo đảm an
-																toàn dịch tễ sớm trở lại hoạt động</a>
-															<br>
-															<small class="text-muted">Thứ bảy, 22/05/2021, 01:21</small>
-															<div class="text-muted mt-15 d-none d-lg-block">
-																<p>Chiều 21/5, tại cuộc họp Ban Chỉ đạo quốc gia phòng,
-																	chống dịch COVID-19, Phó Thủ tướng Vũ Đức Đam,
-																	Trưởng Ban Chỉ đạo nhấn mạnh, cùng với việc theo dõi
-																	chặt chẽ các ổ dịch, quản lý chặt công nhân làm
-																	trong khu công nghiệp, 2 tỉnh Bắc Ninh, Bắc Giang
-																	cần nhanh chóng đưa các doanh nghiệp đủ điều kiện
-																	bảo đảm an toàn vệ sinh dịch tễ sớm trở lại hoạt
-																	động, nhất là những doanh nghiệp có chuỗi cung ứng
-																	lớn.</p>
-															</div>
-														</div>
-														<div
-															class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-															<p>Chiều 21/5, tại cuộc họp Ban Chỉ đạo quốc gia phòng,
-																chống dịch COVID-19, Phó Thủ tướng Vũ Đức Đam, Trưởng
-																Ban Chỉ đạo nhấn mạnh, cùng với việc theo dõi chặt chẽ
-																các ổ dịch, quản lý chặt công nhân làm trong khu công
-																nghiệp, 2 tỉnh Bắc Ninh, Bắc Giang cần nhanh chóng đưa
-																các doanh nghiệp đủ điều kiện bảo đảm an toàn vệ sinh
-																dịch tễ sớm trở lại hoạt động, nhất là những doanh
-																nghiệp có chuỗi cung ứng lớn.</p>
-														</div>
-													</div>
+														<?php endif ?>
+													<?php endforeach; ?>
+													
 												</div>
 												<div class="clearfix lfr-pagination">
 													<ul class="lfr-pagination-buttons pager">

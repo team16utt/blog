@@ -10,6 +10,6 @@ class TimelineModel extends Model
 
     public function getAllTimeLine()
     {
-        return $this->findAll();
+        return $this->orderby('time','desc')->findAll();
     }
 }
