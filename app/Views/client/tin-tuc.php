@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="en-US">
+
 <head>
 	<title>TIN TỨC - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
@@ -95,8 +96,7 @@
 		Liferay.Data.isCustomizationView = function() {
 			return false;
 		};
-		Liferay.Data.notices = [
-		];
+		Liferay.Data.notices = [];
 		Liferay.PortletKeys = {
 			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
 			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
@@ -454,6 +454,7 @@
 		// ]]>
 	</script>
 </head>
+
 <body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site">
 	<nav class="quick-access-nav" id="rsbp_quickAccessNav">
 		<h1 class="hide-accessible">Navigation</h1>
@@ -495,9 +496,9 @@
 			<div class="container bg-td">
 				<div class="row">
 					<div class="col-9 mr-auto">
-						<a class="logo float-left" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
-						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
-						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
+						<a class="logo float-left" href="<?= base_url() ?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
+						<h3 class="slogan2 mt-3">Group Thiện và 4 con vợ (Nhận chạy bài nước rút giá thỏa thuận)</h3>
+						<h5 class="slogan1">BLOG NCOV</h5>
 					</div>
 					<div class="col-auto">
 						<a class="btn btn-danger mt-3" href="tel:19009095">Đường dây nóng <br>19009095</a>
@@ -508,10 +509,10 @@
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-yte pt-0 pb-0 mb-3">
 			<div class="container">
 				<div class="d-none d-block d-lg-none">
-					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
+					<a class="navbar-brand float-left mr-2" href="<?= base_url() ?>"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
-						<h4>Bộ Y tế</h4>
-						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
+						<h4>Group Thiện và 4 con vợ</h4>
+						<h2 class="text-nowrap">BLOG NCOV</h2>
 					</div>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
@@ -585,38 +586,38 @@
 										</div>
 										<div class=" portlet-content-container">
 											<div class="portlet-body">
-											<?php ?>
-													<div>
-														<img style="width:100%" src="<?= $newPost[0]['image']?>" alt="">
-														<a href="<?= base_url()?>/Postdetail?id=<?= $newPost[0]['id']?>">
-															<h2 class="mt-3"><?= $newPost[0]['title']?></h2>
-														</a>
-														<small class="text-muted"><?= $newPost[0]['time']?></small>
-														<p>
-														<p><?= $newPost[0]['heading']?></p>
-														</p>
-													</div>
 												<?php ?>
 												<div>
-													<?php foreach($newPost as $key => $item): ?>
-														<?php if ($key > 0): ?>
+													<img style="width:100%" src="<?= $newPost[0]['image'] ?>" alt="">
+													<a href="<?= base_url() ?>/Postdetail?id=<?= $newPost[0]['id'] ?>">
+														<h2 class="mt-3"><?= $newPost[0]['title'] ?></h2>
+													</a>
+													<small class="text-muted"><?= $newPost[0]['time'] ?></small>
+													<p>
+													<p><?= $newPost[0]['heading'] ?></p>
+													</p>
+												</div>
+												<?php ?>
+												<div>
+													<?php foreach ($newPost as $key => $item) : ?>
+														<?php if ($key > 0) : ?>
 															<div class="row mb-1">
 																<!-- <div class="col-xs-5">
 										<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-responsive" data-src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/5/24/190670198101584173180437893567754510321726096n-16218656442638515390.jpg" alt="">
 									</div> -->
 																<div class="col-xs-5">
-																	<img style="width:100%; float:left;" src="<?= $item['image']?>" alt="">
+																	<img style="width:100%; float:left;" src="<?= $item['image'] ?>" alt="">
 																</div>
 																<div class="col-xs-7">
-																	<a class="text-tletin" href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title']?></a>
+																	<a class="text-tletin" href="<?= base_url() ?>/Postdetail?id=<?= $item['id'] ?>"><?= $item['title'] ?></a>
 																	<br>
-																	<small class="text-muted"><?= $item['time']?></small>
+																	<small class="text-muted"><?= $item['time'] ?></small>
 																	<div class="text-muted mt-15 d-none d-lg-block">
-																		<p><?= $item['heading']?></p>
+																		<p><?= $item['heading'] ?></p>
 																	</div>
 																</div>
 																<div class="col-xs-12 text-muted mt-1 mb-1 d-none d-block d-lg-none">
-																	<p><?= $item['heading']?></p>
+																	<p><?= $item['heading'] ?></p>
 																</div>
 															</div>
 														<?php endif ?>
@@ -693,32 +694,32 @@
 		</section>
 		<footer class="bg-ft">
 			<div class="container text-f pad-30">
-				<h4>TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h4>
-				<p>
-					Phó Trưởng ban biên tập thường trực TS.BS. Hà Anh Đức, Chánh Văn phòng Bộ Y tế<br>
-					Số 138A Giảng Võ - Ba Đình - Hà Nội<br>
-					ĐT: 0246.273.2.273 |Fax:0243.8464.051<br>
-					Email: banbientap@moh.gov.vn
-				</p>
-				<div class="row">
-					<div class="col-lg-8 offset-lg-2">
-						<div class="row">
-							<div class="col-lg-4">
-								<a class="logo-dv mb-0" href="https://itrithucviet.vn/"><img class="img-fluid" src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo.jpg" alt=""></a>
-							</div>
-							<div class="col-lg-8">
-								<p class="text-center mb-07"><small class="text-muted">Hỗ trợ bởi Đề án tri thức Việt số hóa </small>
-								</p>
-								<div class="row">
-									<div class="col-sm-4"><a class="logo-dv" href="http://dtt.vn/"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/Logo DTT.png" height="30" alt=""></a></div>
-									<div class="col-sm-4"><a class="logo-dv" href="http://www.vnpost.vn/"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/vnpost.png" height="30" alt=""></a></div>
-									<div class="col-sm-4"><a class="" href="https://www.microsoft.com/vi-vn/"><img class="img-fluid" src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/Microsoft-logo_rgb_c-wht.png" alt=""></a></div>
-								</div>
+				<!-- <h4>TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h4>
+			<p>
+				Phó Trưởng ban biên tập thường trực TS.BS. Hà Anh Đức, Chánh Văn phòng Bộ Y tế<br>
+				Số 138A Giảng Võ - Ba Đình - Hà Nội<br>
+				ĐT: 0246.273.2.273 |Fax:0243.8464.051<br>
+				Email: banbientap@moh.gov.vn
+			</p> -->
+				<!-- <div class="row">
+				<div class="col-lg-8 offset-lg-2"> -->
+				<!-- <div class="row">
+						<div class="col-lg-4">
+							<a class="logo-dv mb-0" href="https://itrithucviet.vn/"><img class="img-fluid" src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo.jpg" alt=""></a>
+						</div>
+						<div class="col-lg-8">
+							<p class="text-center mb-07"><small class="text-muted">Hỗ trợ bởi Đề án tri thức Việt số hóa </small>
+							</p> -->
+				<!-- <div class="row">
+								<div class="col-sm-4"><a class="logo-dv" href="http://dtt.vn/"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/Logo DTT.png" height="30" alt=""></a></div>
+								<div class="col-sm-4"><a class="logo-dv" href="http://www.vnpost.vn/"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/vnpost.png" height="30" alt=""></a></div>
+								<div class="col-sm-4"><a class="" href="https://www.microsoft.com/vi-vn/"><img class="img-fluid" src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/Microsoft-logo_rgb_c-wht.png" alt=""></a></div>
 							</div>
 						</div>
-						<p class="text-center"><small>Website được vận hành bởi Group Thiện và 4 con vợ</small></p>
-					</div>
-				</div>
+					</div> -->
+				<p class="text-center"><small>Website được vận hành bởi Group Thiện và 4 con vợ</small></p>
+				<!-- </div>
+			</div> -->
 			</div>
 		</footer>
 		<!-- body code goes here -->
@@ -740,6 +741,7 @@
 					});
 					$('.scroll-top-wrapper').on('click', scrollToTop);
 				});
+
 				function scrollToTop() {
 					verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
 					element = $('body');
@@ -799,6 +801,7 @@
 			var $ = AUI.$;
 			var _ = AUI._;
 			var pathnameRegexp = /\/documents\/(\d+)\/(\d+)\/(.+?)\/([^&]+)/;
+
 			function handleDownloadClick(event) {
 				if (event.target.nodeName.toLowerCase() === 'a' && window.Analytics) {
 					var anchor = event.target;
@@ -1067,4 +1070,5 @@
 		// ]]>
 	</script>
 </body>
+
 </html>
