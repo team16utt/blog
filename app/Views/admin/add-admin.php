@@ -44,7 +44,7 @@
 					<a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="index.html" class="nav-link">Home</a>
+					<a href="<?= base_url() ?>/admin/home" class="nav-link">Home</a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
 					<a href="https://www.facebook.com/l0seriam" class="nav-link">Contact</a>
@@ -125,13 +125,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-news.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Admin/News" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All News</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-news.html" class="nav-link">
+									<a href=".<?= base_url() ?>/admin/Admin/News/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add News</p>
 									</a>
@@ -150,13 +150,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./alll-video.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Videos" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Video</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-video.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Videos/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Video</p>
 									</a>
@@ -175,13 +175,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-timeline.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Timelines" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Timeline</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-timelines.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Timelines/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Timeline</p>
 									</a>
@@ -200,13 +200,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-advice.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Advice" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Advice</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-advice.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Advice/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Advice</p>
 									</a>
@@ -224,13 +224,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-recomemed.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Recommend" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Recommend</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-recomemed.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Recommend/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Recommend</p>
 									</a>
@@ -255,7 +255,7 @@
 						</div>
 						<div class="col-sm-6">
 							<ol class="breadcrumb float-sm-right">
-								<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+								<li class="breadcrumb-item"><a href="<?= base_url() ?>/admin/Home">Home</a></li>
 								<li class="breadcrumb-item active">Add Admin</li>
 							</ol>
 						</div>
