@@ -30,4 +30,9 @@ class NewModel extends Model
     {
         return $this->where('category_id',5)->orderby('time','desc')->findAll();
     }
+
+    public function getById(int $id)
+    {
+        return $this->find($id);
+    }
 }

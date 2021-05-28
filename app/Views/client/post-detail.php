@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html class="ltr" dir="ltr" lang="en-US">
 <head>
-	<title>Những chỉ đạo “nóng” trong phòng, chống dịch COVID-19 trong tuần qua - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</title>
+	<?php ?>
+	<title><?= $post_result['title']?> BLOG NCOV Developed By Group Thiện và 4 con vợ</title>
+	<?php ?>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-	<meta content="Trong tuần qua (từ ngày 17-21/5/2021), Chính phủ, Thủ tướng Chính phủ đã có một loạt các chỉ đạo “nóng” về phòng, chống dịch COVID-19." lang="vi-VN" name="description" />
+	<meta content="<?= $post_result['heading']?>" lang="vi-VN" name="description" />
 	<meta content="general,thông tin chỉ đạo" lang="vi-VN" name="keywords" />
 	<link data-senna-track="temporary" href="https://moh.gov.vn/-/6847912-182" rel="canonical" />
 	<link data-senna-track="temporary" href="https://moh.gov.vn/-/6847912-182" hreflang="vi-VN" rel="alternate" />
@@ -13,10 +15,11 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:locale:alternate" content="en_US">
 	<meta property="og:locale:alternate" content="vi_VN">
-	<meta property="og:site_name" content="Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
-	<meta property="og:title" content="Những chỉ đạo “nóng” trong phòng, chống dịch COVID-19 trong tuần qua - Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19">
+	<meta property="og:site_name" content="BLOG NCOV Developed By Group Thiện và 4 con vợ">
+	<meta property="og:title" content="<?= $post_result['title']?> BLOG NCOV Developed By Group Thiện và 4 con vợ">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://moh.gov.vn/-/6847912-182">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 	<link href="https://ncov.moh.gov.vn/o/corona-theme-guest/images/favicon.ico" rel="icon" />
 	<link class="lfr-css-file" data-senna-track="temporary" href="https://ncov.moh.gov.vn/o/corona-theme-guest/css/clay.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=en_US&amp;b=7303&amp;t=1600466546000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
 	<link data-senna-track="temporary" href="/o/frontend-css-web/main.css?browserId=other&amp;themeId=coronathemeguest_WAR_coronathemeguest&amp;minifierType=css&amp;languageId=en_US&amp;b=7303&amp;t=1600491698023" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
@@ -485,7 +488,7 @@
 								<a href="https://ncov.moh.gov.vn">
 									<span class="company-details text-truncate">
 										<img alt="" class="company-logo" src="/image/company_logo?img_id=0&t=1620621651539" />
-										<span class="company-name">Bộ Y tế - Trang tin về dịch bệnh viêm đường hô hấp cấp COVID-19</span>
+										<span class="company-name">BLOG NCOV Developed By Group Thiện và 4 con vợ</span>
 									</span>
 								</a>
 							</div>
@@ -508,8 +511,8 @@
 				<div class="row">
 					<div class="col-9 mr-auto">
 						<a class="logo float-left" href="<?= base_url()?>/Home"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_byt.png" height="78" alt=""></a>
-						<h3 class="slogan2 mt-3">Bộ Y tế</h3>
-						<h5 class="slogan1">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h5>
+						<h3 class="slogan2 mt-3">Group Thiện và 4 con vợ</h3>
+						<h5 class="slogan1">BLOG NCOV</h5>
 					</div>
 					<div class="col-auto">
 						<a class="btn btn-danger mt-3" href="tel:19009095">Đường dây nóng <br>19009095</a>
@@ -522,8 +525,8 @@
 				<div class="d-none d-block d-lg-none">
 					<a class="navbar-brand float-left mr-2" href="<?= base_url()?>/Home"><img src="https://ncov.moh.gov.vn/o/corona-theme-guest/images/logo_mobile.png" alt="" width="30"></a>
 					<div class="slogan-mobile">
-						<h4>Bộ Y tế</h4>
-						<h2 class="text-nowrap">TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h2>
+						<h4>Group Thiện và 4 con vợ</h4>
+						<h2 class="text-nowrap">BLOG NCOV</h2>
 					</div>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
@@ -580,7 +583,7 @@
 			});
 		</script>
 		<section id="content">
-			<h2 class="hide-accessible" role="heading" aria-level="1">Những chỉ đạo “nóng” trong phòng, chống dịch COVID-19 trong tuần qua</h2>
+			<h2 class="hide-accessible" role="heading" aria-level="1"><?= $post_result['title']?></h2>
 			<div class="container" id="8_2_contain" role="main">
 				<div class="portlet-layout row">
 					<div class="col-md-9 portlet-column portlet-column-first" id="column-1">
@@ -608,51 +611,25 @@
 																	<span class="taglib-text hide-accessible">null</span>
 																</a>
 															</span>
-															<span class="asset-title d-inline">
-																Những chỉ đạo “nóng” trong phòng, chống dịch COVID-19 trong tuần qua
-															</span>
+															<span class="asset-title d-inline"><?= $post_result['title']?></span>
 															<span class="d-inline-flex">
 															</span>
 														</h4>
 													</div>
 													<span class="asset-anchor lfr-asset-anchor" id="7332452"></span>
 													<div class="asset-content mb-3">
-														<div class="journal-content-article " data-analytics-asset-id="7332445" data-analytics-asset-title="Những chỉ đạo “nóng” trong phòng, chống dịch COVID-19 trong tuần qua" data-analytics-asset-type="web-content">
+														<div class="journal-content-article " data-analytics-asset-id="7332445" data-analytics-asset-title="<?= $post_result['title']?>" data-analytics-asset-type="web-content">
 															<div>
 																<section>
-																	<span class="text-ngayxam-page">(Thứ bảy, 22/05/2021 11:38)</span>
+																	<span class="text-ngayxam-page"><?= $post_result['time']?></span>
 																	<p class="text-justify"><strong class="text-muted">
-																			<p>Trong tuần qua (từ ngày 17-21/5/2021), Chính phủ, Thủ tướng Chính phủ đã có một loạt các chỉ đạo “nóng” về phòng, chống dịch COVID-19.</p>
+																			<p><?= $post_result['heading']?></p>
 																		</strong></p>
 																	<p>&nbsp;</p>
-																	<p><img src="http://baochinhphu.vn/Uploaded/tranthithom/2021_05_21/anh%20tuan.jpg" style="display: block; margin-left: auto; margin-right: auto; height: auto; width: 605.972px;" /></p>
-																	<p><span style="font-size: 1rem;">Văn phòng Chính phủ đã ban hành Thông báo&nbsp;</span><a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203246" style="background-color: rgb(240, 245, 255); font-size: 1rem;">113/TB-VPCP</a><span style="font-size: 1rem;">&nbsp;kết luận của Thủ tướng Chính phủ Phạm Minh Chính tại cuộc làm việc với Bộ Y tế về công tác phòng, chống dịch COVID-19; những vấn đề trọng tâm, nội dung cấp bách cần giải quyết và kiến nghị, đề xuất.</span><strong>Tăng cường kiểm tra, đôn đốc, chấn chỉnh công tác phòng, chống dịch; kiên quyết thực hiện hiệu quả chiến lược vaccine</strong></p>
-																	<p>Tại văn bản này, Thủ tướng Chính phủ yêu cầu Bộ Y tế tập trung chỉ đạo, thực hiện có hiệu quả 7 giải pháp trọng tâm. Trong đó, Bộ cần tập trung tăng cường công tác kiểm tra, đôn đốc, chấn chỉnh việc thực hiện công tác phòng, chống dịch, bảo đảm yêu cầu phòng dịch từ xa, từ sớm, từ khi chưa có dịch và kịp thời; nhanh chóng khắc phục ngay các bất cập, hạn chế, yếu kém, các “lỗ hổng” trong quy định và tổ chức thực hiện phòng, chống dịch, nhất là tại các bệnh viện, các khu công nghiệp và nơi tập trung đông người; chủ động chuẩn bị, bảo đảm sẵn sàng các loại vật tư, trang thiết bị, hóa chất, sinh phẩm và các điều kiện vật chất khác cho mọi tình huống dịch bệnh có thể xảy ra, nhất là tại các địa phương, địa bàn, cơ sở có nguy cơ cao…</p>
-																	<p><strong>Thần tốc hơn nữa, quyết liệt hơn nữa, hiệu quả hơn nữa trong phòng chống dịch</strong></p>
-																	<p>Để kiểm soát có hiệu quả dịch bệnh, Thủ tướng yêu cầu tiếp tục thực hiện tốt mục tiêu kép cần có sự vào cuộc mạnh mẽ, khẩn trương hơn nữa của các cấp, các ngành, các cơ quan, đơn vị, cả hệ thống chính trị, đặc biệt là sự tham gia tích cực, hiệu quả của toàn dân với tư tưởng chỉ đạo là thần tốc hơn nữa, quyết liệt hơn nữa, hiệu quả hơn nữa trong thực hiện chỉ đạo của Thường trực Ban Bí thư Trung ương Đảng, các lưu ý của Chủ tịch nước và các biện pháp phòng, chống dịch của Chính phủ, Thủ tướng Chính phủ và của Ban chỉ đạo quốc gia.</p>
-																	<p>Hết sức tránh đồng thời cả 2 khuynh hướng: (1) Lơ là, chủ quan, mất cảnh giác (nhất là khi không có dịch); (2) Hốt hoảng, hoang mang, lo lắng, mất bình tĩnh, thiếu bản lĩnh khi ứng phó dịch bệnh.</p>
-																	<p><strong>Sẵn sàng ứng phó các tình huống phòng chống dịch COVID-19 phục vụ cuộc bầu cử</strong></p>
-																	<p>Tại Công điện&nbsp;<a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203241">633/CĐ-TTg</a>, Thủ tướng Chính phủ yêu cầu Bộ Y tế thường xuyên cập nhật, đánh giá, dự báo tình hình dịch COVID-19; bổ sung các phương án, giải pháp phù hợp sẵn sàng kịp thời ứng phó các tình huống trong phòng chống dịch COVID-19 phục vụ cuộc bầu cử đại biểu Quốc hội khóa XV và đại biểu Hội đồng nhân dân các cấp nhiệm kỳ 2021-2026, bảo đảm an toàn, hiệu quả; hướng dẫn giải đáp kịp thời các vướng mắc của địa phương; thành lập Tổ công tác thường trực từ ngày 18/5 đến khi kết thúc bầu cử để tiếp nhận, phản hồi thông tin liên quan đến công tác y tế; phối hợp với Bộ Nội vụ và các bộ, cơ quan liên quan tăng cường kiểm tra, hướng dẫn việc thực hiện tốt công tác phòng, chống dịch COVID-19 tại các địa phương.</p>
-																	<p>Ủy ban nhân dân các cấp có phương án, kịch bản chi tiết, cụ thể cho ngày bầu cử trong bối cảnh dịch COVID-19 diễn biến phức tạp, nhất là đối với các đơn vị bầu cử, khu vực bỏ phiếu thực hiện cách ly y tế do dịch bệnh phát sinh.</p>
-																	<p><strong>Mua vaccine phòng COVID-19 là trường hợp cấp bách, phải thực hiện ngay</strong></p>
-																	<p>Tại&nbsp;<a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203242">Thông báo</a>&nbsp;kết luận cuộc họp Thường trực Chính phủ ngày 17/5 về việc mua vaccine phòng COVID-19, Thủ tướng Chính phủ Phạm Minh Chính kết luận: Việc mua vaccine phòng COVID-19 là cần thiết, cấp bách theo đúng kết luận của Bộ Chính trị, Ban Bí thư tại Công văn số 50-CV/TW ngày 19/2/2021 và của Chính phủ tại Nghị quyết số 21/NQ-CP ngày 26/2/2021.</p>
-																	<p>Bộ Y tế chịu trách nhiệm về lựa chọn loại vaccine phòng chống COVID-19.</p>
-																	<p>Bộ Y tế và các bộ, ngành nêu cao tinh thần trách nhiệm vì sức khỏe nhân dân, sức khỏe cộng đồng, lợi ích của quốc gia, dân tộc, cùng cộng đồng trách nhiệm, thống nhất thực hiện các giải pháp để có vaccine sớm nhất. Đây là tình huống cấp bách, vì thế việc mua vaccine phải được xử lý theo quy định của pháp luật về các trường hợp đặc biệt, cấp bách và phải được thực hiện ngay.</p>
-																	<p><strong>Chính phủ ban hành Nghị quyết về mua vaccine COVID-19</strong></p>
-																	<p>Ngày 18/5/2021, Chính phủ đã ban hành Nghị quyết về việc mua vaccine phòng COVID-19.</p>
-																	<p>Tại Nghị quyết này, Chính phủ giao Bộ Y tế khẩn trương tổ chức thực hiện mua vaccine một cách nhanh nhất để có thể triển khai tiêm vaccine trên diện rộng cho nhân dân.</p>
-																	<p><strong>Sử dụng kinh phí ủng hộ để mua vaccine phòng ngừa COVID-19</strong></p>
-																	<p>Phó Thủ tướng Chính phủ Lê Minh Khái&nbsp;<a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203261">đồng ý&nbsp;</a>với phương án sử dụng nguồn kinh phí do Mặt trận Tổ quốc Việt Nam tiếp nhận ủng hộ cho phòng, chống dịch COVID-19 để mua vaccine phòng ngừa COVID-19.</p>
-																	<p><strong>Phải luôn 'trực chiến' chống dịch COVID-19</strong></p>
-																	<p>Tại Thông báo số&nbsp;<a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203235">110/TB-VPCP</a>, Phó Thủ tướng Vũ Đức Đam, Trưởng Ban Chỉ đạo quốc gia phòng, chống dịch COVID-19 yêu cầu cả hệ thống, đặc biệt là cơ quan chức năng ở địa phương phải luôn trong tình trạng “trực chiến”. Khi phát hiện ca chỉ điểm là ra quân nhanh nhất, khoanh vùng, cách ly ngay lập tức, tổ chức lấy mẫu, xét nghiệm nhanh nhất có thể.</p>
-																	<p><strong>Xây dựng sổ tay phòng, chống dịch tại các KCN</strong></p>
-																	<p>Phó Thủ tướng Vũ Đức Đam&nbsp;<a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203253">yêu cầu</a>&nbsp;phải tổ chức thực hiện, quản lý, giám sát tốt ở các khu cách ly tập trung,&nbsp;kết hợp tăng tốc xét nghiệm, tuyệt đối không để lây chéo; rút kinh nghiệm, xây dựng sổ tay phòng, chống dịch tại các khu công nghiệp (KCN).&nbsp;</p>
-																	<p><strong>Bắc Giang, Bắc Ninh cần nâng cao năng lực xét nghiệm COVID-19</strong></p>
-																	<p>Phó Thủ tướng Vũ Đức Đam&nbsp;<a href="http://vanban.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=2&amp;_page=1&amp;mode=detail&amp;document_id=203254">yêu cầu</a>&nbsp;Bộ Y tế, 02 tỉnh Bắc Giang, Bắc Ninh chỉ đạo khẩn trương các giải pháp cụ thể để nâng cao năng lực xét nghiệm, đặc biệt là nâng số mẫu gộp và ứng dụng công nghệ thông tin trong quản lý danh sách người được xét nghiệm; kết hợp các loại xét nghiệm phục vụ việc sàng lọc nhanh, tiết kiệm, hiệu quả.</p>
-																	<p><strong>Khẩn trương ban hành hướng dẫn xét nghiệm để sàng lọc, khoanh vùng nhanh gọn nhất</strong></p>
-																	<p>Phó Thủ tướng Vũ Đức Đam&nbsp;<a href="https://baochinhphu.vn/Uploaded/hoangtrongdien/2021_05_20/117_TB-VPCP_20052021_3-signed.pdf">yêu cầu</a>&nbsp;Bộ Y tế khẩn trương ban hành hướng dẫn xét nghiệm trên cơ sở sử dụng hiệu quả nhất trang thiết bị, các công nghệ, loại sinh phẩm hiện có phục vụ mục tiêu sàng lọc, khoanh vùng nhanh gọn nhất trong cộng đồng; mục tiêu bảo đảm an toàn các cơ sở khám chữa bệnh; mục tiêu phân loại trong các khu cách ly…</p>
-																	<p><strong>Vũ Phương Nhi</strong></p>
-																	<p><strong>Nguồn:&nbsp;<a href="http://baochinhphu.vn/Chi-dao-quyet-dinh-cua-Chinh-phu-Thu-tuong-Chinh-phu/Nhung-chi-dao-nong-trong-phong-chong-dich-COVID19-trong-tuan-qua/432036.vgp">http://baochinhphu.vn/Chi-dao-quyet-dinh-cua-Chinh-phu-Thu-tuong-Chinh-phu/Nhung-chi-dao-nong-trong-phong-chong-dich-COVID19-trong-tuan-qua/432036.vgp</a></strong></p>
+																	<p><img src="<?= $post_result['image']?>" style="display: block; margin-left: auto; margin-right: auto; height: auto; width: 605.972px;" /></p>
+																	<p><span style="font-size: 1rem;"><?= $post_result['content']?></span>
+																	<p><strong><?= $post_result['author']?></strong></p>
+																	<p><strong>Nguồn:&nbsp;<a href="<?= $post_result['source']?>"><?= $post_result['source']?></a></strong></p>
 																</section>
 																<hr>
 															</div>
@@ -667,6 +644,39 @@
 						</div>
 					</div>
 					<div class="col-md-3 portlet-column portlet-column-last" id="column-2">
+						<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2">
+							<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_demai3t2MENP_">
+								<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_demai3t2MENP"></span>
+								<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_demai3t2MENP">
+									<div class="portlet-content">
+										<div class="autofit-float autofit-row portlet-header">
+											<div class="autofit-col autofit-col-end">
+												<div class="autofit-section">
+													<div class="visible-interaction">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class=" portlet-content-container">
+											<div class="portlet-body">
+												<div class="" data-fragments-editor-item-id="20109-6848020" data-fragments-editor-item-type="fragments-editor-mapped-item">
+													<div class="journal-content-article " data-analytics-asset-id="6848018" data-analytics-asset-title="Đường dây nóng" data-analytics-asset-type="web-content">
+														<div class="box-ddn"><span class="text-vang">Đường dây nóng</span><br />
+															<a class="hotline1" href="tel:19009095">19009095</a><br />
+														</div>
+														<div>
+															<a href="https://ncov.moh.gov.vn/documents/20182/6848000/Duongdaynong/69d6a130-defa-4cbc-92f7-67d50937d68f?t=1581123135834"><img alt="" src="https://ncov.moh.gov.vn/documents/20182/6848000/dnnong.jpg/4cf1fea6-7856-4fe0-bbef-50a7c2dc0ba8?t=1581317123857" width="100%" /></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-md-3 portlet-column portlet-column-last" id="column-2">
 						<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2">
 							<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_  portlet-static portlet-static-end decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1_">
 								<span id="p_com_liferay_asset_publisher_web_portlet_MostViewedAssetsPortlet_INSTANCE_IKtSB4PH8ec1"></span>
@@ -720,7 +730,7 @@
 								</section>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><input hidden type="submit" /></form>
@@ -755,38 +765,7 @@
 				</div>
 			</div>
 		</footer>
-		<div class="bt-cn">
-			<div class="material-button-anim">
-				<ul class="list-inline" id="options">
-					<li class="option">
-						<button class="material-button option1 bg-danger1" type="button">
-							<a class="text-trang" href="tel:19009095"><span class="fa fa-phone" aria-hidden="true"></span></a>
-						</button>
-					</li>
-					<li class="option">
-						<button class="material-button option2 bg-success1" type="button">
-							<i class="fas fa-map-marked-alt"></i>
-						</button>
-					</li>
-					<li class="option">
-						<button class="material-button option3" type="button">
-							<i class="fas fa-question"></i>
-						</button>
-					</li>
-				</ul>
-				<button class="material-button material-button-toggle" type="button">
-					<span class="fa fa-plus" aria-hidden="true"></span>
-				</button>
-			</div>
-		</div>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('.material-button-toggle').on("click", function() {
-					$(this).toggleClass('open');
-					$('.option').toggleClass('scale-on');
-				});
-			});
-		</script>
+		
 		<!-- body code goes here -->
 		<!-- The scroll to top feature -->
 		<div class="scroll-top-wrapper ">

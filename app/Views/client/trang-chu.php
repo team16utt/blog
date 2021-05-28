@@ -638,7 +638,7 @@
 																<div class="portlet-body">
 																	<?php ?>
 																		<img class="lazy img-fluid mb-3" src="<?= $AllCDDH[0]['image']?>" data-src="<?= $AllCDDH[0]['image']?>" alt="">
-																		<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-184">
+																		<a href="<?= base_url()?>/Postdetail?id=<?= $AllCDDH[0]['id']?>">
 																			<h4><?= $AllCDDH[0]['title']?></h4>
 																		</a>
 																		<p class="text-muted mt-15">
@@ -650,7 +650,7 @@
 																			<?php foreach($AllCDDH as $key => $item):?>
 																				<?php if ($key > 0): ?>
 																					<div class="col-lg-6 col-md-6 col-6">
-																						<a class="position-relative thum-po" href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-183" style="background-image: url('<?= $item['image']?>')">
+																						<a class="position-relative thum-po" href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>" style="background-image: url('<?= $item['image']?>')">
 																							<div class="bg-tle position-absolute"><?= $item['title']?></div>
 																						</a>
 																					</div>
@@ -663,23 +663,6 @@
 																			</div> -->
 																		</div>
 																	</div>
-																	<!-- <div class="d-none d-block d-lg-none">
-																		<hr>
-																		<div class="media mb-4"> <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy d-flex mr-3" data-src="https://media.suckhoedoisong.vn/Images/toanthang/2021/05/24/ptt.jpg" alt="placeholder image" width="150">
-																			<div class="media-body">
-																				<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-183">
-																					<h5 class="mt-0 text-black">Dịch COVID-19: Thực hiện khai báo y tế tất cả công nhân ở các nhà máy, khu công nghiệp</h5>
-																				</a>
-																			</div>
-																		</div>
-																		<div class="media mb-4"> <img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy d-flex mr-3" data-src="http://baochinhphu.vn/Uploaded/truonggiangthanh/2021_05_22/TTg%20thi%20sat%20khu%20cach%20ly%202.jpg" alt="placeholder image" width="150">
-																			<div class="media-body">
-																				<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847912-181">
-																					<h5 class="mt-0 text-black">Nhân dân phải vào cuộc để kiểm soát người cách ly được về địa phương, ngăn chặn và đẩy lùi đại dịch</h5>
-																				</a>
-																			</div>
-																		</div>
-																	</div> -->
 																	<p class="text-center mt-3"><a class="text-xemthem" href="<?= base_url()?>/Chidaodieuhanh">Xem thêm</a></p>
 																</div>
 														</div>
@@ -1345,7 +1328,7 @@
 																</a>
 																<?php ?>
 																	<img src="/o/corona-theme-guest/images/logo_byt.png" class="lazy img-fluid mb-3" data-src="<?= $AllNews[0]['image'] ?>" alt="">
-																	<a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3899">
+																	<a href="<?= base_url()?>/Postdetail?id=<?= $AllNews[0]['id']?>">
 																		<h3><?= $AllNews[0]['title'] ?></h3>
 																	</a>
 																	<small class="text-muted mb-25"><?= $AllNews[0]['time'] ?></small>
@@ -1357,7 +1340,7 @@
 																<ul class="ul-list">
 																	<?php foreach( $AllNews as $key => $item):?>
 																		<?php if($key > 0 && $key < 5): ?>
-																			<li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3898"><?= $item['title'] ?></a></li>
+																			<li><a href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title'] ?></a></li>
 																		<?php endif ?>
 																	<?php endforeach; ?>
 																	<!-- <li><a href="https://ncov.moh.gov.vn/en/web/guest/-/6847426-3897">Cụ bà 82 tuổi bị tai biến dương tính với COVID-19 sau 4 lần âm tính</a></li>
@@ -1405,7 +1388,7 @@
 																									<div class="timeline">
 																										<div class="user-timeline">
 																											<span>
-																												<img src="https://ncov.moh.gov.vn/documents/20182/0/johnny-depp.jpg" alt="">
+																												<img src="https://ncov.moh.gov.vn//documents/20182/0/johnny-depp.jpg" alt="">
 																											</span>
 																										</div>
 																										<div class="timeline-detail">
@@ -1439,9 +1422,7 @@
 																		</div>
 																	</div>
 																</div>
-																<p class="text-center" style="
-    margin-top: 15px;
-">
+																<p class="text-center" style="margin-top: 15px;">
 																	<a class="text-xemthem" href="<?= base_url()?>/Dongthoigian">Xem thêm</a>
 																</p>
 															</div>
@@ -1482,33 +1463,8 @@
 													<source src="<?= $item['video']?>" type="video/mp4" autostart="false">
 												</video>
 											</div>
-											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-2"><?= $item['title']?></a>
+											<a class="text-tletin" href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title']?></a>
 										</div>
-										<!-- <div class="col-lg-3">
-											<div class="embed-responsive embed-responsive-16by9 mb-1">
-												<video poster="../../../image/journal/article-1.png" controls preload="none">
-													<source src="https://ncov.moh.gov.vn/documents/20182/6863405/T%C6%AF%CC%A3+HA%CC%80O+NH%C6%AF%CC%83NG+CHI%C3%8A%CC%81N+SI%CC%83+A%CC%81O+TR%C4%82%CC%81NG.mp4/5a23911f-fb43-1768-ae9f-951ea9e9ea24?t=1614328901602" type="video/mp4" autostart="false">
-												</video>
-											</div>
-											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-1">TỰ HÀO NHỮNG CHIẾN SĨ ÁO TRẮNG</a>
-										</div>
-										<div class="col-lg-3">
-											<div class="embed-responsive embed-responsive-16by9 mb-1">
-												<video poster="../../../image/journal/covid_19.jpg" controls preload="none">
-													<source src="https://ncov.moh.gov.vn/documents/20182/6863405/Cam+on+bac+si.mp4/aa86c226-934e-baab-0397-2279030c9d61?t=1614323665110" type="video/mp4" autostart="false">
-												</video>
-											</div>
-											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045">Tranh vẽ "Tri ân những chiến sĩ áo trắng" nhân dịp kỷ niệm 66 năm Ngày Thầy thuốc Việt Nam (27/2/1955 – 27/2/2021)</a>
-										</div>
-										<div class="col-lg-3">
-											<div class="embed-responsive embed-responsive-16by9 mb-1">
-												<video poster="../../../image/journal/article-5.png" controls preload="none">
-													<source src="https://ncov.moh.gov.vn/documents/20182/6863405/atgt-toadamcovid1+%281%29.mp4/71f05689-f67c-a4d3-e9ab-302878d33109?t=1610604377890" type="video/mp4" autostart="false">
-												</video>
-											</div>
-											<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6848045-8">Toạ đàm “An toàn giao thông công cộng trong mùa dịch COVID-19”</a>
-										</div> -->
-
 									<?php endif ?>
 								<?php endforeach; ?>
 							</div>
@@ -1551,7 +1507,7 @@
 																<h4 class="tle1">Điều cần biết</h4>
 																	<?php foreach($AllDCB as $key => $item):?>
 																		<?php if($key >= 0 && $key < 5):?>
-																			<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851640-64"><?= $item['title']?></a> <br><small class="text-muted"><?= $item['time']?></small></p>
+																			<p><a class="text-tletin" href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title']?></a> <br><small class="text-muted"><?= $item['time']?></small></p>
 																			<hr>
 																		<?php endif ?>
 																	<?php endforeach; ?>
@@ -1582,7 +1538,7 @@
 																<h4 class="tle1">Khuyến cáo</h4>
 																	<?php foreach($AllRecommendation as $key => $item):?>
 																		<?php if($key >= 0 && $key < 5):?>
-																			<p><a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-36"><?= $item['title']?></a> <br><small class="text-muted"><?= $item['time']?></small></p>
+																			<p><a class="text-tletin" href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title']?></a> <br><small class="text-muted"><?= $item['time']?></small></p>
 																			<hr>
 																		<?php endif ?>
 																	<?php endforeach; ?>

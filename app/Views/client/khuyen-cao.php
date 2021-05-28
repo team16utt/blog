@@ -587,7 +587,7 @@
 												<div>
 													<?php ?>
 														<img style="width:100%; float:left;" src="<?= $recommandation[0]['image']?>" alt="">
-														<a href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-36">
+														<a href="<?= base_url()?>/Postdetail?id=<?= $recommandation[0]['id']?>">
 															<h2 class="mt-3"><?= $recommandation[0]['title']?></h2>
 														</a>
 														<small class="text-muted"><?= $recommandation[0]['time']?></small>
@@ -604,7 +604,7 @@
 																	<img style="width:100%; float:left;" src="<?= $item['image']?>" alt="">
 																</div>
 																<div class="col-xs-7">
-																	<a class="text-tletin" href="https://ncov.moh.gov.vn/en/web/guest/-/6851652-35"><?= $item['title']?></a>
+																	<a class="text-tletin" href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title']?></a>
 																	<br>
 																	<small class="text-muted"><?= $item['time']?></small>
 																	<div class="text-muted mt-15 d-none d-lg-block">

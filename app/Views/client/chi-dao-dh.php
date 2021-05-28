@@ -723,7 +723,7 @@
 															class="lazy img-responsive"
 															data-src="<?= $AllCDDH[0]['image']?>"
 															alt="">
-														<a href="https://ncov.moh.gov.vn/web/guest/-/6847912-184">
+														<a href="<?= base_url()?>/Postdetail?id=<?= $AllCDDH[0]['id']?>">
 															<h2 class="mt-3"><?= $AllCDDH[0]['title']?></h2>
 														</a>
 														<small class="text-muted"><?= $AllCDDH[0]['time']?></small>
@@ -744,7 +744,7 @@
 																</div>
 																<div class="col-xs-7">
 																	<a class="text-tletin"
-																		href="https://ncov.moh.gov.vn/web/guest/-/6847912-183"><?= $item['title']?></a>
+																		href="<?= base_url()?>/Postdetail?id=<?= $item['id']?>"><?= $item['title']?></a>
 																	<br>
 																	<small class="text-muted"><?= $item['time']?></small>
 																	<div class="text-muted mt-15 d-none d-lg-block">
