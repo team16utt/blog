@@ -35,4 +35,21 @@ class NewModel extends Model
     {
         return $this->find($id);
     }
+
+    
+    public function getAllNewsForAdmin()
+    {
+        return $this->where('category_id',1)->findAll();
+    }
+
+    public function getAllAdviceForAdmin()
+    {
+        return $this->where('category_id',2)->findAll();
+    }
+
+    public function getAllRecommendForAdmin()
+    {
+        return $this->where('category_id',3)->findAll();
+    }
+
 }

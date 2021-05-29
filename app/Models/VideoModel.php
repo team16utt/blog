@@ -12,5 +12,8 @@ class VideoModel extends Model
         return $this->orderBy('time','desc')->findAll();
     }
 
+    public function getAllVideoForAdmin() {
+        return $this->findAll();
+    }
 
 }

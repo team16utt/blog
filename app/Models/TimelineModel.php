@@ -12,4 +12,9 @@ class TimelineModel extends Model
     {
         return $this->orderby('time','desc')->findAll();
     }
+
+    public function getAllTimelineForAdmin()
+    {
+        return $this->findAll();
+    }
 }

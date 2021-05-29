@@ -279,8 +279,7 @@
             </div>
             <!-- /.card-header -->
             <div class="card-body">
-              <!-- <?= $this->extend('admin/_Layout') ?>
-              <?= $this->section('content_Admin') ?> -->
+              
               <div class="row">
                 <div class="col-12">
                   <div class="card">
@@ -288,80 +287,64 @@
                       <h5 class="card-title">News</h5>
                       <div class="table-responsive">
                         <table id="example23" class="table table-striped">
-                          <!-- <?php 
-                              session_start();
-                          ?> -->
+                           <?php 
+                             
+                          ?> 
                           <thead>
-                            <tr>
+                          <tr style="text-align: center;">
                               <th>No</th>
                               <th>Image</th>
                               <th>Tittle</th>
-                              <th>Time</th>
                               <th>Heading</th>
-                              <th>Content</th>
-                              <th></th>
+                              <th>Author</th>
+                              <th>Time</th>
+                              <th style="width:80px;">Action</th>
                             </tr>
                           </thead>
 
-                          <!-- <tbody>
-                            <?php foreach ($user as $row) :?>
+                          <tbody>
+                            <?php foreach ($News as $row) :?>
                             <tr class="obj-item">
                               <td>
                                 <?=$row['id']?>
                               </td>
                               <td>
-                                <?=$row['username']?>
+                                <img style="width:200px;height=200px;"src="<?=$row['image']?>" alt="">
                               </td>
                               <td>
-                                <?=$row['fullname']?>
+                                <?=$row['title']?>
                               </td>
                               <td>
-                                <?=$row['email']?>
+                                <?=$row['heading']?>
                               </td>
                               <td>
-                                <?=$row['birthday']?>
+                                <?=$row['author']?>
                               </td>
                               <td>
-                                <?=$row['phone_number']?>
+                                <?=$row['time']?>
                               </td>
+                             
                               <td>
-                                <?php if ($row['role_id']=='1'){echo 'Admin';} else {echo 'User';}?>
-                              </td>
-                              <td>
-                                <div class="obj-action">
-                                  <div class="ac">
-
-                                    <a href="<?php echo base_url().'/admin/profile?id='.$row['id']?>"
-                                      data-toggle="tooltip" data-placement="bottom" title="Detail"><i
-                                        class="fas fa-info-circle"></i></a>
-                                  </div>
-                                  <div class="ac">
-                                    <a href="<?php echo base_url().'/admin/admin/edit?id='.$row['id']?>"
-                                      data-toggle="tooltip" data-placement="bottom" title="Edit"><i
-                                        class="far fa-edit"></i> </a>
-                                  </div>
-                                  <div class="ac">
-                                    <a href="<?php echo base_url().'/admin/admin/delete?id='.$row['id']?>" data-toggle="tooltip" data-placement="bottom"
-                                                      title="Delete" onclick="return confirm('Are you sure?');"><i class="far fa-trash-alt"></i></a>
-                                    <a href="<?php echo base_url().'/admin/admin/delete?id='.$row['username']?>"
-                                      data-toggle="tooltip" data-placement="bottom"
-                                      onclick="return confirm('Are you sure?');" id="sa-confirm"
-                                      data-original-title="Delete"><i class="far fa-trash-alt"></i></a>
-                                  </div>
-
-                                </div>
+                              <div class="obj-action">
+																<div class="ac">
+																	<a href="#" data-toggle="tooltip" data-placement="bottom" title="Detail"><i class="fas fa-info-circle"></i></a>
+																	<a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="far fa-edit"></i> </a>
+																	<a href="#" data-toggle="tooltip" data-placement="bottom" onclick="return confirm('Are you sure?');" id="sa-confirm" data-original-title="Delete"><i class="far fa-trash-alt"></i></a>
+																</div>
+																
+															</div>
                               </td>
                             </tr>
                             <?php endforeach; ?>
 
-                          </tbody> -->
+                          </tbody>
                         </table>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- <?= $this->endSection() ?> -->
+              
 
   <!-- /.content-wrapper -->
   <footer class="main-footer" style="position: relative; bottom: 0" >

@@ -3,12 +3,15 @@
 namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
-
+use App\Models\NewModel;
 class News extends BaseController
 {
 	public function index()
 	{
-		return view('admin/all-news');
+		$getNews = new NewModel();
+		$News= $getNews->getAllNewsForAdmin();
+		$data['News'] = $News;
+		return view('admin/all-news',$data);
 	}
 
     public function add()

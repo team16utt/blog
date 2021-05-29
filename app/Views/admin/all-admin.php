@@ -31,10 +31,6 @@
 <body class="hold-transition sidebar-mini layout-fixed">
 	<div class="wrapper">
 
-		<!-- Preloader -->
-		<!-- <div class="preloader flex-column justify-content-center align-items-center">
-			<img class="animation__shake" src="<?= base_url() ?>/admin/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-		</div> -->
 
 		<!-- Navbar -->
 		<nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -282,8 +278,7 @@
 						</div>
 						<!-- /.card-header -->
 						<div class="card-body">
-							<!-- <?= $this->extend('admin/_Layout') ?>
-              				<?= $this->section('content_Admin') ?> -->
+							
 							<div class="row">
 								<div class="col-12">
 									<div class="card">
@@ -292,7 +287,7 @@
 											<div class="table-responsive">
 												<table id="example23" class="table table-striped">
 													<?php
-													session_start();
+													
 													?>
 													<thead>
 														<tr>
@@ -300,14 +295,13 @@
 															<th>Username</th>
 															<th>Fullname</th>
 															<th>Email</th>
-															<th>Date</th>
 															<th>Phone</th>
-															<th></th>
+															<th>Action</th>
 														</tr>
 													</thead>
 
 													<tbody>
-														<!-- <?php foreach ($user as $row) : ?>
+														 <?php foreach ($admin as $row) : ?>
 															<tr class="obj-item">
 																<td>
 																	<?= $row['id'] ?>
@@ -322,35 +316,20 @@
 																	<?= $row['email'] ?>
 																</td>
 																<td>
-																	<?= $row['birthday'] ?>
-																</td>
-																<td>
 																	<?= $row['phone_number'] ?>
 																</td>
-																<td>
-																	<?php if ($row['role_id'] == '1') {
-																		echo 'Admin';
-																	} else {
-																		echo 'User';
-																	} ?>
-																</td> -->
 														<td>
 															<div class="obj-action">
 																<div class="ac">
-
 																	<a href="#" data-toggle="tooltip" data-placement="bottom" title="Detail"><i class="fas fa-info-circle"></i></a>
-																</div>
-																<div class="ac">
 																	<a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="far fa-edit"></i> </a>
-																</div>
-																<div class="ac">
 																	<a href="#" data-toggle="tooltip" data-placement="bottom" onclick="return confirm('Are you sure?');" id="sa-confirm" data-original-title="Delete"><i class="far fa-trash-alt"></i></a>
 																</div>
-
+																
 															</div>
 														</td>
 														</tr>
-														<!-- <?php endforeach; ?> -->
+														 <?php endforeach; ?> 
 
 													</tbody>
 												</table>
@@ -359,7 +338,7 @@
 									</div>
 								</div>
 							</div>
-							<!-- <?= $this->endSection() ?> -->
+						
 						</div>
 
 
