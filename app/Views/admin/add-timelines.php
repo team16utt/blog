@@ -97,13 +97,13 @@
             </a>
             <ul style="margin-left:20px" class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./all-admin.html" class="nav-link active">
+                <a href="<?= base_url() ?>/admin/Admin" class="nav-link active">
                   <!-- <i class="fas fa-users"></i> -->
                   <p>All Admin</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./add-admin.html" class="nav-link">
+                <a href="<?= base_url() ?>/admin/Admin/add" class="nav-link">
                   <!-- <i class="fas fa-user-plus"></i> -->
                   <p>Add Admin</p>
                 </a>
@@ -243,10 +243,7 @@
     <!-- /.sidebar -->
   </aside>
 
-  <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-wrapper">
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <div class="container-fluid">
@@ -256,7 +253,7 @@
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?= base_url()?>/admin/Home">Home</a></li>
                 <li class="breadcrumb-item active">Text Editors</li>
               </ol>
             </div>
