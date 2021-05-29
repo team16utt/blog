@@ -148,13 +148,13 @@
             </a>
             <ul style="margin-left:20px" class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?= base_url() ?>/admin/News/Videos" class="nav-link active">
+                <a href="<?= base_url() ?>/admin/Videos" class="nav-link active">
                   <!-- <i class="far fa-newspaper"></i> -->
                   <p>All Video</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?= base_url() ?>/admin/News/Videos/add" class="nav-link">
+                <a href="<?= base_url() ?>/admin/Videos/add" class="nav-link">
                   <!-- <i class="fas fa-folder-plus"></i> -->
                   <p>Add Video</p>
                 </a>

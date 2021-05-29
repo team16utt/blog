@@ -125,13 +125,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="<?= base_url() ?>/admin/Admin/News" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/News" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All News</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href=".<?= base_url() ?>/admin/Admin/News/add" class="nav-link">
+									<a href="<?= base_url() ?>/admin/News/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add News</p>
 									</a>

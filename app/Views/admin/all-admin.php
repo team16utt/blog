@@ -87,12 +87,7 @@
 							</a>
 						</li>
 
-						<li class="nav-item">
-							<a href="pages/forms/editors.html" class="nav-link">
-								<i class="nav-icon fas fa-edit"></i>
-								<p>Editors</p>
-							</a>
-						</li>
+					
 
 						<li class="nav-item menu-open">
 							<a href="#" class="nav-link active">
@@ -104,13 +99,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-admin.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Admin" class="nav-link active">
 										<!-- <i class="fas fa-users"></i> -->
 										<p>All Admin</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-admin.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Admin/add" class="nav-link">
 										<!-- <i class="fas fa-user-plus"></i> -->
 										<p>Add Admin</p>
 									</a>
@@ -131,13 +126,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-news.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/News" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All News</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-news.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/News/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add News</p>
 									</a>
@@ -156,13 +151,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./alll-video.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Videos" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Video</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-video.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Videos/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Video</p>
 									</a>
@@ -181,13 +176,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-timeline.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Timelines" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Timeline</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-timelines.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Timelines/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Timeline</p>
 									</a>
@@ -206,13 +201,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-advice.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Advice" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Advice</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-advice.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Advice/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Advice</p>
 									</a>
@@ -230,13 +225,13 @@
 							</a>
 							<ul style="margin-left:20px" class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="./all-recomemed.html" class="nav-link active">
+									<a href="<?= base_url() ?>/admin/Recommend" class="nav-link active">
 										<!-- <i class="far fa-newspaper"></i> -->
 										<p>All Recommend</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="./add-recomemed.html" class="nav-link">
+									<a href="<?= base_url() ?>/admin/Recommend/add" class="nav-link">
 										<!-- <i class="fas fa-folder-plus"></i> -->
 										<p>Add Recommend</p>
 									</a>

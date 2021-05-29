@@ -223,7 +223,7 @@
             </a>
             <ul style="margin-left:20px" class="nav nav-treeview">
               <li class="nav-item">
-                <a href=".<?= base_url() ?>/admin/Recommend" class="nav-link active">
+                <a href="<?= base_url() ?>/admin/Recommend" class="nav-link active">
                   <!-- <i class="far fa-newspaper"></i> -->
                   <p>All  Recommend</p>
                 </a>

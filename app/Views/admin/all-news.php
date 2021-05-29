@@ -84,13 +84,7 @@
               </p>
             </a>
           </li>
-         
-          <li class="nav-item">
-            <a href="pages/forms/editors.html" class="nav-link">
-              <i class="nav-icon fas fa-edit"></i>
-              <p>Editors</p>
-            </a>
-          </li>
+       
           
           <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
