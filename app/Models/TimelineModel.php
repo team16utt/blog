@@ -17,4 +17,8 @@ class TimelineModel extends Model
     {
         return $this->findAll();
     }
+    public function getById($pid)
+    {
+        return $this->find($pid);
+    }
 }

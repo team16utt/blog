@@ -60,7 +60,7 @@
                     <a href="<?= base_url() ?>/admin/Home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="https://www.facebook.com/l0seriam" class="nav-link">Contact</a>
+                    <a href="https://www.facebook.com/Thifnmi" class="nav-link">Contact</a>
                 </li>
             </ul>
 
@@ -267,7 +267,7 @@
 
         </div>
         <footer class="main-footer">
-            <strong>Copyright &copy; 2021 <a href="https://facebook.com/datbeu28">Nhom 4</a>.</strong>All rights reserved.
+            <strong>Copyright &copy; 2021 <a href="https://facebook.com/Thifnmi">Thiện và 4 con vợ</a>.</strong>All rights reserved.
         </footer>
 
         <!-- Control Sidebar -->

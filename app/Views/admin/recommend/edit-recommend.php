@@ -24,24 +24,24 @@
 								<div class="card-body">
 									<form action="#" class="form-material form-horizontal m-t-30" enctype="multipart/form-data" method='POST'>
 										<div class="form-group">
-											<label class="col-md-12" for="username">Title</label>
+											<label class="col-md-12" for="title">Title</label>
 											<div class="col-md-12">
-												<input type="text" id="username" name="username" class="form-control"  value="<?= $Recommend['title'] ?>">
+												<input type="text" id="title" name="title" class="form-control"  value="<?= $Recommend['title'] ?>">
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Heading </label>
+											<label class="col-md-12" for="heading">Heading </label>
 											<div class="col-md-12">
-												<textarea type="text" id="fullname" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $Recommend['heading'] ?>">
+												<textarea type="text" id="heading" name="heading" class="form-control" placeholder="enter your full name"  ><?= $Recommend['heading']?>
 											</textarea>
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Content</label>
+											<label class="col-md-12" for="summernote">Content</label>
 											<div class="col-md-12">
-												<textarea type="text" id="summernote" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $Recommend['content'] ?>">
+												<textarea type="text" id="summernote" name="summernote" class="form-control" placeholder="enter your full name"  ><?= $Recommend['content']?>
 											</textarea>
 											</div>
 										</div>

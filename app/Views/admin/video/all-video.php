@@ -63,9 +63,8 @@
 													<td>
 														<div class="obj-action">
 															<div class="ac">
-																<a href="#" data-toggle="tooltip" data-placement="bottom" title="Detail"><i class="fas fa-info-circle"></i></a>
-																<a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="far fa-edit"></i> </a>
-																<a href="#" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="return confirm('Are you sure?');"><i class="far fa-trash-alt"></i></a>
+																<a href="<?= base_url()?>/admin/Videos/edit?id=<?= $row['id']?>" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="far fa-edit"></i> </a>
+																<a href="<?= base_url()?>/admin/Videos/delete?id=<?= $row['id']?>" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="return confirm('Are you sure?');"><i class="far fa-trash-alt"></i></a>
 															</div>
 
 														</div>

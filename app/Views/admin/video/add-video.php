@@ -11,31 +11,28 @@
 					
 					<!-- /.card-header -->
 					<!-- form start -->
-					<form>
+					<form action="<?= base_url() ?>/admin/Videos/add"enctype="multipart/form-data" method='POST'>
 						<div class="card-body">
 							<div class="form-group">
 								<label for="title">Tittle</label>
-								<input type="text" class="form-control" id="title" placeholder="Enter tittle">
+								<input type="text" class="form-control" id="title" name="title" placeholder="Enter tittle">
 							</div>
 							<div class="form-group">
 								<label for="heading">Heading</label>
-								<input type="text" class="form-control" id="heading" placeholder="Enter heading">
+								<input type="text" class="form-control" id="heading" name="heading" placeholder="Enter heading">
 							</div>
 							<div class="form-group">
 								<label for="content">Content</label>
-								<input type="text" class="form-control" id="content" placeholder="Enter content">
+								<input type="text" class="form-control" id="content" name="content" placeholder="Enter content">
+							</div>
+							<div class="form-group">
+								<label for="content">Poster</label>
+								<input type="text" class="form-control" id="poster" name="poster" placeholder="Enter content">
 							</div>
 							<div class="form-group">
 								<label for="video">Video</label>
-								<input type="text" class="form-control" id="video" placeholder="Enter link video">
-								<!-- <div class="input-group">
-									<div class="custom-file">
-										<input type="file" class="custom-file-input" id="file">
-										<label class="custom-file-label" for="exampleInputFile">Choose file</label>
-									</div>
-								</div> -->
+								<input type="text" class="form-control" id="video" name="video" placeholder="Enter link video">
 							</div>
-							<!-- <input type="datetime-local" name="" /> -->
 							
 						</div>
 						<!-- /.card-body -->

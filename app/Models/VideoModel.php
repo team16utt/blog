@@ -15,5 +15,9 @@ class VideoModel extends Model
     public function getAllVideoForAdmin() {
         return $this->findAll();
     }
+    public function getById($pid)
+    {
+        return $this->find($pid);
+    }
 
 }

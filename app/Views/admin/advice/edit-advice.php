@@ -24,24 +24,31 @@
 								<div class="card-body">
 									<form action="#" class="form-material form-horizontal m-t-30" enctype="multipart/form-data" method='POST'>
 										<div class="form-group">
-											<label class="col-md-12" for="username">Title</label>
+											<label class="col-md-12" for="title">Title</label>
 											<div class="col-md-12">
-												<input type="text" id="username" name="username" class="form-control"  value="<?= $Advice['title'] ?>">
+												<input type="text" id="title" name="title" class="form-control"  value="<?= $Advice['title'] ?>">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-12" for="image">Image</label>
+											<div class="col-md-12">
+												<input type="text" id="image" name="image" class="form-control"  value="<?= $Advice['image'] ?>">
+												<img src="<?= $Advice['image'] ?>">
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Heading </label>
+											<label class="col-md-12" for="heading">Heading </label>
 											<div class="col-md-12">
-												<textarea type="text" id="fullname" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $Advice['heading'] ?>">
+												<input value="<?= $Advice['heading'] ?>" type="text" id="heading" name="heading" class="form-control" placeholder="enter heading">
 												</textarea>
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Content</label>
+											<label class="col-md-12" for="summernote">Content</label>
 											<div class="col-md-12">
-												<textarea type="text" id="summernote" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $Advice['content'] ?>">
+												<textarea type="text" id="summernote" name="summernote" class="form-control" placeholder="enter content" ><?= $Advice['content'] ?>
 												</textarea>
 											</div>
 										</div>

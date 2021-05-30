@@ -4,6 +4,8 @@ namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
 use App\Models\NewModel;
+use DateTime;
+
 class Advice extends BaseController
 {
 	public function index()
@@ -26,7 +28,26 @@ class Advice extends BaseController
             return redirect()->to(base_url() . '/admin/login');
         }
 		$data['title'] = 'Add Advice';
-		return view('admin/advice/add-advice', $data);
+		if ($this->request->getMethod() == 'post') {
+
+            $model = new NewModel();
+            $title = $this->request->getVar('title');
+			$image = $this->request->getVar('image');
+            $heading = $this->request->getVar('heading');
+            $summernote = $this->request->getVar('summernote');
+            $data_insert = [
+				'category_id' => '2',
+				'time' => date('Y-m-d H:i:s'),
+                'title' => $title,
+				'image' => $image,
+                'heading' => $heading,
+                'content' => $summernote,
+				'author' => $_SESSION['user']['username']
+            ];
+            $model->save($data_insert);
+            return redirect()->to(base_url() . '/admin/Advice');
+        }
+		echo view('admin/advice/add-advice', $data);
 	}
 	public function edit()
 	{
@@ -42,38 +63,36 @@ class Advice extends BaseController
         if ($this->request->getMethod() == 'post') {
 
             $model = new NewModel();
-            $username = $this->request->getVar('username');
-            $password = $this->request->getVar('password');
-            $fullname = $this->request->getVar('fullname');
-            $birthday = $this->request->getVar('birthday');
-            $email = $this->request->getVar('email');
-            $phone = $this->request->getVar('phone');
-            $address = $this->request->getVar('address');
-            $file = $this->request->getFile('file');
-            $url_avatar = '';
-            if ($file) {
-                if ($file->isValid() && !$file->hasMoved()) {
-                    $newName = $file->getRandomName();
-                    $path = $file->move("./admin/account/image/", $newName);
-                    $url_avatar = "http://localhost:8080/blog/public/admin/account/image/" . $newName;
-                } else {
-                    $url_avatar = '';
-                }
-            }
+            $title = $this->request->getVar('title');
+			$image = $this->request->getVar('image');
+            $heading = $this->request->getVar('heading');
+            $summernote = $this->request->getVar('summernote');
             $data_insert = [
                 'id' => $id,
-                'image' => $url_avatar,
-                'fullname' => $fullname,
-                'username' => $username,
-                'password' => $password,
-                'birthday' => date('d/m/Y', strtotime($birthday)),
-                'phone_number' => $phone,
-                'email' => $email,
-                'address' => $address
+				'category_id' => '2',
+				'time' => date('Y-m-d H:i:s'),
+                'title' => $title,
+				'image' => $image,
+                'heading' => $heading,
+                'content' => $summernote,
+				'author' => $_SESSION['user']['username']
             ];
             $model->save($data_insert);
-            return redirect()->to(base_url() . '/admin/admin');
+            return redirect()->to(base_url() . '/admin/Advice');
         }
         echo view('admin/advice/edit-advice', $data);
 	}
+	public function delete()
+    {
+        session_start();
+        if (empty($_SESSION['user'])) {
+            return redirect()->to(base_url() . '/admin/login');
+        }
+        $id = $_GET['id'];
+        $Advice = new NewModel();
+        $Advice->where('id', $id)->delete();
+        $data['title'] = 'Advice';
+        $data['user'] = $Advice->findAll();
+        return redirect()->to(base_url() . '/admin/Advice');
+    }
 }

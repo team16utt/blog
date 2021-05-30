@@ -24,16 +24,16 @@
 								<div class="card-body">
 									<form action="#" class="form-material form-horizontal m-t-30" enctype="multipart/form-data" method='POST'>
 										<div class="form-group">
-											<label class="col-md-12" for="username">Title</label>
+											<label class="col-md-12" for="title">Title</label>
 											<div class="col-md-12">
-												<input type="text" id="username" name="username" class="form-control"  value="<?= $timeline['title'] ?>">
+												<input type="text" id="title" name="title" class="form-control"  value="<?= $Timeline['title'] ?>">
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Content </label>
+											<label class="col-md-12" for="summernote">Content </label>
 											<div class="col-md-12">
-												<textarea type="text" id="summernote" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $timeline['heading'] ?>"></textarea>
+												<textarea type="text" id="summernote" name="summernote" class="form-control" placeholder="enter your full name"><?= $Timeline['content'] ?></textarea>
 											</div>
 										</div>
 

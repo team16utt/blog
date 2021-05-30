@@ -63,7 +63,7 @@
 														<div class="obj-action">
 															<div class="ac">
 
-																<a href="<?php echo base_url() . '/admin/profile?id=' . $row['id'] ?>" data-toggle="tooltip" data-placement="bottom" title="Detail"><i class="fas fa-info-circle"></i></a>
+																<!-- <a href="<?php echo base_url() . '/admin/profile?id=' . $row['id'] ?>" data-toggle="tooltip" data-placement="bottom" title="Detail"><i class="fas fa-info-circle"></i></a> -->
 																<a href="<?php echo base_url() . '/admin/Advice/edit?id=' . $row['id'] ?>" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="far fa-edit"></i> </a>
 																<a href="<?php echo base_url() . '/admin/Advice/delete?id=' . $row['id'] ?>" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="return confirm('Are you sure?');"><i class="far fa-trash-alt"></i></a>
 

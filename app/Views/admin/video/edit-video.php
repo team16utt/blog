@@ -24,29 +24,35 @@
 								<div class="card-body">
 									<form action="#" class="form-material form-horizontal m-t-30" enctype="multipart/form-data" method='POST'>
 										<div class="form-group">
-											<label class="col-md-12" for="username">Title</label>
+											<label class="col-md-12" for="title">Title</label>
 											<div class="col-md-12">
-												<input type="text" id="username" name="username" class="form-control"  value="<?= $Video['title'] ?>">
+												<input type="text" id="title" name="title" class="form-control"  value="<?= $Video['title'] ?>">
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Heading </label>
+											<label class="col-md-12" for="heading">Heading </label>
 											<div class="col-md-12">
-												<textarea type="text" id="fullname" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $Video['heading'] ?>"></textarea>
-											</div>
-										</div>
-
-										<div class="form-group">
-											<label class="col-md-12" for="username">Link</label>
-											<div class="col-md-12">
-												<input type="text" id="username" name="username" class="form-control"  value="<?= $Video['video'] ?>">
+												<textarea type="text" id="heading" name="heading" class="form-control" placeholder="enter heading"><?= $Video['heading'] ?></textarea>
 											</div>
 										</div>
 										<div class="form-group">
-											<label class="col-md-12" for="fullname">Content</label>
+											<label class="col-md-12" for="link">Poster</label>
 											<div class="col-md-12">
-												<textarea type="text" id="summernote" name="fullname" class="form-control" placeholder="enter your full name"  value="<?= $Video['content'] ?>"></textarea>
+												<input type="text" id="poster" name="poster" class="form-control"  value="<?= $Video['poster'] ?>">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-12" for="link">Link</label>
+											<div class="col-md-12">
+												<input type="text" id="link" name="link" class="form-control"  value="<?= $Video['video'] ?>">
+												<video src="<?= $Video['video'] ?>">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-12" for="summernote">Content</label>
+											<div class="col-md-12">
+												<textarea type="text" id="summernote" name="summernote" class="form-control" placeholder="enter content"><?= $Video['content'] ?></textarea>
 											</div>
 										</div>
 
