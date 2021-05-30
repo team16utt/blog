@@ -22,7 +22,7 @@
 						<div class="col-12">
 							<div class="card">
 								<div class="card-body">
-									<form action="<?php echo base_url() . '/admin/admin/edit' ?>" class="form-material form-horizontal m-t-30" enctype="multipart/form-data" method='POST'>
+									<form action="#" class="form-material form-horizontal m-t-30" enctype="multipart/form-data" method='POST'>
 										<div class="form-group">
 											<label class="col-md-12" for="username">Title</label>
 											<div class="col-md-12">
@@ -62,6 +62,4 @@
 		</div>
 	</div>
 </section>
-
-
 <?= $this->endSection() ?>

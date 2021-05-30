@@ -14,39 +14,35 @@
 					<form>
 						<div class="card-body">
 							<div class="form-group">
-								<label for="exampleInputEmail1">Tittle</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter tittle">
+								<label for="title">Tittle</label>
+								<input type="text" class="form-control" id="title" placeholder="Enter tittle">
 							</div>
 							<div class="form-group">
-								<label for="exampleInputEmail1">Heading</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter heading">
+								<label for="heading">Heading</label>
+								<input type="text" class="form-control" id="heading" placeholder="Enter heading">
 							</div>
 							<div class="form-group">
-								<label for="exampleInputEmail1">Content</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter content">
+								<label for="content">Content</label>
+								<input type="text" class="form-control" id="content" placeholder="Enter content">
 							</div>
 							<div class="form-group">
-								<label for="exampleInputFile">Video</label>
-								<div class="input-group">
+								<label for="video">Video</label>
+								<input type="text" class="form-control" id="video" placeholder="Enter link video">
+								<!-- <div class="input-group">
 									<div class="custom-file">
-										<input type="file" class="custom-file-input" id="exampleInputFile">
+										<input type="file" class="custom-file-input" id="file">
 										<label class="custom-file-label" for="exampleInputFile">Choose file</label>
 									</div>
-									<div class="input-group-append">
-										<span class="input-group-text">Upload</span>
-									</div>
-								</div>
+								</div> -->
 							</div>
-							<input type="datetime-local" name="" />
-							<div class="form-check">
-								<input type="checkbox" class="form-check-input" id="exampleCheck1">
-								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-							</div>
+							<!-- <input type="datetime-local" name="" /> -->
+							
 						</div>
 						<!-- /.card-body -->
 
 						<div class="card-footer">
 							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url()?>/admin/News">Cancel</a></button>
 						</div>
 					</form>
 				</div>

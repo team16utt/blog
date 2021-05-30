@@ -15,23 +15,22 @@
 				<form>
 					<div class="card-body">
 						<div class="form-group">
-							<label for="exampleInputEmail1">Tittle</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter tittle">
+							<label for="title">Tittle</label>
+							<input type="text" class="form-control" id="title" placeholder="Enter tittle">
+						</div>
+					</div>
+					<div class="card-body">
+						<label for="exampleInputEmail1">Content</label>
+						<textarea style="width: 100%; height: 500px" id="summernote">
+							Place <em>some</em> <u>text</u> <strong>here</strong>
+						</textarea>
+						<!-- <input type="datetime-local" name="" /> -->
+						<div class="card-footer">
+							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url() ?>/admin/News">Cancel</a></button>
 						</div>
 					</div>
 				</form>
-				<!-- /.card-header -->
-				<div class="card-body">
-				<label for="exampleInputEmail1">Content</label>
-					<textarea style="width: 100%; height: 500px" id="summernote">
-                Place <em>some</em> <u>text</u> <strong>here</strong>
-              </textarea>
-			  <input type="datetime-local" name="" />
-					<div class="card-footer">
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</div>
-				</div>
-
 			</div>
 		</div>
 		<!-- /.col-->

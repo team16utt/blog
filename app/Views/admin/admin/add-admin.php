@@ -70,6 +70,13 @@
 										</div>
 									</div>
 									<div class="form-group">
+										<label class="col-md-12" for="address">Address</span>
+										</label>
+										<div class="col-md-12">
+											<input type="text" id="address" name="address" class="form-control" placeholder="enter your address">
+										</div>
+									</div>
+									<div class="form-group">
 										<label class="col-md-12" for="phone">Avatar</span>
 										</label>
 										<div class="col-md-12">
@@ -80,7 +87,7 @@
 
 
 									<button type="submit" class="btn btn-info waves-effect waves-light m-r-10">Submit</button>
-									<button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
+									<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url()?>/admin/Admin">Cancel</a></button>
 								</form>
 							</div>
 						</div>

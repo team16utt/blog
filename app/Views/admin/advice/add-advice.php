@@ -26,19 +26,20 @@
 							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter link">
 						</div>
 					</div>
-				</form>
-				<!-- /.card-header -->
-				<div class="card-body">
-				<label for="exampleInputEmail1">Content</label>
-					<textarea style="width: 100%; height: 500px" id="summernote">
-                Place <em>some</em> <u>text</u> <strong>here</strong>
-              </textarea>
-			  <input type="datetime-local" name="" />
-					<div class="card-footer">
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</div>
-				</div>
 
+					<!-- /.card-header -->
+					<div class="card-body">
+						<label for="exampleInputEmail1">Content</label>
+						<textarea style="width: 100%; height: 500px" id="summernote">
+							Place <em>some</em> <u>text</u> <strong>here</strong>
+						</textarea>
+						<!-- <input type="datetime-local" name="" /> -->
+						<div class="card-footer">
+							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url() ?>/admin/Advice">Cancel</a></button>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 		<!-- /.col-->
