@@ -37,13 +37,14 @@ class Admin extends BaseController
             $phone = $this->request->getVar('phone');
             $address = $this->request->getVar('address');
             $file = $this->request->getFile('file');
+            $url_avatar = '';
             if ($file->isValid() && !$file->hasMoved()) {
                 $newName = $file->getRandomName();
-                $path = $file->move("./public/admin/account/image/", $newName);
+                $path = $file->move("./admin/account/image/", $newName);
             }
 
 
-            $url_avatar = "/public/admin/account/image/" . $newName;
+            $url_avatar = "http://localhost:8080/blog/public/admin/account/image/" . $newName;
             $data_insert = [
                 'image' => $url_avatar,
                 'fullname' => $fullname,
@@ -67,7 +68,8 @@ class Admin extends BaseController
         }
         $id = $_GET['id'];
         $model = new UserModel();
-        $data['info'] = $model->where('id', $id)->findAll();
+        $user = $model->getById($id);
+        $data['user'] = $user;
         $data['title'] = 'Edit Info Admin';
         if ($this->request->getMethod() == 'post') {
 
@@ -80,11 +82,12 @@ class Admin extends BaseController
             $phone = $this->request->getVar('phone');
             $address = $this->request->getVar('address');
             $file = $this->request->getFile('file');
+            $url_avatar = '';
             if ($file) {
                 if ($file->isValid() && !$file->hasMoved()) {
                     $newName = $file->getRandomName();
-                    $path = $file->move("./public/client/assets/product/", $newName);
-                    $url_avatar = "/public/client/assets/product/" . $newName;
+                    $path = $file->move("./admin/account/image/", $newName);
+                    $url_avatar = "http://localhost:8080/blog/public/admin/account/image/" . $newName;
                 } else {
                     $url_avatar = '';
                 }
@@ -94,7 +97,7 @@ class Admin extends BaseController
                 'image' => $url_avatar,
                 'fullname' => $fullname,
                 'username' => $username,
-                'password' => md5($password),
+                'password' => $password,
                 'birthday' => date('d/m/Y', strtotime($birthday)),
                 'phone_number' => $phone,
                 'email' => $email,
@@ -103,7 +106,7 @@ class Admin extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/admin');
         }
-        echo view('admin/admin/edit', $data);
+        echo view('admin/admin/edit-admin', $data);
         //--------------------------------------------------------------------
     }
     public function delete()
@@ -114,9 +117,9 @@ class Admin extends BaseController
         if (empty($_SESSION['user'])) {
             return redirect()->to(base_url() . '/admin/login');
         }
-        $username = $_GET['username'];
+        $id = $_GET['id'];
         $adminModel = new UserModel();
-        $adminModel->where('username', $username)->delete();
+        $adminModel->where('id', $id)->delete();
         $data['title'] = 'admin';
         $data['user'] = $adminModel->findAll();
         return redirect()->to(base_url() . '/admin/admin');
