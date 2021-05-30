@@ -14,12 +14,18 @@ class Advice extends BaseController
         }
 		$getAdvice = new NewModel();
 		$Advice= $getAdvice->getAllAdviceForAdmin();
+		$data['title'] = 'Advice';
 		$data['Advice'] = $Advice;
 		return view('admin/advice/all-advice',$data);
 	}
 
     public function add()
 	{
-		return view('admin/advice/add-advice');
+		session_start();
+        if (empty($_SESSION['user'])) {
+            return redirect()->to(base_url() . '/admin/login');
+        }
+		$data['title'] = 'Add Advice';
+		return view('admin/advice/add-advice', $data);
 	}
 }

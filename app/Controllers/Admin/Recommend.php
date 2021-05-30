@@ -14,12 +14,18 @@ class Recommend extends BaseController
         }
 		$getRecommend = new NewModel();
 		$Recommend= $getRecommend->getAllRecommendForAdmin();
+		$data['title'] = 'Recommend';
 		$data['Recommend'] = $Recommend;
 		return view('admin/recommend/all-recommened',$data);
 	}
 
     public function add()
 	{
-		return view('admin/recommend/add-recommened');
+		session_start();
+        if (empty($_SESSION['user'])) {
+            return redirect()->to(base_url() . '/admin/login');
+        }
+		$data['title'] = 'Add Recommend';
+		return view('admin/recommend/add-recommened', $data);
 	}
 }

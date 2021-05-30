@@ -16,7 +16,7 @@ class profile extends BaseController
         $id = $_GET['id'];
         $adminModel = new UserModel();
         $user = $adminModel->find($id);
-        $data['title'] = 'profile';
+        $data['title'] = 'Profile';
         $data['user'] = $user;
         echo view('admin/admin/profile', $data);
     }

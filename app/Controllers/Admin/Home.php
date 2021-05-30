@@ -14,7 +14,7 @@ class Home extends BaseController
 		{
             return redirect()->to(base_url().'/admin/login');
         }
-		$data['title'] = 'Trang chủ';
-		return view('admin/index');
+		$data['title'] = 'Home';
+		return view('admin/index', $data);
 	}
 }

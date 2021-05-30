@@ -14,12 +14,18 @@ class News extends BaseController
         }
 		$getNews = new NewModel();
 		$News= $getNews->getAllNewsForAdmin();
+		$data['title'] = 'News';
 		$data['News'] = $News;
 		return view('admin/new/all-news',$data);
 	}
 
     public function add()
 	{
-		return view('admin/new/add-news');
+		session_start();
+        if (empty($_SESSION['user'])) {
+            return redirect()->to(base_url() . '/admin/login');
+        }
+		$data['title'] = 'Add News';
+		return view('admin/new/add-news', $data);
 	}
 }

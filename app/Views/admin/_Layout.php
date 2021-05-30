@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin Blog</title>
+    <title><?= $title?></title>
 
     <link href="<?= base_url() ?>/admin/assets/node_modules/morrisjs/morris.css" rel="stylesheet">
     <!--Toaster Popup message CSS -->
@@ -71,188 +71,203 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="<?= base_url() ?>/admin/home" class="brand-link">
-                <img src="<?= base_url() ?>/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">Admin Blog</span>
+                <img src="<?= base_url() ?>/admin/dist/img/SARS_CoV_2.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">Admin Blog NCOV</span>
             </a>
 
             <!-- Sidebar -->
             <div class="sidebar">
                 <!-- Sidebar user panel (optional) -->
-                
-                    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                        <div class="image">
-                            <img src="<?= base_url() ?>/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                        </div>
-                        <div class="info">
-                            <a href="<?= base_url() .'/Admin/profile?id='. $_SESSION['user']['id']?>" class="d-block">My Profile</a>
+                <div class="scroll-sidebar">
+                    <div class="user-profile">
+                        <div class="user-pro-body">
+                            <div>
+                                <img src="<?= $_SESSION['user']['image'] ?>" class="img-circle" alt="User Image">
+                            </div>
+                            <div class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle u-dropdown link hide-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= $_SESSION['user']['fullname'] ?><span class="caret"></span></a>
+                                <div class="dropdown-menu animated flipInY">
+                                    <!-- text-->
+                                    <a href="<?php echo base_url() . '/admin/profile?id=' . $_SESSION['user']['id']; ?>" class="dropdown-item"><i class="ti-user"></i> My
+                                        Profile</a>
+                                    <!-- text-->
+                                    <a href="<?= base_url() ?>/admin/logout" class="dropdown-item"><i class="fas fa-power-off"></i>
+                                        Logout</a>
+                                    <!-- text-->
+                                </div>
+                            </div>
                         </div>
                     </div>
-                <?php ?>
 
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active" aria-expanded="false">
+                                    <class class="fas fa-user"></class></i>
+                                    <p> Admin
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Admin" class="nav-link active">
+                                            <!-- <i class="fas fa-users"></i> -->
+                                            <p>All Admin</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Admin/add" class="nav-link">
+                                            <!-- <i class="fas fa-user-plus"></i> -->
+                                            <p>Add Admin</p>
+                                        </a>
+                                    </li>
 
-                        <!-- <li class="nav-item menu-open">
-                            <a href="#" class="nav-link active">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
-                                <p>
-                                    Dashboard
-                                </p>
-                            </a>
-                        </li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active">
+                                    <i class="fas fa-newspaper"></i>
+                                    <p> News
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/News" class="nav-link active">
+                                            <!-- <i class="far fa-newspaper"></i> -->
+                                            <p>All News</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/News/add" class="nav-link">
+                                            <!-- <i class="fas fa-folder-plus"></i> -->
+                                            <p>Add News</p>
+                                        </a>
+                                    </li>
 
+                                </ul>
+                            </li>
 
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active">
+                                    <i class="fas fa-video"></i>
+                                    <p> Videos
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Videos" class="nav-link active">
+                                            <!-- <i class="far fa-newspaper"></i> -->
+                                            <p>All Video</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Videos/add" class="nav-link">
+                                            <!-- <i class="fas fa-folder-plus"></i> -->
+                                            <p>Add Video</p>
+                                        </a>
+                                    </li>
 
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link active" aria-expanded="false">
-                                <class class="fas fa-user"></class></i>
-                                <p> Admin
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul style="margin-left:20px" class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Admin" class="nav-link active">
-                                        <!-- <i class="fas fa-users"></i> -->
-                                        <p>All Admin</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Admin/add" class="nav-link">
-                                        <!-- <i class="fas fa-user-plus"></i> -->
-                                        <p>Add Admin</p>
-                                    </a>
-                                </li>
+                                </ul>
+                            </li>
 
-                            </ul>
-                        </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active"><i class="fas fa-stream"></i>
+                                    <p> Timelines<i class="right fas fa-angle-left"></i></p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Timelines" class="nav-link active">
+                                            <!-- <i class="far fa-newspaper"></i> -->
+                                            <p>All Timeline</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Timelines/add" class="nav-link">
+                                            <!-- <i class="fas fa-folder-plus"></i> -->
+                                            <p>Add Timeline</p>
+                                        </a>
+                                    </li>
 
+                                </ul>
+                            </li>
 
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active"><i class="fas fa-bell"></i>
+                                    <p> Advices<i class="right fas fa-angle-left"></i></p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Advice" class="nav-link active">
+                                            <!-- <i class="far fa-newspaper"></i> -->
+                                            <p>All Advice</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Advice/add" class="nav-link">
+                                            <!-- <i class="fas fa-folder-plus"></i> -->
+                                            <p>Add Advice</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
 
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link active">
-                                <i class="fas fa-newspaper"></i>
-                                <p> News
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul style="margin-left:20px" class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/News" class="nav-link active">
-                                        <!-- <i class="far fa-newspaper"></i> -->
-                                        <p>All News</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/News/add" class="nav-link">
-                                        <!-- <i class="fas fa-folder-plus"></i> -->
-                                        <p>Add News</p>
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link active">
-                                <i class="fas fa-video"></i>
-                                <p> Videos
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul style="margin-left:20px" class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Videos" class="nav-link active">
-                                        <!-- <i class="far fa-newspaper"></i> -->
-                                        <p>All Video</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Videos/add" class="nav-link">
-                                        <!-- <i class="fas fa-folder-plus"></i> -->
-                                        <p>Add Video</p>
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link active"><i class="fas fa-stream"></i><p> Timelines<i class="right fas fa-angle-left"></i></p></a>
-                            <ul style="margin-left:20px" class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Timelines" class="nav-link active">
-                                        <!-- <i class="far fa-newspaper"></i> -->
-                                        <p>All Timeline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Timelines/add" class="nav-link">
-                                        <!-- <i class="fas fa-folder-plus"></i> -->
-                                        <p>Add Timeline</p>
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link active"><i class="fas fa-bell"></i><p> Advices<i class="right fas fa-angle-left"></i></p></a>
-                            <ul style="margin-left:20px" class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Advice" class="nav-link active">
-                                        <!-- <i class="far fa-newspaper"></i> -->
-                                        <p>All Advice</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Advice/add" class="nav-link">
-                                        <!-- <i class="fas fa-folder-plus"></i> -->
-                                        <p>Add Advice</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">
-                                <i class="fas fa-thumbs-up"></i>
-                                <p> Recommends
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul style="margin-left:20px" class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Recommend" class="nav-link active">
-                                        <!-- <i class="far fa-newspaper"></i> -->
-                                        <p>All Recommend</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url() ?>/admin/Recommend/add" class="nav-link">
-                                        <!-- <i class="fas fa-folder-plus"></i> -->
-                                        <p>Add Recommend</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <p> Recommends
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Recommend" class="nav-link active">
+                                            <!-- <i class="far fa-newspaper"></i> -->
+                                            <p>All Recommend</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Recommend/add" class="nav-link">
+                                            <!-- <i class="fas fa-folder-plus"></i> -->
+                                            <p>Add Recommend</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
             </div>
             <!-- /.sidebar -->
         </aside>
-        <?= $this->renderSection('content_Admin') ?>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h3><?= $title ?></h3>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="<?= base_url() ?>/admin/home">Home</a></li>
+                                <li class="breadcrumb-item active"><?= $title ?></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <?= $this->renderSection('content_Admin') ?>
 
 
 
-
-        <!-- /.content-wrapper -->
-        <footer class="main-footer" style="position: relative; bottom: 0">
-            <strong>Copyright &copy; 2021 <a href="https://facebook.com/datbeu28">Nhom 4</a>.</strong>
-            All rights reserved.
-
+        </div>
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2021 <a href="https://facebook.com/datbeu28">Nhom 4</a>.</strong>All rights reserved.
         </footer>
 
         <!-- Control Sidebar -->
@@ -260,6 +275,7 @@
             <!-- Control sidebar content goes here -->
         </aside>
         <!-- /.control-sidebar -->
+
     </div>
     <!-- ./wrapper -->
 
@@ -270,19 +286,8 @@
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
         $.widget.bridge('uibutton', $.ui.button)
-
-
-        $(function() {
-            // Summernote
-            $('#summernote').summernote()
-
-            // CodeMirror
-            CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
-                mode: "htmlmixed",
-                theme: "monokai"
-            });
-        })
     </script>>
+
 
 
 
@@ -312,37 +317,18 @@
     <script src="<?= base_url() ?>/admin/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src="<?= base_url() ?>/admin/dist/js/pages/dashboard.js"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap popper Core JavaScript -->
-    <script src="<?= base_url() ?>/admin/assets/node_modules/popper/popper.min.js"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="<?= base_url() ?>/admin/crm/dist/js/perfect-scrollbar.jquery.min.js"></script>
-    <!--Wave Effects -->
-    <script src="<?= base_url() ?>/admin/crm/dist/js/waves.js"></script>
-    <!--Menu sidebar -->
-    <script src="<?= base_url() ?>/admin/crm/dist/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="<?= base_url() ?>/admin/crm/dist/js/custom.min.js"></script>
-    <!-- ============================================================== -->
-    <!-- This page plugins -->
-    <!-- ============================================================== -->
-    <!--morris JavaScript -->
-    <script src="<?= base_url() ?>/admin/assets/node_modules/raphael/raphael-min.js"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/morrisjs/morris.min.js"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
-    <!-- Popup message jquery -->
-    <script src="<?= base_url() ?>/admin/assets/node_modules/toast-master/js/jquery.toast.js"></script>
+    <script>
+        $(function() {
+            // Summernote
+            $('#summernote').summernote()
 
-    <!-- jQuery peity -->
-    <script src="<?= base_url() ?>/admin/assets/node_modules/peity/jquery.peity.min.js"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/peity/jquery.peity.init.js"></script>
-
-
-    <!--JS import file -->
-    <script src="<?= base_url() ?>/admin/assets/node_modules/dropify/dist/js/dropify.min.js"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/dff/dff.js" type="text/javascript"></script>
-    <script src="<?= base_url() ?>/admin/assets/node_modules/dff/test.js" type="text/javascript"></script>
+            // CodeMirror
+            // CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+            //     mode: "htmlmixed",
+            //     theme: "monokai"
+            // });
+        })
+    </script>
 </body>
 
 </html>

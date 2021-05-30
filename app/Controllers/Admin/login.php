@@ -30,15 +30,14 @@ class login extends BaseController
 				$model = new UserModel();
                 $username = $this->request->getVar('username');
                 $password = $this->request->getVar('password');
-                $hashed_password = md5($password);
+                // $hashed_password = md5($password);
                 $data = ['username' => $username,
                         "password"=>$password];
                 $user = $model->where($data)->first();
                 if($user){
-                // $this->setUserSession($user);
-                $_SESSION['user'] = $user;
-				// $session->set('user', $user);
-                return redirect()->to('Home');}
+                	$_SESSION['user'] = $user;
+                	return redirect()->to('Home');
+				}
                 else {
                     echo '<script>alert("Username/Email or Password don\'t match");</script>';
                 }
