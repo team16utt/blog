@@ -64,6 +64,7 @@ class News extends BaseController
             $title = $this->request->getVar('title');
 			$image = $this->request->getVar('image');
             $heading = $this->request->getVar('heading');
+            // $user = $this->request->getVar('username');
             $summernote = $this->request->getVar('summernote');
             $data_insert = [
                 'id' => $id,
@@ -73,7 +74,7 @@ class News extends BaseController
 				'image' => $image,
                 'heading' => $heading,
                 'content' => $summernote,
-				'author' => $_SESSION['user']['username']
+				// 'author' => $user['username']
             ];
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/News');

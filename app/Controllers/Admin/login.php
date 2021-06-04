@@ -36,7 +36,7 @@ class login extends BaseController
                 $user = $model->where($data)->first();
                 if($user){
                 	$_SESSION['user'] = $user;
-                	return redirect()->to('Home');
+                	return redirect()->to(base_url().'/admin/Home');
 				}
                 else {
                     echo '<script>alert("Username/Email or Password don\'t match");</script>';
