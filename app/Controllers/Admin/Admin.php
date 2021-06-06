@@ -42,8 +42,6 @@ class Admin extends BaseController
                 $newName = $file->getRandomName();
                 $path = $file->move("./admin/account/image/", $newName);
             }
-
-
             $url_avatar = "http://localhost:8080/blog/public/admin/account/image/" . $newName;
             $data_insert = [
                 'image' => $url_avatar,
@@ -60,6 +58,7 @@ class Admin extends BaseController
         }
         echo view('admin/admin/add-admin', $data);
 	}
+
 	public function edit()
     {
         session_start();
@@ -107,12 +106,10 @@ class Admin extends BaseController
             return redirect()->to(base_url() . '/admin/admin');
         }
         echo view('admin/admin/edit-admin', $data);
-        //--------------------------------------------------------------------
     }
+
     public function delete()
     {
-        // echo '<script>confirm("Are you the boss?")</script>';
-        // die();
         session_start();
         if (empty($_SESSION['user'])) {
             return redirect()->to(base_url() . '/admin/login');

@@ -11,7 +11,6 @@ class login extends BaseController
     {
         $data = [];
         if ($this->request->getMethod() == 'post') {
-			//let's do the validation here
 			$rules = [
 				'username' => 'required|max_length[50]',
 				'password' => 'required|max_length[255]',
@@ -44,10 +43,9 @@ class login extends BaseController
 
 			}
 		}
-
         return view('admin/login');
-        //--------------------------------------------------------------------
     }
+
     private function setUserSession($user){
 		$data = [
 			'id' => $user['id'],

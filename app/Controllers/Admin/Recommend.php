@@ -47,6 +47,7 @@ class Recommend extends BaseController
         }
 		echo view('admin/recommend/add-recommend', $data);
 	}
+
 	public function edit()
 	{
 		session_start();
@@ -59,7 +60,6 @@ class Recommend extends BaseController
         $Recommend = $getRecommend->getById($id);
         $data['Recommend'] = $Recommend;
         if ($this->request->getMethod() == 'post') {
-
             $model = new NewModel();
             $title = $this->request->getVar('title');
 			$image = $this->request->getVar('image');
@@ -80,6 +80,7 @@ class Recommend extends BaseController
         }
         echo view('admin/recommend/edit-recommend', $data);
 	}
+    
 	public function delete()
     {
         session_start();

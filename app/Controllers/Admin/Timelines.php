@@ -27,7 +27,6 @@ class Timelines extends BaseController
         }
 		$data['title'] = 'Add Timeline';
 		if ($this->request->getMethod() == 'post') {
-
             $model = new TimelineModel();
             $title = $this->request->getVar('title');
             $summernote = $this->request->getVar('summernote');
@@ -41,6 +40,7 @@ class Timelines extends BaseController
         }
 		echo view('admin/timeline/add-timelines', $data);
 	}
+
 	public function edit()
 	{
 		session_start();
@@ -53,7 +53,6 @@ class Timelines extends BaseController
         $Timeline = $getTimelines->getById($id);
         $data['Timeline'] = $Timeline;
         if ($this->request->getMethod() == 'post') {
-
             $model = new TimelineModel();
             $title = $this->request->getVar('title');
             $summernote = $this->request->getVar('summernote');
@@ -68,6 +67,7 @@ class Timelines extends BaseController
         }
         echo view('admin/timeline/edit-timelines', $data);
 	}
+
 	public function delete()
     {
         session_start();

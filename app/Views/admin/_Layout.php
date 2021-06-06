@@ -7,21 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $title?></title>
 
-    <link href="<?= base_url() ?>/admin/assets/node_modules/morrisjs/morris.css" rel="stylesheet">
-    <!--Toaster Popup message CSS -->
-    <link href="<?= base_url() ?>/admin/assets/node_modules/toast-master/css/jquery.toast.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="<?= base_url() ?>/admin/crm/dist/css/style.min.css" rel="stylesheet">
-    <!-- Dashboard 1 Page CSS -->
-    <link href="<?= base_url() ?>/admin/crm/dist/css/pages/dashboard1.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-
-    <!-- more CSS -->
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/admin/assets/node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/admin/assets/node_modules/datatables.net-bs4/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/crm/dist/css/duongCustomStyle.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/assets/node_modules/dropify/dist/css/dropify.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/crm/dist/css/duongCustomStyle.css">
+    <link href="<?= base_url() ?>/admin/plugins/style.min.css" rel="stylesheet">
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">

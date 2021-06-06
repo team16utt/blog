@@ -41,13 +41,14 @@ class Videos extends BaseController
                 'heading' => $heading,
 				'poster' => $poster,
                 'content' => $summernote,
-				'author' => $_SESSION['user']['username']
+				// 'author' => $_SESSION['user']['username']
             ];
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Videos');
         }
 		echo view('admin/video/add-video', $data);
 	}
+
 	public function edit()
 	{
 		session_start();
@@ -74,13 +75,14 @@ class Videos extends BaseController
 				'image' => $image,
                 'heading' => $heading,
                 'content' => $summernote,
-				'author' => $_SESSION['user']['username']
+				// 'author' => $_SESSION['user']['username']
             ];
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Videos');
         }
         echo view('admin/video/edit-video', $data);
 	}
+
 	public function delete()
     {
         session_start();

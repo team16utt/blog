@@ -49,6 +49,7 @@ class Advice extends BaseController
         }
 		echo view('admin/advice/add-advice', $data);
 	}
+    
 	public function edit()
 	{
 		session_start();
@@ -61,7 +62,6 @@ class Advice extends BaseController
         $Advice = $getAdvice->getById($id);
         $data['Advice'] = $Advice;
         if ($this->request->getMethod() == 'post') {
-
             $model = new NewModel();
             $title = $this->request->getVar('title');
 			$image = $this->request->getVar('image');
@@ -82,6 +82,7 @@ class Advice extends BaseController
         }
         echo view('admin/advice/edit-advice', $data);
 	}
+
 	public function delete()
     {
         session_start();

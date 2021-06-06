@@ -47,6 +47,7 @@ class News extends BaseController
         }
 		echo view('admin/new/add-news', $data);
 	}
+
 	public function edit()
 	{
 		session_start();
@@ -81,6 +82,7 @@ class News extends BaseController
         }
         echo view('admin/new/edit-news', $data);
 	}
+    
 	public function delete()
     {
         session_start();
