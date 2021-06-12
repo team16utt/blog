@@ -10,6 +10,7 @@ class News extends BaseController
 		$newModel =  new NewModel();
 		$newPost = $newModel->getAllNews();
 		$data['newPost'] = $newPost;
+		$data['title'] = 'Tin tức';
 		return view('client/tin-tuc', $data);
 	}
 }

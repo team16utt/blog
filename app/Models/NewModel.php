@@ -6,7 +6,7 @@ class NewModel extends Model
 {
     protected $table = 'news';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['id','image','title','time', 'category_id','heading','content'];
+    protected $allowedFields = ['id','image','title','time', 'category_id','heading','content','source','author','province-city'];
 
     public function getAllNews()
     {
@@ -36,7 +36,6 @@ class NewModel extends Model
         return $this->find($id);
     }
 
-    
     public function getAllNewsForAdmin()
     {
         return $this->where('category_id',1)->findAll();

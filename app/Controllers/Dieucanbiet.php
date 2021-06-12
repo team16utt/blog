@@ -11,6 +11,7 @@ class Dieucanbiet extends BaseController
 		$DCBModel = new NewModel();
 		$DCB = $DCBModel->getAllDCB();
 		$data['DCB'] = $DCB;
+		$data['title'] = 'Điều cần biết';
 		return view('client/dieu-can-biet', $data);
 	}
 }

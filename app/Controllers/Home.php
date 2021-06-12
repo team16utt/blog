@@ -33,6 +33,7 @@ class Home extends BaseController
 		$data['AllTimeLine'] = $AllTimeLine;
 
 		$AllVideo = $getVideoModel->getAllVideo();
+		$data['title'] = 'Trang Chủ';
 		$data['AllVideo'] = $AllVideo;
 
 		return view('client/trang-chu', $data);

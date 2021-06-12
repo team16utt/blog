@@ -6,7 +6,7 @@ class UserModel extends Model
 {
     protected $table = 'user';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['id','email','username','password','fullname', 'phone_number'];
+    protected $allowedFields = ['id','email','username','password','fullname', 'phone_number', 'birthday','address','image'];
 
     public function getAllAdmin()
     {

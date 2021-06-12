@@ -11,6 +11,7 @@ class Chinhsach extends BaseController
 		$getCSPCDH = new NewModel();
 		$CSPCD = $getCSPCDH->getAllCSPCD();
 		$data['CSPCD'] = $CSPCD;
+		$data['title'] = 'Chính sách phòng chống dịch';
 		return view('client/chinh-sach', $data);
 	}
 }

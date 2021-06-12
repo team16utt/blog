@@ -11,6 +11,7 @@ class Dongthoigian extends BaseController
 		$timeLine = new TimelineModel();
 		$all_time_line = $timeLine->getAllTimeLine();
 		$data['all_time_line'] = $all_time_line;
+		$data['title'] = 'Dòng thời gian';
 		return view('client/dong-thoi-gian', $data);
 	}
 }

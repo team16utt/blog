@@ -13,7 +13,7 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
@@ -217,6 +217,53 @@
                                             <p>Add Recommend</p>
                                         </a>
                                     </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active" aria-expanded="false">
+                                    <class class="fas fa-user"></class></i>
+                                    <p> Direction
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Direction" class="nav-link active">
+                                            <!-- <i class="fas fa-users"></i> -->
+                                            <p>All Direction</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Direction/add" class="nav-link">
+                                            <!-- <i class="fas fa-user-plus"></i> -->
+                                            <p>Add Direction</p>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active" aria-expanded="false">
+                                    <class class="fas fa-user"></class></i>
+                                    <p> Policy
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul style="margin-left:20px" class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Policy" class="nav-link active">
+                                            <!-- <i class="fas fa-users"></i> -->
+                                            <p>All Policy</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="<?= base_url() ?>/admin/Policy/add" class="nav-link">
+                                            <!-- <i class="fas fa-user-plus"></i> -->
+                                            <p>Add Policy</p>
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </li>
                         </ul>
