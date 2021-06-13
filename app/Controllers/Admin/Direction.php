@@ -47,7 +47,7 @@ class Direction extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Direction');
         }
-		echo view('admin/Direction/Add-direction', $data);
+		echo view('admin/direction/Add-direction', $data);
 	}
     
 	public function edit()

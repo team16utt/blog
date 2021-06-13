@@ -393,7 +393,7 @@
         </script> -->
         <?= $this->renderSection('content_Blog') ?>
     </div>
-    <footer class="bg-ft" style="">
+    <footer class="bg-ft">
         <div class="container text-f pad-30">
             <h4>TRANG TIN VỀ DỊCH BỆNH VIÊM ĐƯỜNG HÔ HẤP CẤP COVID-19</h4>
             <!-- <p>

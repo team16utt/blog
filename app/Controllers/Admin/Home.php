@@ -15,6 +15,6 @@ class Home extends BaseController
             return redirect()->to(base_url().'/admin/Login');
         }
 		$data['title'] = 'Home';
-		return view('admin/index', $data);
+		return view('admin/Index', $data);
 	}
 }
