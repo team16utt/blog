@@ -29,7 +29,13 @@
 												<input type="text" id="title" name="title" class="form-control"  value="<?= $Recommend['title'] ?>">
 											</div>
 										</div>
-
+										<div class="form-group">
+											<label class="col-md-12" for="title">Image</label>
+											<div class="col-md-12">
+												<input type="text" id="image" name="image" class="form-control"  value="<?= $Recommend['image'] ?>">
+												<img src="<?= $Recommend['image'] ?>">
+											</div>
+										</div>
 										<div class="form-group">
 											<label class="col-md-12" for="heading">Heading </label>
 											<div class="col-md-12">

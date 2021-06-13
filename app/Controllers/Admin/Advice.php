@@ -18,7 +18,7 @@ class Advice extends BaseController
 		$Advice= $getAdvice->getAllAdviceForAdmin();
 		$data['title'] = 'Advice';
 		$data['Advice'] = $Advice;
-		return view('admin/advice/all-advice',$data);
+		return view('admin/advice/All-advice',$data);
 	}
 
     public function add()

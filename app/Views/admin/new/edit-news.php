@@ -33,6 +33,7 @@
 											<label class="col-md-12" for="title">Image</label>
 											<div class="col-md-12">
 												<input type="text" id="image" name="image" class="form-control"  value="<?= $News['image'] ?>">
+												<img src="<?= $News['image'] ?>">
 											</div>
 										</div>
 										<div class="form-group">
