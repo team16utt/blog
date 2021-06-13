@@ -12,20 +12,20 @@ class Direction extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getDirection = new NewModel();
 		$Direction= $getDirection->getAllCDDH();
 		$data['title'] = 'Direction';
 		$data['Direction'] = $Direction;
-		return view('admin/direction/all-direction',$data);
+		return view('admin/direction/All-direction',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Direction';
 		if ($this->request->getMethod() == 'post') {
@@ -47,14 +47,14 @@ class Direction extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Direction');
         }
-		echo view('admin/Direction/add-direction', $data);
+		echo view('admin/Direction/Add-direction', $data);
 	}
     
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit Direction';
 		$id = $_GET['id'];
@@ -80,14 +80,14 @@ class Direction extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Direction');
         }
-        echo view('admin/direction/edit-direction', $data);
+        echo view('admin/direction/Edit-direction', $data);
 	}
 
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $Direction = new NewModel();

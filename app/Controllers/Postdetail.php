@@ -14,7 +14,7 @@ class Postdetail extends BaseController
 			$post_result = $post->getById($id);
 			$data['post_result'] = $post_result;
 			$data['title'] = 'Bài viết';
-			return view('client/post-detail',$data);
+			return view('client/Post-detail',$data);
 		}
 	}
 }

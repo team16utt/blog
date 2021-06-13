@@ -10,20 +10,20 @@ class Recommend extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getRecommend = new NewModel();
 		$Recommend= $getRecommend->getAllRecommendForAdmin();
 		$data['title'] = 'Recommend';
 		$data['Recommend'] = $Recommend;
-		return view('admin/recommend/all-recommend',$data);
+		return view('admin/recommend/All-recommend',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Recommend';
 		if ($this->request->getMethod() == 'post') {
@@ -45,14 +45,14 @@ class Recommend extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Recommend');
         }
-		echo view('admin/recommend/add-recommend', $data);
+		echo view('admin/recommend/Add-recommend', $data);
 	}
 
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit Recommend';
 		$id = $_GET['id'];
@@ -78,14 +78,14 @@ class Recommend extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Recommend');
         }
-        echo view('admin/recommend/edit-recommend', $data);
+        echo view('admin/recommend/Edit-recommend', $data);
 	}
     
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $Recommend = new NewModel();

@@ -36,6 +36,6 @@ class Home extends BaseController
 		$data['title'] = 'Trang Chủ';
 		$data['AllVideo'] = $AllVideo;
 
-		return view('client/trang-chu', $data);
+		return view('client/Trang-chu', $data);
 	}
 }

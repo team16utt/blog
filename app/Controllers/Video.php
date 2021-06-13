@@ -12,6 +12,6 @@ class Video extends BaseController
 		$video = $videoModel->getAllVideo();
 		$data['video'] = $video;
 		$data['title'] = 'Video';
-		return view('client/video', $data);
+		return view('client/Video', $data);
 	}
 }

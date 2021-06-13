@@ -12,6 +12,6 @@ class Chidaodieuhanh extends BaseController
 		$AllCDDH = $getAllCDDH->getAllCDDH();
 		$data['AllCDDH'] = $AllCDDH;
 		$data['title'] = 'Chỉ đạo điều hành';
-		return view('client/chi-dao-dh', $data);
+		return view('client/Chi-dao-dh', $data);
 	}
 }

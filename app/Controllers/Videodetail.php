@@ -14,7 +14,7 @@ class Videodetail extends BaseController
 			$video_result = $videodetail->getVideoById($id);
 			$data['video_result'] = $video_result;
 			$data['title'] = 'Xem Video';
-			return view('client/video-detail', $data);
+			return view('client/Video-detail', $data);
 		}
 	}
 }

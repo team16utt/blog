@@ -10,20 +10,20 @@ class Timelines extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getNews = new TimelineModel();
 		$Timeline= $getNews->getAllTimelineForAdmin();
 		$data['title'] = 'Timelines';
 		$data['Timeline'] = $Timeline;
-		return view('admin/timeline/all-timelines',$data);
+		return view('admin/timeline/All-timelines',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Timeline';
 		if ($this->request->getMethod() == 'post') {
@@ -38,14 +38,14 @@ class Timelines extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Timelines');
         }
-		echo view('admin/timeline/add-timelines', $data);
+		echo view('admin/timeline/Add-timelines', $data);
 	}
 
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit Advice';
 		$id = $_GET['id'];
@@ -65,14 +65,14 @@ class Timelines extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Timelines');
         }
-        echo view('admin/timeline/edit-timelines', $data);
+        echo view('admin/timeline/Edit-timelines', $data);
 	}
 
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $Timeline = new TimelineModel();

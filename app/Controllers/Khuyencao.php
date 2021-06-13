@@ -10,6 +10,6 @@ class Khuyencao extends BaseController
 		$recommendation = $recommendationModel->getAllRecommendation();
 		$data['recommandation'] = $recommendation;
 		$data['title'] = 'Khuyến cáo';
-		return view('client/khuyen-cao', $data);
+		return view('client/Khuyen-cao', $data);
 	}
 }

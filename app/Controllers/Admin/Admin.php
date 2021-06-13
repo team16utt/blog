@@ -17,14 +17,14 @@ class Admin extends BaseController
 		$admin= $getAdmin->getAllAdmin();
 		$data['title'] = 'Admin';
 		$data['admin'] = $admin;
-		return view('admin/admin/all-admin',$data);
+		return view('admin/admin/All-admin',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Admin';
 		if ($this->request->getMethod() == 'post') {
@@ -54,16 +54,16 @@ class Admin extends BaseController
                 'address' => $address
             ];
             $model->insert($data_insert);
-            return redirect()->to(base_url() . '/admin/admin');
+            return redirect()->to(base_url() . '/admin/Admin');
         }
-        echo view('admin/admin/add-admin', $data);
+        echo view('admin/admin/Add-admin', $data);
 	}
 
 	public function edit()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $model = new UserModel();
@@ -103,23 +103,23 @@ class Admin extends BaseController
                 'address' => $address
             ];
             $model->save($data_insert);
-            return redirect()->to(base_url() . '/admin/admin');
+            return redirect()->to(base_url() . '/admin/Admin');
         }
-        echo view('admin/admin/edit-admin', $data);
+        echo view('admin/admin/Edit-admin', $data);
     }
 
     public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $adminModel = new UserModel();
         $adminModel->where('id', $id)->delete();
         $data['title'] = 'admin';
         $data['user'] = $adminModel->findAll();
-        return redirect()->to(base_url() . '/admin/admin');
+        return redirect()->to(base_url() . '/admin/Admin');
     }
 
 }

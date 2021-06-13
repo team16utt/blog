@@ -10,6 +10,6 @@ class logout extends BaseController
     {
         session_start();
         session_destroy();
-        return redirect()->to(base_url().'/admin/login');
+        return redirect()->to(base_url().'/admin/Login');
     }
 }

@@ -39,7 +39,7 @@
 
 						<div class="card-footer">
 							<button type="submit" class="btn btn-primary">Submit</button>
-							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url()?>/admin/News">Cancel</a></button>
+							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url()?>/admin/Videos">Cancel</a></button>
 						</div>
 					</form>
 				</div>

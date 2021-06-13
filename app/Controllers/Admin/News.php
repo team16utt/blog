@@ -10,20 +10,20 @@ class News extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getNews = new NewModel();
 		$News= $getNews->getAllNewsForAdmin();
 		$data['title'] = 'News';
 		$data['News'] = $News;
-		return view('admin/new/all-news',$data);
+		return view('admin/new/All-news',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add New';
 		if ($this->request->getMethod() == 'post') {
@@ -45,14 +45,14 @@ class News extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/News');
         }
-		echo view('admin/new/add-news', $data);
+		echo view('admin/new/Add-news', $data);
 	}
 
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit New';
 		$id = $_GET['id'];
@@ -80,19 +80,19 @@ class News extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/News');
         }
-        echo view('admin/new/edit-news', $data);
+        echo view('admin/new/Edit-news', $data);
 	}
     
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $News = new NewModel();
         $News->where('id', $id)->delete();
-        $data['title'] = 'admin';
+        $data['title'] = 'News';
         $data['user'] = $News->findAll();
         return redirect()->to(base_url() . '/admin/News');
     }

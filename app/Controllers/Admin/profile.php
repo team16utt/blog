@@ -11,13 +11,13 @@ class profile extends BaseController
     {
         session_start();
         if(empty($_SESSION['user'])){
-            return redirect()->to(base_url().'/admin/login');
+            return redirect()->to(base_url().'/admin/Login');
         }
         $id = $_GET['id'];
         $adminModel = new UserModel();
         $user = $adminModel->find($id);
         $data['title'] = 'Profile';
         $data['user'] = $user;
-        echo view('admin/admin/profile', $data);
+        echo view('admin/admin/Profile', $data);
     }
 }

@@ -12,20 +12,20 @@ class Policy extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getPolicy = new NewModel();
 		$Policy= $getPolicy->getAllCSPCD();
 		$data['title'] = 'Policy';
 		$data['Policy'] = $Policy;
-		return view('admin/policy/all-policy',$data);
+		return view('admin/policy/All-policy',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Policy';
 		if ($this->request->getMethod() == 'post') {
@@ -49,14 +49,14 @@ class Policy extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Policy');
         }
-		echo view('admin/policy/add-policy', $data);
+		echo view('admin/policy/Add-policy', $data);
 	}
     
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit Policy';
 		$id = $_GET['id'];
@@ -84,14 +84,14 @@ class Policy extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Policy');
         }
-        echo view('admin/policy/edit-policy', $data);
+        echo view('admin/policy/Edit-policy', $data);
 	}
 
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $Policy = new NewModel();

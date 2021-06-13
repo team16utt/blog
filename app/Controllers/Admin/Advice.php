@@ -12,7 +12,7 @@ class Advice extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getAdvice = new NewModel();
 		$Advice= $getAdvice->getAllAdviceForAdmin();
@@ -25,7 +25,7 @@ class Advice extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Advice';
 		if ($this->request->getMethod() == 'post') {
@@ -47,14 +47,14 @@ class Advice extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Advice');
         }
-		echo view('admin/advice/add-advice', $data);
+		echo view('admin/advice/Add-advice', $data);
 	}
     
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit Advice';
 		$id = $_GET['id'];
@@ -80,14 +80,14 @@ class Advice extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Advice');
         }
-        echo view('admin/advice/edit-advice', $data);
+        echo view('admin/advice/Edit-advice', $data);
 	}
 
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $Advice = new NewModel();

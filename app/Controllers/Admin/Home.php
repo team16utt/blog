@@ -12,7 +12,7 @@ class Home extends BaseController
 
         if (empty($_SESSION['user']))
 		{
-            return redirect()->to(base_url().'/admin/login');
+            return redirect()->to(base_url().'/admin/Login');
         }
 		$data['title'] = 'Home';
 		return view('admin/index', $data);

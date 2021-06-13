@@ -26,7 +26,7 @@
 						<!-- <input type="datetime-local" name="" /> -->
 						<div class="card-footer">
 							<button type="submit" class="btn btn-primary">Submit</button>
-							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url() ?>/admin/News">Cancel</a></button>
+							<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url() ?>/admin/Timelines">Cancel</a></button>
 						</div>
 					</div>
 				</form>

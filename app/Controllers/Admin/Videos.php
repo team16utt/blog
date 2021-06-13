@@ -10,20 +10,20 @@ class Videos extends BaseController
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$getVideo = new VideoModel();
 		$Videos= $getVideo->getAllVideoForAdmin();
 		$data['title'] = 'Videos';
 		$data['Videos'] = $Videos;
-		return view('admin/video/all-video',$data);
+		return view('admin/video/All-video',$data);
 	}
 
     public function add()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Add Video';
 		if ($this->request->getMethod() == 'post') {
@@ -46,14 +46,14 @@ class Videos extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Videos');
         }
-		echo view('admin/video/add-video', $data);
+		echo view('admin/video/Add-video', $data);
 	}
 
 	public function edit()
 	{
 		session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
 		$data['title'] = 'Edit Video';
 		$id = $_GET['id'];
@@ -80,14 +80,14 @@ class Videos extends BaseController
             $model->save($data_insert);
             return redirect()->to(base_url() . '/admin/Videos');
         }
-        echo view('admin/video/edit-video', $data);
+        echo view('admin/video/Edit-video', $data);
 	}
 
 	public function delete()
     {
         session_start();
         if (empty($_SESSION['user'])) {
-            return redirect()->to(base_url() . '/admin/login');
+            return redirect()->to(base_url() . '/admin/Login');
         }
         $id = $_GET['id'];
         $Videos = new VideoModel();

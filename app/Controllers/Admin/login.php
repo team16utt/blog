@@ -5,7 +5,7 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 use App\Models\UserModel;
 
-class login extends BaseController
+class Login extends BaseController
 {
     public function index()
     {
@@ -43,7 +43,7 @@ class login extends BaseController
 
 			}
 		}
-        return view('admin/login');
+        return view('admin/Login');
     }
 
     private function setUserSession($user){
