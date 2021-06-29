@@ -13,7 +13,7 @@ class Recommend extends BaseController
             return redirect()->to(base_url() . '/admin/Login');
         }
 		$getRecommend = new NewModel();
-		$Recommend= $getRecommend->getAllRecommendForAdmin();
+		$Recommend= $getRecommend->getAllRecommendation();
 		$data['title'] = 'Recommend';
 		$data['Recommend'] = $Recommend;
 		return view('admin/recommend/All-recommend',$data);

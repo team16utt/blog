@@ -13,7 +13,7 @@ class News extends BaseController
             return redirect()->to(base_url() . '/admin/Login');
         }
 		$getNews = new NewModel();
-		$News= $getNews->getAllNewsForAdmin();
+		$News= $getNews->getAllNews();
 		$data['title'] = 'News';
 		$data['News'] = $News;
 		return view('admin/new/All-news',$data);

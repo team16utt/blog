@@ -13,7 +13,7 @@ class Videos extends BaseController
             return redirect()->to(base_url() . '/admin/Login');
         }
 		$getVideo = new VideoModel();
-		$Videos= $getVideo->getAllVideoForAdmin();
+		$Videos= $getVideo->getAllVideo();
 		$data['title'] = 'Videos';
 		$data['Videos'] = $Videos;
 		return view('admin/video/All-video',$data);
@@ -33,14 +33,14 @@ class Videos extends BaseController
 			$video = $this->request->getVar('video');
             $heading = $this->request->getVar('heading');
             $poster = $this->request->getVar('poster');
-            $summernote = $this->request->getVar('summernote');
+            $content = $this->request->getVar('content');
             $data_insert = [
 				'time' => date('Y-m-d H:i:s'),
                 'title' => $title,
 				'video' => $video,
                 'heading' => $heading,
 				'poster' => $poster,
-                'content' => $summernote,
+                'content' => $content,
 				// 'author' => $_SESSION['user']['username']
             ];
             $model->save($data_insert);

@@ -12,13 +12,21 @@ class TimelineModel extends Model
     {
         return $this->orderby('time','desc')->findAll();
     }
-
-    public function getAllTimelineForAdmin()
+    public function getTimeline(int $offset, int $records_per_page)
     {
-        return $this->findAll();
+        return $this->orderby('time','desc')->findAll($records_per_page, $offset);
     }
+
     public function getById($pid)
     {
         return $this->find($pid);
+    }
+    public function getCountTimeline()
+    {
+        return $this->countAllResults();
+    }
+    public function paginationResult()
+    {
+        return ;
     }
 }

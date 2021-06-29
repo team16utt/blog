@@ -13,7 +13,7 @@ class Timelines extends BaseController
             return redirect()->to(base_url() . '/admin/Login');
         }
 		$getNews = new TimelineModel();
-		$Timeline= $getNews->getAllTimelineForAdmin();
+		$Timeline= $getNews->getAllTimeLine();
 		$data['title'] = 'Timelines';
 		$data['Timeline'] = $Timeline;
 		return view('admin/timeline/All-timelines',$data);

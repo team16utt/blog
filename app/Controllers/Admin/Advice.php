@@ -15,7 +15,7 @@ class Advice extends BaseController
             return redirect()->to(base_url() . '/admin/Login');
         }
 		$getAdvice = new NewModel();
-		$Advice= $getAdvice->getAllAdviceForAdmin();
+		$Advice= $getAdvice->getAllDCB();
 		$data['title'] = 'Advice';
 		$data['Advice'] = $Advice;
 		return view('admin/advice/All-advice',$data);

@@ -97,7 +97,7 @@ class Admin extends BaseController
                 'fullname' => $fullname,
                 'username' => $username,
                 'password' => $password,
-                'birthday' => date('d/m/Y', strtotime($birthday)),
+                'birthday' => date('Y/m/d', strtotime($birthday)),
                 'phone_number' => $phone,
                 'email' => $email,
                 'address' => $address

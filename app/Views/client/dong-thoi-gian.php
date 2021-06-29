@@ -58,16 +58,21 @@
 										</div>
 										<div class="clearfix lfr-pagination">
 											<ul class="lfr-pagination-buttons pager">
-												<li class="disabled">
-													<a href="javascript:;" onclick="" tabIndex="-1" target="_self">
-														Trước
-													</a>
-												</li>
-												<li class="">
-													<a href="#" onclick="" tabIndex="0" target="_self">
-														Tiếp theo
-													</a>
-												</li>
+												<?php if ($page > 1) : ?>
+													<li class="page-item"><a class="page-link" href="<?= "?page=1" ?>">Trang đầu<i class="linearicons-arrow-left"></i></a></li>
+												<?php endif; ?>
+												<?php
+												for ($i = 1; $i < $total_pages + 1; $i++) {
+													if ($page == $i) {
+														echo "<li class='page-item active'><a class='page-link' href='#'>" . $i . "</a></li>";
+													} else {
+														echo "<li class='page-item'><a class='page-link' href='?page=" . $i . "'>" . $i . "</a></li>";
+													}
+												}
+												?>
+												<?php if ($page < $total_pages) : ?>
+													<li class="page-item"><a class="page-link" href="<?= "?page=" . $total_pages ?>"> Trang cuối<i class="linearicons-arrow-right"></i></a></li>
+												<?php endif; ?>
 											</ul>
 										</div>
 										<script>

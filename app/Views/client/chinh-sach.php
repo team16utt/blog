@@ -238,16 +238,21 @@
 										</div>
 										<div class="clearfix lfr-pagination">
 											<ul class="lfr-pagination-buttons pager">
-												<li class="disabled">
-													<a href="javascript:;" onclick="" tabIndex="-1" target="_self">
-														Trước
-													</a>
-												</li>
-												<li class="">
-													<a href="https://ncov.moh.gov.vn/web/guest/chinh-sach-phong-chong-dich?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_delta=10&amp;p_r_p_resetCur=false&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_mHxCOWh1Bvp7_cur=2" onclick="" tabIndex="0" target="_self">
-														Tiếp theo
-													</a>
-												</li>
+												<?php if ($page > 1) : ?>
+													<li class="page-item"><a class="page-link" href="<?= "?page=1" ?>">Trang đầu<i class="linearicons-arrow-left"></i></a></li>
+												<?php endif; ?>
+												<?php
+												for ($i = 1; $i < $total_pages + 1; $i++) {
+													if ($page == $i) {
+														echo "<li class='page-item active'><a class='page-link' href='#'>" . $i . "</a></li>";
+													} else {
+														echo "<li class='page-item'><a class='page-link' href='?page=" . $i . "'>" . $i . "</a></li>";
+													}
+												}
+												?>
+												<?php if ($page < $total_pages) : ?>
+													<li class="page-item"><a class="page-link" href="<?= "?page=" . $total_pages ?>"> Trang cuối<i class="linearicons-arrow-right"></i></a></li>
+												<?php endif; ?>
 											</ul>
 										</div>
 										<script>

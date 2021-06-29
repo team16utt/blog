@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\Videodetailmodel;
+use App\Models\VideoModel;
 
 class Videodetail extends BaseController
 {
@@ -10,7 +10,7 @@ class Videodetail extends BaseController
 	{
 		if (isset($_GET['id'])){
 			$id =  $_GET['id'];
-			$videodetail = new Videodetailmodel();
+			$videodetail = new VideoModel();
 			$video_result = $videodetail->getVideoById($id);
 			$data['video_result'] = $video_result;
 			$data['title'] = 'Xem Video';

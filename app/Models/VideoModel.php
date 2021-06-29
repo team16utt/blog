@@ -11,13 +11,17 @@ class VideoModel extends Model
     public function getAllVideo(){
         return $this->orderBy('time','desc')->findAll();
     }
-
-    public function getAllVideoForAdmin() {
-        return $this->findAll();
-    }
-    public function getById($pid)
+    public function getVideo(int $offset, int $records_per_page)
     {
-        return $this->find($pid);
+        return $this->orderby('time','desc')->findAll($records_per_page, $offset);
+    }
+    public function getCountVideo()
+    {
+        return $this->countAllResults();
+    }
+    public function getVideoById(int $id)
+    {
+        return $this->find($id);
     }
 
 }
