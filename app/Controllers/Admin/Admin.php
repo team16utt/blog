@@ -13,6 +13,7 @@ class Admin extends BaseController
         if (empty($_SESSION['user'])) {
             return redirect()->to(base_url() . '/admin/login');
         }
+        $data['msg'] = '';
 		$getAdmin = new UserModel();
 		$admin= $getAdmin->getAllAdmin();
 		$data['title'] = 'Admin';
@@ -26,11 +27,18 @@ class Admin extends BaseController
         if (empty($_SESSION['user'])) {
             return redirect()->to(base_url() . '/admin/Login');
         }
+        $data['msg'] = '';
+        if($_SESSION['user']['username'] != 'Thifnmi'){
+            $data['msg'] = 'fail';
+            echo '<script>alert("You are not authorized to access. Please contact super admin");</script>';
+        }
+        // else
 		$data['title'] = 'Add Admin';
 		if ($this->request->getMethod() == 'post') {
             $model = new UserModel();
             $username = $this->request->getVar('username');
             $password = $this->request->getVar('password');
+			$hash_password = md5($password);
             $fullname = $this->request->getVar('fullname');
             $birthday = $this->request->getVar('birthday');
             $email = $this->request->getVar('email');
@@ -69,12 +77,18 @@ class Admin extends BaseController
         $model = new UserModel();
         $user = $model->getById($id);
         $data['user'] = $user;
+        $data['msg'] = '';
+        if( $_SESSION['user']['username'] != $user['username'] && $_SESSION['user']['username'] != 'Thifnmi'){
+            $data['msg'] = 'fail';
+            echo '<script>alert("You are not authorized to access. Please contact super admin");</script>';
+        }
         $data['title'] = 'Edit Info Admin';
         if ($this->request->getMethod() == 'post') {
 
             $model = new UserModel();
             $username = $this->request->getVar('username');
             $password = $this->request->getVar('password');
+			$hash_password = md5($password);
             $fullname = $this->request->getVar('fullname');
             $birthday = $this->request->getVar('birthday');
             $email = $this->request->getVar('email');
@@ -114,12 +128,19 @@ class Admin extends BaseController
         if (empty($_SESSION['user'])) {
             return redirect()->to(base_url() . '/admin/Login');
         }
-        $id = $_GET['id'];
-        $adminModel = new UserModel();
-        $adminModel->where('id', $id)->delete();
-        $data['title'] = 'admin';
-        $data['user'] = $adminModel->findAll();
-        return redirect()->to(base_url() . '/admin/Admin');
+        if($_SESSION['user']['username'] != 'Thifnmi'){
+            // $data['msg'] = 'fail';
+            echo '<script>alert("You are not authorized to access. Please contact super admin");</script>';
+            // return view('admin/admin/All-admin',$data);
+            header('Refresh:1;URL=http://localhost:8080/blog/public/admin/Admin');
+        }else{
+            $id = $_GET['id'];
+            $adminModel = new UserModel();
+            $adminModel->where('id', $id)->delete();
+            $data['title'] = 'admin';
+            $data['user'] = $adminModel->findAll();
+            return redirect()->to(base_url() . '/admin/Admin');
+        }
     }
 
 }

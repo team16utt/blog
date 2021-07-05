@@ -52,7 +52,7 @@
 															<div class="d-none d-lg-block">
 																<div class="row">
 																	<?php foreach ($AllCDDH as $key => $item) : ?>
-																		<?php if ($key > 0) : ?>
+																		<?php if ($key > 0 && $key <3 ) : ?>
 																			<div class="col-lg-6 col-md-6 col-6">
 																				<a class="position-relative thum-po" href="<?= base_url() ?>/Postdetail?id=<?= $item['id'] ?>" style="background-image: url('<?= $item['image'] ?>')">
 																					<div class="bg-tle position-absolute"><?= $item['title'] ?></div>

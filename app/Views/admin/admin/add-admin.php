@@ -1,23 +1,17 @@
 <?= $this->extend('admin/_Layout') ?>
 <?= $this->section('content_Admin') ?>
-
-
-
+<?php if ($msg == "fail") : ?>
+	<?php
+	header('Refresh:1;URL=http://localhost:8080/blog/public/admin/Admin');
+	exit();
+	?>
+<?php endif; ?>
 <section class="content">
 	<div class="container-fluid">
 		<!-- SELECT2 EXAMPLE -->
 		<div class="card card-default">
 			<div class="card-header">
 				<h3 class="card-title">Basic Information</h3>
-
-				<!-- <div class="card-tools">
-					<button type="button" class="btn btn-tool" data-card-widget="collapse">
-						<i class="fas fa-minus"></i>
-					</button>
-					<button type="button" class="btn btn-tool" data-card-widget="remove">
-						<i class="fas fa-times"></i>
-					</button>
-				</div> -->
 			</div>
 			<!-- /.card-header -->
 			<div class="card-body">
@@ -87,7 +81,7 @@
 
 
 									<button type="submit" class="btn btn-info waves-effect waves-light m-r-10">Submit</button>
-									<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url()?>/admin/Admin">Cancel</a></button>
+									<button type="button" class="btn btn-inverse waves-effect waves-light"><a href="<?= base_url() ?>/admin/Admin">Cancel</a></button>
 								</form>
 							</div>
 						</div>

@@ -1,8 +1,11 @@
 <?= $this->extend('admin/_Layout') ?>
 <?= $this->section('content_Admin') ?>
-
-
-
+<?php if ($msg == "fail") : ?>
+	<?php
+	header('Refresh:1;URL=http://localhost:8080/blog/public/admin/Admin');
+	exit();
+	?>
+<?php endif; ?>
 <section class="content">
 	<div class="container-fluid">
 		<!-- SELECT2 EXAMPLE -->

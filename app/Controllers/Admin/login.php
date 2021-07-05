@@ -29,7 +29,7 @@ class Login extends BaseController
 				$model = new UserModel();
                 $username = $this->request->getVar('username');
                 $password = $this->request->getVar('password');
-                // $hashed_password = md5($password);
+                $hashed_password = md5($password);
                 $data = ['username' => $username,
                         "password"=>$password];
                 $user = $model->where($data)->first();
